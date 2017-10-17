@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteTG]">
+  <listeners>
+    <listener class-name="com.codoon.common.util.RetryListener"/>
+    <listener class-name="com.codoon.common.util.TestngListener"/>
+  </listeners>
+  <test name="test1(failed)">
+    <groups>
+      <run>
+        <include name="All"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.codoon.test.SportCircleTest">
+        <methods>
+          <include name="test022"/>
+          <include name="tearDown"/>
+          <include name="test021"/>
+          <include name="test001"/>
+          <include name="test023"/>
+          <include name="test020"/>
+          <include name="setUpClass"/>
+          <include name="test014"/>
+          <include name="test019"/>
+          <include name="test016"/>
+          <include name="test013"/>
+          <include name="test018"/>
+          <include name="test017"/>
+          <include name="test015"/>
+          <include name="test011"/>
+          <include name="test010"/>
+          <include name="test012"/>
+          <include name="test003"/>
+          <include name="test025"/>
+          <include name="test008"/>
+          <include name="test005"/>
+          <include name="test002"/>
+          <include name="test024"/>
+          <include name="test007"/>
+          <include name="test006"/>
+          <include name="tearDownClass"/>
+          <include name="test004"/>
+          <include name="test026"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.codoon.test.SportCircleTest -->
+      <class name="com.codoon.test.DrycargoTest">
+        <methods>
+          <include name="test005"/>
+          <include name="test009"/>
+          <include name="test002"/>
+          <include name="test003"/>
+          <include name="test004"/>
+          <include name="test006"/>
+          <include name="test007"/>
+          <include name="test008"/>
+          <include name="test001"/>
+          <include name="test012"/>
+          <include name="tearDown"/>
+          <include name="test010"/>
+          <include name="test011"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.codoon.test.DrycargoTest -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [SuiteTG] -->

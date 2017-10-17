@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:math="http://exslt.org/math"
+     xmlns:testng="http://testng.org"
+     preserveAspectRatio="xMidYMid meet"
+     width="600"
+     height="200"
+     viewBox="0 0 900 300">
+   <defs>
+      <style type="text/css">
+                        
+				            .axistitle { font-weight:bold; font-size:24px; font-family:Arial; text-anchor:middle; }
+				            .xgrid, .ygrid, .legendtext { font-weight:normal; font-size:24px; font-family:Arial; }
+				            .xgrid {text-anchor:middle;}
+				            .ygrid {text-anchor:end;}
+				            .gridline { stroke:black; stroke-width:1; }
+				            .values { fill:black; stroke:none; text-anchor:middle; font-size:12px; font-weight:bold; }
+	   		            
+                    </style>
+   </defs>
+   <svg id="graphzone" preserveAspectRatio="xMidYMid meet" x="0" y="0">
+      <rect style="fill:red;stroke-width:1;stroke:black;" x="10" y="86" width="20"
+            height="20"/>
+      <text class="legendtext" x="40" y="105">Failed (11%)
+                    </text>
+      <rect style="fill:green;stroke-width:1;stroke:black;" x="10" y="125" width="20"
+            height="20"/>
+      <text class="legendtext" x="40" y="143">Passed (46%)
+                    </text>
+      <rect style="fill:yellow;stroke-width:1;stroke:black;" x="10" y="163" width="20"
+            height="20"/>
+      <text class="legendtext" x="40" y="182">Skipped (43%)
+                    </text>
+      <g style="stroke:black;stroke-width:1" transform="translate(450,150)">
+         <g style="fill:red" transform="rotate(-155.67567567567569) translate(15, -5)">
+            <path d="M 0 0 h 130 A 130,130 0,0,0 101.1446596025341,-81.6685853550036 z"/>
+         </g>
+         <g style="fill:green" transform="rotate(-194.5945945945946)">
+            <path d="M 0 0 h 130 A 130,130 0,0,0 -125.80526342751927,-32.75722353821345 z"/>
+         </g>
+         <g style="fill:yellow" transform="rotate(360)">
+            <path d="M 0 0 h 130 A 130,130 0,0,0 -118.4596734820031,-53.54722923305381 z"/>
+         </g>
+      </g>
+   </svg>
+</svg>

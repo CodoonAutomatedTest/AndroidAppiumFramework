@@ -1,0 +1,1681 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-CodoonTest">
+              <span class="suite-name border-failed">CodoonTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-CodoonTest">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-CodoonTest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-CodoonTest">
+                    <span>8 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-CodoonTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-CodoonTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-CodoonTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-CodoonTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">37 methods, 2 failed,  5 skipped,  30 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-CodoonTest" class="hide-methods failed suite-CodoonTest"> (hide)</a> <!-- hide-methods failed suite-CodoonTest -->
+                      <a href="#" panel-name="suite-CodoonTest" class="show-methods failed suite-CodoonTest"> (show)</a> <!-- show-methods failed suite-CodoonTest -->
+                    </span>
+                    <div class="method-list-content failed suite-CodoonTest">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test018">test018</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test019">test019</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-CodoonTest -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-CodoonTest" class="hide-methods skipped suite-CodoonTest"> (hide)</a> <!-- hide-methods skipped suite-CodoonTest -->
+                      <a href="#" panel-name="suite-CodoonTest" class="show-methods skipped suite-CodoonTest"> (show)</a> <!-- show-methods skipped suite-CodoonTest -->
+                    </span>
+                    <div class="method-list-content skipped suite-CodoonTest">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.DrycargoTest" hash-for-method="test008">test008</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.DrycargoTest" hash-for-method="test009">test009</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.DrycargoTest" hash-for-method="test010">test010</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.DrycargoTest" hash-for-method="test011">test011</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.DrycargoTest" hash-for-method="test012">test012</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-CodoonTest -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-CodoonTest" class="hide-methods passed suite-CodoonTest"> (hide)</a> <!-- hide-methods passed suite-CodoonTest -->
+                      <a href="#" panel-name="suite-CodoonTest" class="show-methods passed suite-CodoonTest"> (show)</a> <!-- show-methods passed suite-CodoonTest -->
+                    </span>
+                    <div class="method-list-content passed suite-CodoonTest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.DrycargoTest" hash-for-method="test001">test001</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test001">test001</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test002">test002</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.DrycargoTest" hash-for-method="test002">test002</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.DrycargoTest" hash-for-method="test003">test003</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test003">test003</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.DrycargoTest" hash-for-method="test004">test004</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test004">test004</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test005">test005</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.DrycargoTest" hash-for-method="test005">test005</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test006">test006</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.DrycargoTest" hash-for-method="test006">test006</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test007">test007</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.DrycargoTest" hash-for-method="test007">test007</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test008">test008</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test010">test010</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test011">test011</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test012">test012</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test013">test013</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test014">test014</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test015">test015</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test016">test016</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test017">test017</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test020">test020</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test021">test021</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test022">test022</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test023">test023</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test024">test024</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test025">test025</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CodoonTest" title="com.codoon.test.SportCircleTest" hash-for-method="test026">test026</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-CodoonTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-CodoonTest" class="panel CodoonTest">
+          <div class="suite-CodoonTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.codoon.test.SportCircleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test018">
+                  </a> <!-- test018 -->
+                  <span class="method-name">test018</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.AndroidUIAutomator: text(&quot;推荐用户&quot;)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;MrdeMacBook-Pro.local&apos;, ip: &apos;192.168.10.123&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.5&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: unknown
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:147)
+	at io.appium.java_client.pagefactory.ElementInterceptor.intercept(ElementInterceptor.java:26)
+	at org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$3e70910a.getLocation(&lt;generated&gt;)
+	at com.codoon.common.util.DeviceHelper.moveToHalfScreen(DeviceHelper.java:319)
+	at com.codoon.test.SportCircleTest.test018(SportCircleTest.java:368)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test019">
+                  </a> <!-- test019 -->
+                  <span class="method-name">test019</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.AndroidUIAutomator: text(&quot;推荐用户&quot;)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;MrdeMacBook-Pro.local&apos;, ip: &apos;192.168.10.123&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.5&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: unknown
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:147)
+	at io.appium.java_client.pagefactory.ElementInterceptor.intercept(ElementInterceptor.java:26)
+	at org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$3e70910a.getLocation(&lt;generated&gt;)
+	at com.codoon.common.util.DeviceHelper.moveToHalfScreen(DeviceHelper.java:319)
+	at com.codoon.test.SportCircleTest.test019(SportCircleTest.java:385)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CodoonTest-class-failed -->
+          <div class="suite-CodoonTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.codoon.test.DrycargoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test008">
+                  </a> <!-- test008 -->
+                  <span class="method-name">test008</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test009">
+                  </a> <!-- test009 -->
+                  <span class="method-name">test009</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test010">
+                  </a> <!-- test010 -->
+                  <span class="method-name">test010</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test011">
+                  </a> <!-- test011 -->
+                  <span class="method-name">test011</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test012">
+                  </a> <!-- test012 -->
+                  <span class="method-name">test012</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CodoonTest-class-skipped -->
+          <div class="suite-CodoonTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.codoon.test.SportCircleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test001">
+                  </a> <!-- test001 -->
+                  <span class="method-name">test001</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test002">
+                  </a> <!-- test002 -->
+                  <span class="method-name">test002</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test003">
+                  </a> <!-- test003 -->
+                  <span class="method-name">test003</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test004">
+                  </a> <!-- test004 -->
+                  <span class="method-name">test004</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test005">
+                  </a> <!-- test005 -->
+                  <span class="method-name">test005</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test006">
+                  </a> <!-- test006 -->
+                  <span class="method-name">test006</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test007">
+                  </a> <!-- test007 -->
+                  <span class="method-name">test007</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test008">
+                  </a> <!-- test008 -->
+                  <span class="method-name">test008</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test010">
+                  </a> <!-- test010 -->
+                  <span class="method-name">test010</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test011">
+                  </a> <!-- test011 -->
+                  <span class="method-name">test011</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test012">
+                  </a> <!-- test012 -->
+                  <span class="method-name">test012</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test013">
+                  </a> <!-- test013 -->
+                  <span class="method-name">test013</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test014">
+                  </a> <!-- test014 -->
+                  <span class="method-name">test014</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test015">
+                  </a> <!-- test015 -->
+                  <span class="method-name">test015</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test016">
+                  </a> <!-- test016 -->
+                  <span class="method-name">test016</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test017">
+                  </a> <!-- test017 -->
+                  <span class="method-name">test017</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test020">
+                  </a> <!-- test020 -->
+                  <span class="method-name">test020</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test021">
+                  </a> <!-- test021 -->
+                  <span class="method-name">test021</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test022">
+                  </a> <!-- test022 -->
+                  <span class="method-name">test022</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test023">
+                  </a> <!-- test023 -->
+                  <span class="method-name">test023</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test024">
+                  </a> <!-- test024 -->
+                  <span class="method-name">test024</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test025">
+                  </a> <!-- test025 -->
+                  <span class="method-name">test025</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test026">
+                  </a> <!-- test026 -->
+                  <span class="method-name">test026</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CodoonTest-class-passed -->
+          <div class="suite-CodoonTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.codoon.test.DrycargoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test001">
+                  </a> <!-- test001 -->
+                  <span class="method-name">test001</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test002">
+                  </a> <!-- test002 -->
+                  <span class="method-name">test002</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test003">
+                  </a> <!-- test003 -->
+                  <span class="method-name">test003</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test004">
+                  </a> <!-- test004 -->
+                  <span class="method-name">test004</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test005">
+                  </a> <!-- test005 -->
+                  <span class="method-name">test005</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test006">
+                  </a> <!-- test006 -->
+                  <span class="method-name">test006</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test007">
+                  </a> <!-- test007 -->
+                  <span class="method-name">test007</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CodoonTest-class-passed -->
+        </div> <!-- panel CodoonTest -->
+        <div panel-name="test-xml-CodoonTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/xiaoq/appium/AndroidAppiumFramework/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;CodoonTest&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.codoon.common.util.RetryListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.codoon.common.util.TestngListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;test1&quot;&gt;
+    &lt;groups&gt;
+      &lt;define name=&quot;All&quot;&gt;
+        &lt;include name=&quot;.*&quot;/&gt;
+      &lt;/define&gt; &lt;!-- All --&gt;
+      &lt;define name=&quot;热门&quot;&gt;
+        &lt;include name=&quot;热门&quot;/&gt;
+      &lt;/define&gt; &lt;!-- 热门 --&gt;
+      &lt;define name=&quot;发布&quot;&gt;
+        &lt;include name=&quot;发布&quot;/&gt;
+      &lt;/define&gt; &lt;!-- 发布 --&gt;
+      &lt;define name=&quot;其他&quot;&gt;
+        &lt;include name=&quot;other&quot;/&gt;
+      &lt;/define&gt; &lt;!-- 其他 --&gt;
+      &lt;define name=&quot;关注&quot;&gt;
+        &lt;include name=&quot;关注&quot;/&gt;
+      &lt;/define&gt; &lt;!-- 关注 --&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;All&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.codoon.test.SportCircleTest&quot;/&gt;
+      &lt;class name=&quot;com.codoon.test.DrycargoTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test1 --&gt;
+&lt;/suite&gt; &lt;!-- CodoonTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-CodoonTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for CodoonTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">test1 (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-CodoonTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for CodoonTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">other</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">test001</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test002</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">关注</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">test017</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test018</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test019</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test020</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test021</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test022</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test023</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test024</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test025</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test026</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">发布</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">test015</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test016</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">推荐tab</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">test001</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test002</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test003</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test004</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test005</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test006</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">搜索</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">test003</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test004</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">热门</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">test005</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test006</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test007</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test010</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test011</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test012</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test013</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test014</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">讨论</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">test008</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">非推荐tab</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">test007</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test008</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test009</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test010</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test011</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test012</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-CodoonTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for CodoonTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_CodoonTest');
+function tableData_CodoonTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(37);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test021')
+data.setCell(0, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(0, 3, 163395);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test016')
+data.setCell(1, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(1, 3, 63951);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test006')
+data.setCell(2, 2, 'com.codoon.test.DrycargoTest')
+data.setCell(2, 3, 62736);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test014')
+data.setCell(3, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(3, 3, 60555);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test015')
+data.setCell(4, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(4, 3, 60449);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test005')
+data.setCell(5, 2, 'com.codoon.test.DrycargoTest')
+data.setCell(5, 3, 53583);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test006')
+data.setCell(6, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(6, 3, 48311);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test026')
+data.setCell(7, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(7, 3, 41989);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test003')
+data.setCell(8, 2, 'com.codoon.test.DrycargoTest')
+data.setCell(8, 3, 41738);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test023')
+data.setCell(9, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(9, 3, 41202);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test019')
+data.setCell(10, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(10, 3, 40600);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test008')
+data.setCell(11, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(11, 3, 39397);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'test024')
+data.setCell(12, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(12, 3, 35827);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'test022')
+data.setCell(13, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(13, 3, 32512);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'test004')
+data.setCell(14, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(14, 3, 29963);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'test020')
+data.setCell(15, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(15, 3, 29239);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'test001')
+data.setCell(16, 2, 'com.codoon.test.DrycargoTest')
+data.setCell(16, 3, 24563);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'test018')
+data.setCell(17, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(17, 3, 22125);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'test010')
+data.setCell(18, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(18, 3, 20469);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'test002')
+data.setCell(19, 2, 'com.codoon.test.DrycargoTest')
+data.setCell(19, 3, 20290);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'test003')
+data.setCell(20, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(20, 3, 20075);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'test017')
+data.setCell(21, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(21, 3, 17140);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'test013')
+data.setCell(22, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(22, 3, 16132);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'test025')
+data.setCell(23, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(23, 3, 14683);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'test012')
+data.setCell(24, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(24, 3, 11114);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'test011')
+data.setCell(25, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(25, 3, 11049);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'test007')
+data.setCell(26, 2, 'com.codoon.test.DrycargoTest')
+data.setCell(26, 3, 9836);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'test007')
+data.setCell(27, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(27, 3, 9339);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'test005')
+data.setCell(28, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(28, 3, 9044);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'test004')
+data.setCell(29, 2, 'com.codoon.test.DrycargoTest')
+data.setCell(29, 3, 4318);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'test001')
+data.setCell(30, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(30, 3, 4051);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'test002')
+data.setCell(31, 2, 'com.codoon.test.SportCircleTest')
+data.setCell(31, 3, 3554);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'test010')
+data.setCell(32, 2, 'com.codoon.test.DrycargoTest')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'test008')
+data.setCell(33, 2, 'com.codoon.test.DrycargoTest')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'test011')
+data.setCell(34, 2, 'com.codoon.test.DrycargoTest')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'test012')
+data.setCell(35, 2, 'com.codoon.test.DrycargoTest')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'test009')
+data.setCell(36, 2, 'com.codoon.test.DrycargoTest')
+data.setCell(36, 3, 0);
+window.suiteTableData['CodoonTest']= { tableData: data, tableDiv: 'times-div-CodoonTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 17 minutes</span>
+              <div id="times-div-CodoonTest">
+              </div> <!-- times-div-CodoonTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-CodoonTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for CodoonTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test018</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">RunCount=2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-CodoonTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-CodoonTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.codoon.test.SportCircleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">54462 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test001</span>
+                <span class="method-start">57836 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">61888 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">65495 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test002</span>
+                <span class="method-start">68757 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">72311 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">85671 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test003</span>
+                <span class="method-start">88304 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">108379 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">119725 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test004</span>
+                <span class="method-start">123013 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">152977 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">168441 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test005</span>
+                <span class="method-start">171745 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">180789 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">185080 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test006</span>
+                <span class="method-start">185939 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">234250 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">241141 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test007</span>
+                <span class="method-start">243488 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">252827 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">257617 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test008</span>
+                <span class="method-start">260904 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">300301 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">317977 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test010</span>
+                <span class="method-start">321282 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">341752 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">341906 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test011</span>
+                <span class="method-start">343970 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">355020 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">355128 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test012</span>
+                <span class="method-start">358472 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">369586 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">373444 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test013</span>
+                <span class="method-start">376719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">392851 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">396971 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test014</span>
+                <span class="method-start">400313 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">460869 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">460960 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test015</span>
+                <span class="method-start">463989 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">524438 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">524603 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test016</span>
+                <span class="method-start">528342 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">592293 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">592390 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test017</span>
+                <span class="method-start">595672 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">612812 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">616924 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test018</span>
+                <span class="method-start">620239 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">637417 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">637524 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test018</span>
+                <span class="method-start">640929 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">663054 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">663208 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test018</span>
+                <span class="method-start">666840 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">686060 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">686193 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test019</span>
+                <span class="method-start">689535 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">732036 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">732202 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test019</span>
+                <span class="method-start">735510 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">776226 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">776338 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test019</span>
+                <span class="method-start">779658 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">820258 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">820385 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test020</span>
+                <span class="method-start">823900 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1315672 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1315863 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test020</span>
+                <span class="method-start">1324378 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1353618 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1353774 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test021</span>
+                <span class="method-start">1357377 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1520772 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1525051 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test022</span>
+                <span class="method-start">1528381 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1560893 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1560983 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test023</span>
+                <span class="method-start">1561425 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1596642 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1596761 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test023</span>
+                <span class="method-start">1600031 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1641233 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1644794 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test024</span>
+                <span class="method-start">1648182 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1674263 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1678367 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test024</span>
+                <span class="method-start">1681656 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1732548 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1736356 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test024</span>
+                <span class="method-start">1736874 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1772701 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1776374 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test025</span>
+                <span class="method-start">1776808 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1796297 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1799890 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test025</span>
+                <span class="method-start">1803317 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1818000 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1826062 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test026</span>
+                <span class="method-start">1829390 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1871379 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">1875222 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.codoon.test.DrycargoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">1881697 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1937771 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test001</span>
+                <span class="method-start">1938362 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1962925 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1966836 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test002</span>
+                <span class="method-start">1967750 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1988040 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1991915 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test003</span>
+                <span class="method-start">1995169 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2036907 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2037036 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test004</span>
+                <span class="method-start">2037552 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2041870 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2045695 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test005</span>
+                <span class="method-start">2048953 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2102536 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2102642 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test006</span>
+                <span class="method-start">2105902 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2168639 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2168779 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test007</span>
+                <span class="method-start">2172019 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2181855 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2182028 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test008</span>
+                <span class="method-start">2182921 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2408542 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2408892 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">test008</span>
+                <span class="method-start">2408892 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2408896 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">test009</span>
+                <span class="method-start">2408896 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test010</span>
+                <span class="method-start">2408899 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2408900 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2408903 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">test011</span>
+                <span class="method-start">2408903 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2408907 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">test012</span>
+                <span class="method-start">2408907 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">2408911 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

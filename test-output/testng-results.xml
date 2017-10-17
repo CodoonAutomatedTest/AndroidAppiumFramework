@@ -1,0 +1,1134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="5" failed="2" total="37" passed="30">
+  <reporter-output>
+    <line>
+      <![CDATA[RunCount=1]]>
+    </line>
+    <line>
+      <![CDATA[RunCount=2]]>
+    </line>
+    <line>
+      <![CDATA[RunCount=1]]>
+    </line>
+    <line>
+      <![CDATA[RunCount=2]]>
+    </line>
+    <line>
+      <![CDATA[RunCount=1]]>
+    </line>
+    <line>
+      <![CDATA[RunCount=1]]>
+    </line>
+    <line>
+      <![CDATA[RunCount=1]]>
+    </line>
+    <line>
+      <![CDATA[RunCount=2]]>
+    </line>
+    <line>
+      <![CDATA[RunCount=1]]>
+    </line>
+    <line>
+      <![CDATA[RunCount=1]]>
+    </line>
+  </reporter-output>
+  <suite name="CodoonTest" duration-ms="2408928" started-at="2017-10-11T08:49:15Z" finished-at="2017-10-11T09:29:24Z">
+    <groups>
+      <group name="other">
+        <method signature="SportCircleTest.test001()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test001" class="com.codoon.test.SportCircleTest"/>
+        <method signature="SportCircleTest.test002()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test002" class="com.codoon.test.SportCircleTest"/>
+      </group> <!-- other -->
+      <group name="讨论">
+        <method signature="SportCircleTest.test008()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test008" class="com.codoon.test.SportCircleTest"/>
+      </group> <!-- 讨论 -->
+      <group name="推荐tab">
+        <method signature="DrycargoTest.test001()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="test001" class="com.codoon.test.DrycargoTest"/>
+        <method signature="DrycargoTest.test002()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="test002" class="com.codoon.test.DrycargoTest"/>
+        <method signature="DrycargoTest.test003()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="test003" class="com.codoon.test.DrycargoTest"/>
+        <method signature="DrycargoTest.test004()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="test004" class="com.codoon.test.DrycargoTest"/>
+        <method signature="DrycargoTest.test005()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="test005" class="com.codoon.test.DrycargoTest"/>
+        <method signature="DrycargoTest.test006()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="test006" class="com.codoon.test.DrycargoTest"/>
+      </group> <!-- 推荐tab -->
+      <group name="热门">
+        <method signature="SportCircleTest.test005()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test005" class="com.codoon.test.SportCircleTest"/>
+        <method signature="SportCircleTest.test006()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test006" class="com.codoon.test.SportCircleTest"/>
+        <method signature="SportCircleTest.test007()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test007" class="com.codoon.test.SportCircleTest"/>
+        <method signature="SportCircleTest.test010()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test010" class="com.codoon.test.SportCircleTest"/>
+        <method signature="SportCircleTest.test011()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test011" class="com.codoon.test.SportCircleTest"/>
+        <method signature="SportCircleTest.test012()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test012" class="com.codoon.test.SportCircleTest"/>
+        <method signature="SportCircleTest.test013()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test013" class="com.codoon.test.SportCircleTest"/>
+        <method signature="SportCircleTest.test014()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test014" class="com.codoon.test.SportCircleTest"/>
+      </group> <!-- 热门 -->
+      <group name="发布">
+        <method signature="SportCircleTest.test015()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test015" class="com.codoon.test.SportCircleTest"/>
+        <method signature="SportCircleTest.test016()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test016" class="com.codoon.test.SportCircleTest"/>
+      </group> <!-- 发布 -->
+      <group name="非推荐tab">
+        <method signature="DrycargoTest.test007()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="test007" class="com.codoon.test.DrycargoTest"/>
+        <method signature="DrycargoTest.test008()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="test008" class="com.codoon.test.DrycargoTest"/>
+        <method signature="DrycargoTest.test009()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="test009" class="com.codoon.test.DrycargoTest"/>
+        <method signature="DrycargoTest.test010()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="test010" class="com.codoon.test.DrycargoTest"/>
+        <method signature="DrycargoTest.test011()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="test011" class="com.codoon.test.DrycargoTest"/>
+        <method signature="DrycargoTest.test012()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="test012" class="com.codoon.test.DrycargoTest"/>
+      </group> <!-- 非推荐tab -->
+      <group name="搜索">
+        <method signature="SportCircleTest.test003()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test003" class="com.codoon.test.SportCircleTest"/>
+        <method signature="SportCircleTest.test004()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test004" class="com.codoon.test.SportCircleTest"/>
+      </group> <!-- 搜索 -->
+      <group name="关注">
+        <method signature="SportCircleTest.test017()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test017" class="com.codoon.test.SportCircleTest"/>
+        <method signature="SportCircleTest.test018()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test018" class="com.codoon.test.SportCircleTest"/>
+        <method signature="SportCircleTest.test019()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test019" class="com.codoon.test.SportCircleTest"/>
+        <method signature="SportCircleTest.test020()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test020" class="com.codoon.test.SportCircleTest"/>
+        <method signature="SportCircleTest.test021()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test021" class="com.codoon.test.SportCircleTest"/>
+        <method signature="SportCircleTest.test022()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test022" class="com.codoon.test.SportCircleTest"/>
+        <method signature="SportCircleTest.test023()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test023" class="com.codoon.test.SportCircleTest"/>
+        <method signature="SportCircleTest.test024()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test024" class="com.codoon.test.SportCircleTest"/>
+        <method signature="SportCircleTest.test025()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test025" class="com.codoon.test.SportCircleTest"/>
+        <method signature="SportCircleTest.test026()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test026" class="com.codoon.test.SportCircleTest"/>
+      </group> <!-- 关注 -->
+    </groups>
+    <test name="test1" duration-ms="2408928" started-at="2017-10-11T08:49:15Z" finished-at="2017-10-11T09:29:24Z">
+      <class name="com.codoon.test.SportCircleTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUpClass" is-config="true" duration-ms="54460" started-at="2017-10-11T16:49:15Z" finished-at="2017-10-11T16:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3374" started-at="2017-10-11T16:50:10Z" finished-at="2017-10-11T16:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test001()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test001" duration-ms="4051" started-at="2017-10-11T16:50:13Z" finished-at="2017-10-11T16:50:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="3607" started-at="2017-10-11T16:50:17Z" finished-at="2017-10-11T16:50:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3262" started-at="2017-10-11T16:50:21Z" finished-at="2017-10-11T16:50:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test002()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test002" duration-ms="3554" started-at="2017-10-11T16:50:24Z" finished-at="2017-10-11T16:50:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test002 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="13359" started-at="2017-10-11T16:50:28Z" finished-at="2017-10-11T16:50:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="2633" started-at="2017-10-11T16:50:41Z" finished-at="2017-10-11T16:50:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test003()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test003" duration-ms="20075" started-at="2017-10-11T16:50:44Z" finished-at="2017-10-11T16:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test003 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="11346" started-at="2017-10-11T16:51:04Z" finished-at="2017-10-11T16:51:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3288" started-at="2017-10-11T16:51:15Z" finished-at="2017-10-11T16:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test004()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test004" duration-ms="29963" started-at="2017-10-11T16:51:18Z" finished-at="2017-10-11T16:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test004 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="15464" started-at="2017-10-11T16:51:48Z" finished-at="2017-10-11T16:52:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3304" started-at="2017-10-11T16:52:04Z" finished-at="2017-10-11T16:52:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test005()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test005" duration-ms="9044" started-at="2017-10-11T16:52:07Z" finished-at="2017-10-11T16:52:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test005 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="4291" started-at="2017-10-11T16:52:16Z" finished-at="2017-10-11T16:52:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="859" started-at="2017-10-11T16:52:20Z" finished-at="2017-10-11T16:52:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test006()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test006" duration-ms="48311" started-at="2017-10-11T16:52:21Z" finished-at="2017-10-11T16:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test006 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="6891" started-at="2017-10-11T16:53:10Z" finished-at="2017-10-11T16:53:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="2347" started-at="2017-10-11T16:53:16Z" finished-at="2017-10-11T16:53:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test007()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test007" duration-ms="9339" started-at="2017-10-11T16:53:19Z" finished-at="2017-10-11T16:53:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test007 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="4790" started-at="2017-10-11T16:53:28Z" finished-at="2017-10-11T16:53:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3287" started-at="2017-10-11T16:53:33Z" finished-at="2017-10-11T16:53:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test008()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test008" duration-ms="39397" started-at="2017-10-11T16:53:36Z" finished-at="2017-10-11T16:54:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test008 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="17676" started-at="2017-10-11T16:54:16Z" finished-at="2017-10-11T16:54:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3305" started-at="2017-10-11T16:54:33Z" finished-at="2017-10-11T16:54:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test010()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test010" duration-ms="20469" started-at="2017-10-11T16:54:37Z" finished-at="2017-10-11T16:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test010 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="153" started-at="2017-10-11T16:54:57Z" finished-at="2017-10-11T16:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="2064" started-at="2017-10-11T16:54:57Z" finished-at="2017-10-11T16:54:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test011()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test011" duration-ms="11049" started-at="2017-10-11T16:54:59Z" finished-at="2017-10-11T16:55:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test011 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="108" started-at="2017-10-11T16:55:10Z" finished-at="2017-10-11T16:55:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3344" started-at="2017-10-11T16:55:10Z" finished-at="2017-10-11T16:55:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test012()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test012" duration-ms="11114" started-at="2017-10-11T16:55:14Z" finished-at="2017-10-11T16:55:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test012 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="3858" started-at="2017-10-11T16:55:25Z" finished-at="2017-10-11T16:55:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3275" started-at="2017-10-11T16:55:29Z" finished-at="2017-10-11T16:55:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test013()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test013" duration-ms="16132" started-at="2017-10-11T16:55:32Z" finished-at="2017-10-11T16:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test013 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="4120" started-at="2017-10-11T16:55:48Z" finished-at="2017-10-11T16:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3342" started-at="2017-10-11T16:55:52Z" finished-at="2017-10-11T16:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test014()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test014" duration-ms="60555" started-at="2017-10-11T16:55:56Z" finished-at="2017-10-11T16:56:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test014 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="91" started-at="2017-10-11T16:56:56Z" finished-at="2017-10-11T16:56:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3029" started-at="2017-10-11T16:56:56Z" finished-at="2017-10-11T16:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test015()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test015" duration-ms="60449" started-at="2017-10-11T16:56:59Z" finished-at="2017-10-11T16:58:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test015 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="165" started-at="2017-10-11T16:58:00Z" finished-at="2017-10-11T16:58:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3738" started-at="2017-10-11T16:58:00Z" finished-at="2017-10-11T16:58:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test016()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test016" duration-ms="63951" started-at="2017-10-11T16:58:04Z" finished-at="2017-10-11T16:59:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test016 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="97" started-at="2017-10-11T16:59:08Z" finished-at="2017-10-11T16:59:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3281" started-at="2017-10-11T16:59:08Z" finished-at="2017-10-11T16:59:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test017()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test017" duration-ms="17140" started-at="2017-10-11T16:59:11Z" finished-at="2017-10-11T16:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test017 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="4112" started-at="2017-10-11T16:59:28Z" finished-at="2017-10-11T16:59:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3315" started-at="2017-10-11T16:59:32Z" finished-at="2017-10-11T16:59:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="107" started-at="2017-10-11T16:59:53Z" finished-at="2017-10-11T16:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3405" started-at="2017-10-11T16:59:53Z" finished-at="2017-10-11T16:59:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="test018()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test018" duration-ms="22125" started-at="2017-10-11T16:59:56Z" finished-at="2017-10-11T17:00:18Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Can't locate an element by this strategy: By.AndroidUIAutomator: text("推荐用户")
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MrdeMacBook-Pro.local', ip: '192.168.10.123', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.AndroidUIAutomator: text("推荐用户")
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MrdeMacBook-Pro.local', ip: '192.168.10.123', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:147)
+	at io.appium.java_client.pagefactory.ElementInterceptor.intercept(ElementInterceptor.java:26)
+	at org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$3e70910a.getLocation(<generated>)
+	at com.codoon.common.util.DeviceHelper.moveToHalfScreen(DeviceHelper.java:319)
+	at com.codoon.test.SportCircleTest.test018(SportCircleTest.java:368)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:991)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1171)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.TestNG.privateMain(TestNG.java:1339)
+	at org.testng.TestNG.main(TestNG.java:1308)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[RunCount=2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test018 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="154" started-at="2017-10-11T17:00:18Z" finished-at="2017-10-11T17:00:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3632" started-at="2017-10-11T17:00:18Z" finished-at="2017-10-11T17:00:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="132" started-at="2017-10-11T17:00:41Z" finished-at="2017-10-11T17:00:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3342" started-at="2017-10-11T17:00:41Z" finished-at="2017-10-11T17:00:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="166" started-at="2017-10-11T17:01:27Z" finished-at="2017-10-11T17:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3308" started-at="2017-10-11T17:01:27Z" finished-at="2017-10-11T17:01:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="112" started-at="2017-10-11T17:02:12Z" finished-at="2017-10-11T17:02:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3320" started-at="2017-10-11T17:02:12Z" finished-at="2017-10-11T17:02:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="test019()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test019" duration-ms="40600" started-at="2017-10-11T17:02:15Z" finished-at="2017-10-11T17:02:56Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Can't locate an element by this strategy: By.AndroidUIAutomator: text("推荐用户")
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MrdeMacBook-Pro.local', ip: '192.168.10.123', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.AndroidUIAutomator: text("推荐用户")
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MrdeMacBook-Pro.local', ip: '192.168.10.123', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:147)
+	at io.appium.java_client.pagefactory.ElementInterceptor.intercept(ElementInterceptor.java:26)
+	at org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$3e70910a.getLocation(<generated>)
+	at com.codoon.common.util.DeviceHelper.moveToHalfScreen(DeviceHelper.java:319)
+	at com.codoon.test.SportCircleTest.test019(SportCircleTest.java:385)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:991)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1171)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.TestNG.privateMain(TestNG.java:1339)
+	at org.testng.TestNG.main(TestNG.java:1308)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test019 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="127" started-at="2017-10-11T17:02:56Z" finished-at="2017-10-11T17:02:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3515" started-at="2017-10-11T17:02:56Z" finished-at="2017-10-11T17:02:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="191" started-at="2017-10-11T17:11:11Z" finished-at="2017-10-11T17:11:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="8515" started-at="2017-10-11T17:11:11Z" finished-at="2017-10-11T17:11:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test020()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test020" duration-ms="29239" started-at="2017-10-11T17:11:20Z" finished-at="2017-10-11T17:11:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test020 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="156" started-at="2017-10-11T17:11:49Z" finished-at="2017-10-11T17:11:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3603" started-at="2017-10-11T17:11:49Z" finished-at="2017-10-11T17:11:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test021()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test021" duration-ms="163395" started-at="2017-10-11T17:11:53Z" finished-at="2017-10-11T17:14:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test021 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="4279" started-at="2017-10-11T17:14:36Z" finished-at="2017-10-11T17:14:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3330" started-at="2017-10-11T17:14:40Z" finished-at="2017-10-11T17:14:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test022()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test022" duration-ms="32512" started-at="2017-10-11T17:14:44Z" finished-at="2017-10-11T17:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test022 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="90" started-at="2017-10-11T17:15:16Z" finished-at="2017-10-11T17:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="442" started-at="2017-10-11T17:15:16Z" finished-at="2017-10-11T17:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="119" started-at="2017-10-11T17:15:52Z" finished-at="2017-10-11T17:15:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3270" started-at="2017-10-11T17:15:52Z" finished-at="2017-10-11T17:15:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test023()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test023" duration-ms="41202" started-at="2017-10-11T17:15:55Z" finished-at="2017-10-11T17:16:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test023 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="3561" started-at="2017-10-11T17:16:37Z" finished-at="2017-10-11T17:16:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3388" started-at="2017-10-11T17:16:40Z" finished-at="2017-10-11T17:16:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="4104" started-at="2017-10-11T17:17:10Z" finished-at="2017-10-11T17:17:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3289" started-at="2017-10-11T17:17:14Z" finished-at="2017-10-11T17:17:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="3807" started-at="2017-10-11T17:18:08Z" finished-at="2017-10-11T17:18:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="518" started-at="2017-10-11T17:18:12Z" finished-at="2017-10-11T17:18:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test024()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test024" duration-ms="35827" started-at="2017-10-11T17:18:12Z" finished-at="2017-10-11T17:18:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test024 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="3673" started-at="2017-10-11T17:18:48Z" finished-at="2017-10-11T17:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="434" started-at="2017-10-11T17:18:52Z" finished-at="2017-10-11T17:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="3593" started-at="2017-10-11T17:19:12Z" finished-at="2017-10-11T17:19:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3427" started-at="2017-10-11T17:19:15Z" finished-at="2017-10-11T17:19:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test025()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test025" duration-ms="14683" started-at="2017-10-11T17:19:19Z" finished-at="2017-10-11T17:19:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test025 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="8062" started-at="2017-10-11T17:19:33Z" finished-at="2017-10-11T17:19:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="3328" started-at="2017-10-11T17:19:41Z" finished-at="2017-10-11T17:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test026()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="test026" duration-ms="41989" started-at="2017-10-11T17:19:45Z" finished-at="2017-10-11T17:20:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test026 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="3843" started-at="2017-10-11T17:20:27Z" finished-at="2017-10-11T17:20:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.codoon.test.SportCircleTest@7f9a81e8]" name="tearDownClass" is-config="true" duration-ms="6474" started-at="2017-10-11T17:20:31Z" finished-at="2017-10-11T17:20:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.codoon.test.SportCircleTest -->
+      <class name="com.codoon.test.DrycargoTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="setUpClass" is-config="true" duration-ms="56074" started-at="2017-10-11T17:20:37Z" finished-at="2017-10-11T17:21:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="591" started-at="2017-10-11T17:21:33Z" finished-at="2017-10-11T17:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test001()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="test001" duration-ms="24563" started-at="2017-10-11T17:21:34Z" finished-at="2017-10-11T17:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="3911" started-at="2017-10-11T17:21:58Z" finished-at="2017-10-11T17:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="914" started-at="2017-10-11T17:22:02Z" finished-at="2017-10-11T17:22:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test002()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="test002" duration-ms="20290" started-at="2017-10-11T17:22:03Z" finished-at="2017-10-11T17:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test002 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="3874" started-at="2017-10-11T17:22:23Z" finished-at="2017-10-11T17:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="3254" started-at="2017-10-11T17:22:27Z" finished-at="2017-10-11T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test003()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="test003" duration-ms="41738" started-at="2017-10-11T17:22:30Z" finished-at="2017-10-11T17:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test003 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="129" started-at="2017-10-11T17:23:12Z" finished-at="2017-10-11T17:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="516" started-at="2017-10-11T17:23:12Z" finished-at="2017-10-11T17:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test004()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="test004" duration-ms="4318" started-at="2017-10-11T17:23:13Z" finished-at="2017-10-11T17:23:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test004 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="3825" started-at="2017-10-11T17:23:17Z" finished-at="2017-10-11T17:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="3258" started-at="2017-10-11T17:23:21Z" finished-at="2017-10-11T17:23:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test005()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="test005" duration-ms="53583" started-at="2017-10-11T17:23:24Z" finished-at="2017-10-11T17:24:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test005 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="106" started-at="2017-10-11T17:24:18Z" finished-at="2017-10-11T17:24:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="3260" started-at="2017-10-11T17:24:18Z" finished-at="2017-10-11T17:24:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test006()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="test006" duration-ms="62736" started-at="2017-10-11T17:24:21Z" finished-at="2017-10-11T17:25:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test006 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="140" started-at="2017-10-11T17:25:24Z" finished-at="2017-10-11T17:25:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="3240" started-at="2017-10-11T17:25:24Z" finished-at="2017-10-11T17:25:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test007()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="test007" duration-ms="9836" started-at="2017-10-11T17:25:27Z" finished-at="2017-10-11T17:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test007 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="172" started-at="2017-10-11T17:25:37Z" finished-at="2017-10-11T17:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="893" started-at="2017-10-11T17:25:37Z" finished-at="2017-10-11T17:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-11T17:29:24Z" finished-at="2017-10-11T17:29:24Z">
+          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
+            <message>
+              <![CDATA[A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MrdeMacBook-Pro.local', ip: '192.168.10.123', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
+Driver info: io.driver.SikuppiumDriver
+Capabilities [{appPackage=com.codoon.gps, networkConnectionEnabled=true, recreateChromeDriverSessions=true, warnings={}, databaseEnabled=false, deviceName=125683fc, platform=LINUX, deviceUDID=125683fc, appActivity=.ui.SlideActivity, desired={appPackage=com.codoon.gps, appActivity=.ui.SlideActivity, recreateChromeDriverSessions=true, platformVersion=6.0.1, automationName=Appium, unicodeKeyboard=true, sessionOverride=true, platformName=Android, deviceName=125683fc, resetKeyboard=true, unexpectedAlertBehaviour=accept}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, sessionOverride=true, platformName=Android, resetKeyboard=true, unexpectedAlertBehaviour=accept}]
+Session ID: 3c066ddf-9efa-4bbe-918a-eb5ba67c131d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MrdeMacBook-Pro.local', ip: '192.168.10.123', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
+Driver info: io.driver.SikuppiumDriver
+Capabilities [{appPackage=com.codoon.gps, networkConnectionEnabled=true, recreateChromeDriverSessions=true, warnings={}, databaseEnabled=false, deviceName=125683fc, platform=LINUX, deviceUDID=125683fc, appActivity=.ui.SlideActivity, desired={appPackage=com.codoon.gps, appActivity=.ui.SlideActivity, recreateChromeDriverSessions=true, platformVersion=6.0.1, automationName=Appium, unicodeKeyboard=true, sessionOverride=true, platformName=Android, deviceName=125683fc, resetKeyboard=true, unexpectedAlertBehaviour=accept}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, sessionOverride=true, platformName=Android, resetKeyboard=true, unexpectedAlertBehaviour=accept}]
+Session ID: 3c066ddf-9efa-4bbe-918a-eb5ba67c131d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:185)
+	at io.appium.java_client.AppiumDriver.getContext(AppiumDriver.java:546)
+	at com.codoon.common.util.DeviceHelper.pressBackToHomePage(DeviceHelper.java:406)
+	at com.codoon.test.DrycargoTest.tearDown(DrycargoTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:732)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.TestNG.privateMain(TestNG.java:1339)
+	at org.testng.TestNG.main(TestNG.java:1308)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2017-10-11T17:29:24Z" finished-at="2017-10-11T17:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-11T17:29:24Z" finished-at="2017-10-11T17:29:24Z">
+          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
+            <message>
+              <![CDATA[A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MrdeMacBook-Pro.local', ip: '192.168.10.123', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
+Driver info: io.driver.SikuppiumDriver
+Capabilities [{appPackage=com.codoon.gps, networkConnectionEnabled=true, recreateChromeDriverSessions=true, warnings={}, databaseEnabled=false, deviceName=125683fc, platform=LINUX, deviceUDID=125683fc, appActivity=.ui.SlideActivity, desired={appPackage=com.codoon.gps, appActivity=.ui.SlideActivity, recreateChromeDriverSessions=true, platformVersion=6.0.1, automationName=Appium, unicodeKeyboard=true, sessionOverride=true, platformName=Android, deviceName=125683fc, resetKeyboard=true, unexpectedAlertBehaviour=accept}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, sessionOverride=true, platformName=Android, resetKeyboard=true, unexpectedAlertBehaviour=accept}]
+Session ID: 3c066ddf-9efa-4bbe-918a-eb5ba67c131d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MrdeMacBook-Pro.local', ip: '192.168.10.123', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
+Driver info: io.driver.SikuppiumDriver
+Capabilities [{appPackage=com.codoon.gps, networkConnectionEnabled=true, recreateChromeDriverSessions=true, warnings={}, databaseEnabled=false, deviceName=125683fc, platform=LINUX, deviceUDID=125683fc, appActivity=.ui.SlideActivity, desired={appPackage=com.codoon.gps, appActivity=.ui.SlideActivity, recreateChromeDriverSessions=true, platformVersion=6.0.1, automationName=Appium, unicodeKeyboard=true, sessionOverride=true, platformName=Android, deviceName=125683fc, resetKeyboard=true, unexpectedAlertBehaviour=accept}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, sessionOverride=true, platformName=Android, resetKeyboard=true, unexpectedAlertBehaviour=accept}]
+Session ID: 3c066ddf-9efa-4bbe-918a-eb5ba67c131d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:185)
+	at io.appium.java_client.AppiumDriver.getContext(AppiumDriver.java:546)
+	at com.codoon.common.util.DeviceHelper.pressBackToHomePage(DeviceHelper.java:406)
+	at com.codoon.test.DrycargoTest.tearDown(DrycargoTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:732)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:991)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1171)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.TestNG.privateMain(TestNG.java:1339)
+	at org.testng.TestNG.main(TestNG.java:1308)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="test008()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="test008" duration-ms="0" started-at="2017-10-11T17:29:24Z" finished-at="2017-10-11T17:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test008 -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2017-10-11T17:29:24Z" finished-at="2017-10-11T17:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="test009()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="test009" duration-ms="0" started-at="2017-10-11T17:29:24Z" finished-at="2017-10-11T17:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test009 -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-11T17:29:24Z" finished-at="2017-10-11T17:29:24Z">
+          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
+            <message>
+              <![CDATA[A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MrdeMacBook-Pro.local', ip: '192.168.10.123', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
+Driver info: io.driver.SikuppiumDriver
+Capabilities [{appPackage=com.codoon.gps, networkConnectionEnabled=true, recreateChromeDriverSessions=true, warnings={}, databaseEnabled=false, deviceName=125683fc, platform=LINUX, deviceUDID=125683fc, appActivity=.ui.SlideActivity, desired={appPackage=com.codoon.gps, appActivity=.ui.SlideActivity, recreateChromeDriverSessions=true, platformVersion=6.0.1, automationName=Appium, unicodeKeyboard=true, sessionOverride=true, platformName=Android, deviceName=125683fc, resetKeyboard=true, unexpectedAlertBehaviour=accept}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, sessionOverride=true, platformName=Android, resetKeyboard=true, unexpectedAlertBehaviour=accept}]
+Session ID: 3c066ddf-9efa-4bbe-918a-eb5ba67c131d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MrdeMacBook-Pro.local', ip: '192.168.10.123', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
+Driver info: io.driver.SikuppiumDriver
+Capabilities [{appPackage=com.codoon.gps, networkConnectionEnabled=true, recreateChromeDriverSessions=true, warnings={}, databaseEnabled=false, deviceName=125683fc, platform=LINUX, deviceUDID=125683fc, appActivity=.ui.SlideActivity, desired={appPackage=com.codoon.gps, appActivity=.ui.SlideActivity, recreateChromeDriverSessions=true, platformVersion=6.0.1, automationName=Appium, unicodeKeyboard=true, sessionOverride=true, platformName=Android, deviceName=125683fc, resetKeyboard=true, unexpectedAlertBehaviour=accept}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, sessionOverride=true, platformName=Android, resetKeyboard=true, unexpectedAlertBehaviour=accept}]
+Session ID: 3c066ddf-9efa-4bbe-918a-eb5ba67c131d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:185)
+	at io.appium.java_client.AppiumDriver.getContext(AppiumDriver.java:546)
+	at com.codoon.common.util.DeviceHelper.pressBackToHomePage(DeviceHelper.java:406)
+	at com.codoon.test.DrycargoTest.tearDown(DrycargoTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:732)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.TestNG.privateMain(TestNG.java:1339)
+	at org.testng.TestNG.main(TestNG.java:1308)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2017-10-11T17:29:24Z" finished-at="2017-10-11T17:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="test010()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="test010" duration-ms="0" started-at="2017-10-11T17:29:24Z" finished-at="2017-10-11T17:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test010 -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-11T17:29:24Z" finished-at="2017-10-11T17:29:24Z">
+          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
+            <message>
+              <![CDATA[A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MrdeMacBook-Pro.local', ip: '192.168.10.123', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
+Driver info: io.driver.SikuppiumDriver
+Capabilities [{appPackage=com.codoon.gps, networkConnectionEnabled=true, recreateChromeDriverSessions=true, warnings={}, databaseEnabled=false, deviceName=125683fc, platform=LINUX, deviceUDID=125683fc, appActivity=.ui.SlideActivity, desired={appPackage=com.codoon.gps, appActivity=.ui.SlideActivity, recreateChromeDriverSessions=true, platformVersion=6.0.1, automationName=Appium, unicodeKeyboard=true, sessionOverride=true, platformName=Android, deviceName=125683fc, resetKeyboard=true, unexpectedAlertBehaviour=accept}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, sessionOverride=true, platformName=Android, resetKeyboard=true, unexpectedAlertBehaviour=accept}]
+Session ID: 3c066ddf-9efa-4bbe-918a-eb5ba67c131d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MrdeMacBook-Pro.local', ip: '192.168.10.123', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
+Driver info: io.driver.SikuppiumDriver
+Capabilities [{appPackage=com.codoon.gps, networkConnectionEnabled=true, recreateChromeDriverSessions=true, warnings={}, databaseEnabled=false, deviceName=125683fc, platform=LINUX, deviceUDID=125683fc, appActivity=.ui.SlideActivity, desired={appPackage=com.codoon.gps, appActivity=.ui.SlideActivity, recreateChromeDriverSessions=true, platformVersion=6.0.1, automationName=Appium, unicodeKeyboard=true, sessionOverride=true, platformName=Android, deviceName=125683fc, resetKeyboard=true, unexpectedAlertBehaviour=accept}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, sessionOverride=true, platformName=Android, resetKeyboard=true, unexpectedAlertBehaviour=accept}]
+Session ID: 3c066ddf-9efa-4bbe-918a-eb5ba67c131d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:185)
+	at io.appium.java_client.AppiumDriver.getContext(AppiumDriver.java:546)
+	at com.codoon.common.util.DeviceHelper.pressBackToHomePage(DeviceHelper.java:406)
+	at com.codoon.test.DrycargoTest.tearDown(DrycargoTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:732)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.TestNG.privateMain(TestNG.java:1339)
+	at org.testng.TestNG.main(TestNG.java:1308)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2017-10-11T17:29:24Z" finished-at="2017-10-11T17:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-11T17:29:24Z" finished-at="2017-10-11T17:29:24Z">
+          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
+            <message>
+              <![CDATA[A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MrdeMacBook-Pro.local', ip: '192.168.10.123', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
+Driver info: io.driver.SikuppiumDriver
+Capabilities [{appPackage=com.codoon.gps, networkConnectionEnabled=true, recreateChromeDriverSessions=true, warnings={}, databaseEnabled=false, deviceName=125683fc, platform=LINUX, deviceUDID=125683fc, appActivity=.ui.SlideActivity, desired={appPackage=com.codoon.gps, appActivity=.ui.SlideActivity, recreateChromeDriverSessions=true, platformVersion=6.0.1, automationName=Appium, unicodeKeyboard=true, sessionOverride=true, platformName=Android, deviceName=125683fc, resetKeyboard=true, unexpectedAlertBehaviour=accept}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, sessionOverride=true, platformName=Android, resetKeyboard=true, unexpectedAlertBehaviour=accept}]
+Session ID: 3c066ddf-9efa-4bbe-918a-eb5ba67c131d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MrdeMacBook-Pro.local', ip: '192.168.10.123', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
+Driver info: io.driver.SikuppiumDriver
+Capabilities [{appPackage=com.codoon.gps, networkConnectionEnabled=true, recreateChromeDriverSessions=true, warnings={}, databaseEnabled=false, deviceName=125683fc, platform=LINUX, deviceUDID=125683fc, appActivity=.ui.SlideActivity, desired={appPackage=com.codoon.gps, appActivity=.ui.SlideActivity, recreateChromeDriverSessions=true, platformVersion=6.0.1, automationName=Appium, unicodeKeyboard=true, sessionOverride=true, platformName=Android, deviceName=125683fc, resetKeyboard=true, unexpectedAlertBehaviour=accept}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, sessionOverride=true, platformName=Android, resetKeyboard=true, unexpectedAlertBehaviour=accept}]
+Session ID: 3c066ddf-9efa-4bbe-918a-eb5ba67c131d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:185)
+	at io.appium.java_client.AppiumDriver.getContext(AppiumDriver.java:546)
+	at com.codoon.common.util.DeviceHelper.pressBackToHomePage(DeviceHelper.java:406)
+	at com.codoon.test.DrycargoTest.tearDown(DrycargoTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:732)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.TestNG.privateMain(TestNG.java:1339)
+	at org.testng.TestNG.main(TestNG.java:1308)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="test011()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="test011" duration-ms="0" started-at="2017-10-11T17:29:24Z" finished-at="2017-10-11T17:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test011 -->
+        <test-method status="SKIP" signature="test012()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="test012" duration-ms="0" started-at="2017-10-11T17:29:24Z" finished-at="2017-10-11T17:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test012 -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2017-10-11T17:29:24Z" finished-at="2017-10-11T17:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-11T17:29:24Z" finished-at="2017-10-11T17:29:24Z">
+          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
+            <message>
+              <![CDATA[A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MrdeMacBook-Pro.local', ip: '192.168.10.123', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
+Driver info: io.driver.SikuppiumDriver
+Capabilities [{appPackage=com.codoon.gps, networkConnectionEnabled=true, recreateChromeDriverSessions=true, warnings={}, databaseEnabled=false, deviceName=125683fc, platform=LINUX, deviceUDID=125683fc, appActivity=.ui.SlideActivity, desired={appPackage=com.codoon.gps, appActivity=.ui.SlideActivity, recreateChromeDriverSessions=true, platformVersion=6.0.1, automationName=Appium, unicodeKeyboard=true, sessionOverride=true, platformName=Android, deviceName=125683fc, resetKeyboard=true, unexpectedAlertBehaviour=accept}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, sessionOverride=true, platformName=Android, resetKeyboard=true, unexpectedAlertBehaviour=accept}]
+Session ID: 3c066ddf-9efa-4bbe-918a-eb5ba67c131d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MrdeMacBook-Pro.local', ip: '192.168.10.123', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
+Driver info: io.driver.SikuppiumDriver
+Capabilities [{appPackage=com.codoon.gps, networkConnectionEnabled=true, recreateChromeDriverSessions=true, warnings={}, databaseEnabled=false, deviceName=125683fc, platform=LINUX, deviceUDID=125683fc, appActivity=.ui.SlideActivity, desired={appPackage=com.codoon.gps, appActivity=.ui.SlideActivity, recreateChromeDriverSessions=true, platformVersion=6.0.1, automationName=Appium, unicodeKeyboard=true, sessionOverride=true, platformName=Android, deviceName=125683fc, resetKeyboard=true, unexpectedAlertBehaviour=accept}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, sessionOverride=true, platformName=Android, resetKeyboard=true, unexpectedAlertBehaviour=accept}]
+Session ID: 3c066ddf-9efa-4bbe-918a-eb5ba67c131d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:185)
+	at io.appium.java_client.AppiumDriver.getContext(AppiumDriver.java:546)
+	at com.codoon.common.util.DeviceHelper.pressBackToHomePage(DeviceHelper.java:406)
+	at com.codoon.test.DrycargoTest.tearDown(DrycargoTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:732)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.TestNG.privateMain(TestNG.java:1339)
+	at org.testng.TestNG.main(TestNG.java:1308)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="tearDownClass()[pri:0, instance:com.codoon.test.DrycargoTest@2a2d45ba]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2017-10-11T17:29:24Z" finished-at="2017-10-11T17:29:24Z">
+          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
+            <message>
+              <![CDATA[A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MrdeMacBook-Pro.local', ip: '192.168.10.123', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
+Driver info: io.driver.SikuppiumDriver
+Capabilities [{appPackage=com.codoon.gps, networkConnectionEnabled=true, recreateChromeDriverSessions=true, warnings={}, databaseEnabled=false, deviceName=125683fc, platform=LINUX, deviceUDID=125683fc, appActivity=.ui.SlideActivity, desired={appPackage=com.codoon.gps, appActivity=.ui.SlideActivity, recreateChromeDriverSessions=true, platformVersion=6.0.1, automationName=Appium, unicodeKeyboard=true, sessionOverride=true, platformName=Android, deviceName=125683fc, resetKeyboard=true, unexpectedAlertBehaviour=accept}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, sessionOverride=true, platformName=Android, resetKeyboard=true, unexpectedAlertBehaviour=accept}]
+Session ID: 3c066ddf-9efa-4bbe-918a-eb5ba67c131d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MrdeMacBook-Pro.local', ip: '192.168.10.123', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
+Driver info: io.driver.SikuppiumDriver
+Capabilities [{appPackage=com.codoon.gps, networkConnectionEnabled=true, recreateChromeDriverSessions=true, warnings={}, databaseEnabled=false, deviceName=125683fc, platform=LINUX, deviceUDID=125683fc, appActivity=.ui.SlideActivity, desired={appPackage=com.codoon.gps, appActivity=.ui.SlideActivity, recreateChromeDriverSessions=true, platformVersion=6.0.1, automationName=Appium, unicodeKeyboard=true, sessionOverride=true, platformName=Android, deviceName=125683fc, resetKeyboard=true, unexpectedAlertBehaviour=accept}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, sessionOverride=true, platformName=Android, resetKeyboard=true, unexpectedAlertBehaviour=accept}]
+Session ID: 3c066ddf-9efa-4bbe-918a-eb5ba67c131d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:185)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:516)
+	at com.codoon.test.BaseTest.tearDownClass(BaseTest.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.TestNG.privateMain(TestNG.java:1339)
+	at org.testng.TestNG.main(TestNG.java:1308)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.codoon.test.DrycargoTest -->
+    </test> <!-- test1 -->
+  </suite> <!-- CodoonTest -->
+</testng-results>

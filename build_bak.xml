@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name= "testNG" basedir= "." default="regression">
+<property name= "lib.dir" value= "libs" />
+<path id= "test.classpath" >
+<!-- adding the saxon jar to your classpath -->
+<fileset dir= "${lib.dir}" includes= "*.jar" />
+</path>
+<target name= "regression" >
+<xslt in= "/Users/xiaoq/appium/AndroidAppiumFramework/test-output/testng-results.xml" style= "/Users/xiaoq/appium/AndroidAppiumFramework/test-output/testng-results.xsl"
+out= "/Users/xiaoq/appium/AndroidAppiumFramework/test-output/index1.html " >
+<!-- you need to specify the directory here again -->
+<param name= "testNgXslt.outputDir" expression= "/Users/xiaoq/appium/AndroidAppiumFramework/test-output" />
+<classpath refid= "test.classpath" />
+</xslt>
+</target>
+</project>

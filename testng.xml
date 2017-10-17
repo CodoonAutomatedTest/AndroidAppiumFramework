@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CodoonTest">
+    <test name="test1">
+        <groups>
+            <define name="其他">
+                <include name="other"/>
+            </define>
+            <define name="发布">
+                <include name="发布"/>
+            </define>
+            <define name="热门">
+                <include name="热门"/>
+            </define>
+            <define name="关注">
+                <include name="关注"/>
+            </define>
+            <define name="All">
+                <include name=".*"/>
+            </define>
+            <run>
+                <include name="All"/>
+                <!-- <include name="搜索" /> -->
+            </run>
+        </groups>
+        <classes>
+            <class name="com.codoon.test.SportCircleTest"/>
+            <class name="com.codoon.test.DrycargoTest"/>
+        </classes>
+
+    </test>
+
+    <listeners>
+        <!--<listener class-name="TezitongAll.TestngListener"></listener> //需要改成自己目录的路径和名称-->
+        <listener class-name="com.codoon.common.util.RetryListener"></listener>
+        <listener class-name="com.codoon.common.util.TestngListener"></listener>
+        <!--<listener class-name="TezitongAll.RetryListener"></listener>  //需要改成自己目录的路径和名称-->
+    </listeners>
+</suite>
+

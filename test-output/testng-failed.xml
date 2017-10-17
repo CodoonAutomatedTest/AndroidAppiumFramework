@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CodoonTest]">
+  <listeners>
+    <listener class-name="com.codoon.common.util.RetryListener"/>
+    <listener class-name="com.codoon.common.util.TestngListener"/>
+  </listeners>
+  <test name="test1(failed)">
+    <groups>
+      <run>
+        <include name="All"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.codoon.test.SportCircleTest">
+        <methods>
+          <include name="test019"/>
+          <include name="test018"/>
+          <include name="tearDownClass"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.codoon.test.SportCircleTest -->
+      <class name="com.codoon.test.DrycargoTest">
+        <methods>
+          <include name="test012"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test010"/>
+          <include name="test011"/>
+          <include name="test009"/>
+          <include name="tearDownClass"/>
+          <include name="test008"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.codoon.test.DrycargoTest -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [CodoonTest] -->
