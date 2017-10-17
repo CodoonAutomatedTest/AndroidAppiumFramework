@@ -1,5 +1,5 @@
 <project basedir="." default="regression" name="automation test">
-	<property name="base.dir" value="/Users/xiaoq/appium/AndroidAppiumFramework" />
+	<property name="base.dir" value="." />
 	<property name="testng.output.dir" value="${base.dir}/test-output" />
 	<property name="3rd.lib.dir" value="${base.dir}/libs" />
 	<property name="testng.file" value="testng.xml" />
