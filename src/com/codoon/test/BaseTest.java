@@ -1,12 +1,14 @@
 package com.codoon.test;
 
 
+import com.codoon.common.model.HomePage;
 import com.codoon.common.util.DeviceHelper;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.driver.CapabilitiesFactory;
 import io.driver.ImageElement;
 import io.driver.SikuppiumDriver;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -28,6 +30,7 @@ public class BaseTest {
 	
 	protected SikuppiumDriver driver;
 	public static DeviceHelper mHelper;
+    private static HomePage homePage;
 	private static int DISPLAY_WIDTH;
 	private static int DISPLAY_HEIGHT;
 	static int TIMEOUT = 5000;
@@ -52,9 +55,12 @@ public class BaseTest {
         
         PageFactory.initElements(new AppiumFieldDecorator(driver, 1, TimeUnit.SECONDS), this);
 		mHelper = DeviceHelper.getInstance(driver);
+        homePage = HomePage.getInstance(driver);
 		mHelper.setDefaultIme(defaultIME);
 		DISPLAY_WIDTH = driver.manage().window().getSize().width;
 		DISPLAY_HEIGHT = driver.manage().window().getSize().height;
+
+		runTestBefore();
         
     }
 
@@ -160,6 +166,31 @@ public class BaseTest {
             }
         }
         return score;
+    }
+
+    private void runTestBefore() throws InterruptedException {
+        if (driver.currentActivity()==""){
+            this.login();
+        }
+        if (mHelper.isExistBySelector(driver, homePage.advPopupCloseBy,1)){
+            driver.findElement(homePage.advPopupCloseBy).click();
+        }
+        if (mHelper.isExistBySelector(driver, homePage.descripCloseBy,1)){
+            driver.findElement(homePage.descripCloseBy).click();
+        }
+    }
+
+    private void login() throws InterruptedException {
+        while (driver.currentActivity().equals(".ui.login.LoginActivity")){
+            if (mHelper.isExistBySelector(driver,homePage.acceptOkBy,1)){
+                driver.findElement(homePage.acceptOkBy).click();
+            }
+            driver.findElement(By.id("com.codoon.gps:id/tv_login")).click();
+            driver.findElement(By.id("com.codoon.gps:id/login_text_account")).sendKeys("002@test.com");
+            driver.findElement(By.id("com.codoon.gps:id/login_text_password")).sendKeys("123456");
+            driver.findElement(By.id("com.codoon.gps:id/login_btn_experience")).click();
+        }
+        Thread.sleep(10*1000);
     }
 }
 
