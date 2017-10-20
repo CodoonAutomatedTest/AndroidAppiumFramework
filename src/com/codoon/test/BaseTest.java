@@ -169,13 +169,16 @@ public class BaseTest {
     }
 
     private void runTestBefore() throws InterruptedException {
+        LOG.info("开始执行用例的前置操作...");
         if (driver.currentActivity()==""){
             this.login();
         }
         if (mHelper.isExistBySelector(driver, homePage.advPopupCloseBy,1)){
+            LOG.info("发现广告浮层框...");
             driver.findElement(homePage.advPopupCloseBy).click();
         }
         if (mHelper.isExistBySelector(driver, homePage.descripCloseBy,1)){
+            LOG.info("发现灰测介绍框...");
             driver.findElement(homePage.descripCloseBy).click();
         }
     }
