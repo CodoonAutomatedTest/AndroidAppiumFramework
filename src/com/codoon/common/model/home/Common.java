@@ -26,6 +26,7 @@ public class Common {
     final static String advPopupCloseId = "com.codoon.gps:id/btn_cancel";
     final static String descriptionBeta = "com.codoon.gps:id/ll_description";
     final static String descriptionCloseText = "我知道了";
+    final static String accpetText = "确定";
 
     /*------------------------------------ Using --------------------------------------*/
     /**
@@ -40,6 +41,7 @@ public class Common {
     public static final String HOMEPAGE_DRYCARGO_TEXT = "text(\""+drycargoText+"\")";
     public static final String HOMEPAGE_MINE_TEXT = "text(\""+mineText+"\")";
     public static final String HOMEPAGE_DESCRIPTIONCLOSE_TEXT = "text(\""+descriptionCloseText+"\")";
+    public static final String LOGINPAGE_ACCPET_TEXT = "text(\""+accpetText+"\")";
 
     public static final String HOMEPAGE_ADVER_ID = "resourceId(\""+advPopupId+"\")";
     public static final String HOMEPAGE_ADVERCLOSE_ID = "resourceId(\""+advPopupCloseId+"\")";

@@ -29,6 +29,7 @@ public class HomePage {
     public static By advPopupCloseBy = MobileBy.id(HOMEPAGE_ADVERCLOSE_ID);
     public static By descripBy = MobileBy.id(HOMEPAGE_DESCRIPTION_ID);
     public static By descripCloseBy = MobileBy.AndroidUIAutomator(HOMEPAGE_DESCRIPTIONCLOSE_TEXT);
+    public static By acceptOkBy = MobileBy.AndroidUIAutomator(LOGINPAGE_ACCPET_TEXT);
 
 
     /*---------------------------------- find -----------------------------------------*/
