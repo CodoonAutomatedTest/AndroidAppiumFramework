@@ -34,7 +34,7 @@ import static org.testng.Assert.assertTrue;
  */
 public class DeviceHelper {
 	private final static Logger LOG = Logger.getLogger(DeviceHelper.class);
-	//private final static String ADB_PATH = "/Users/xiaoq/android-sdk-macosx/platform-tools/";
+//	private final static String ADB_PATH = "/Users/xiaoq/android-sdk-macosx/platform-tools/";
 	private final static String ADB_PATH = "/usr/local/Cellar/android-sdk/24.4.1_1/platform-tools/";
 
 	private static DeviceHelper instance;
@@ -407,8 +407,8 @@ public class DeviceHelper {
 	    if (!driver.getContext().equals("NATIVE_APP")){
 	        driver.context("NATIVE_APP");
         }
-
-		while (!driver.currentActivity().equals(".ui.SlideActivity")) {
+//		while (!driver.currentActivity().equals(".ui.SlideActivity")) {
+        while (!isExistBySelector(driver,MobileBy.AndroidUIAutomator("text(\"运动圈\")"))) {
 			LOG.info(driver.currentActivity());
 			this.pressBack(1);
 			times--;
@@ -1246,18 +1246,15 @@ public class DeviceHelper {
 		return result;
 	}
 
-	public boolean isExistBySelector(WebElement element, By by, int waitTime) {
+	public boolean isExistBySelector(WebDriver driver, By by) {
 		driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
 		boolean result = false;
-		for (int attempt = 0; attempt < waitTime; attempt++) {
 			try {
-				element.findElement(by);
+				driver.findElement(by);
 				result = true;
-				break;
 			} catch (Exception e) {
 				driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
 			}
-		}
 		return result;
 	}
 
