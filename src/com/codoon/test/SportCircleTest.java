@@ -15,6 +15,8 @@ import org.testng.annotations.Test;
 import com.codoon.common.model.HomePage;
 import com.codoon.common.model.SportcirclePage;
 
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -28,14 +30,13 @@ public class SportCircleTest extends BaseTest {
     private final static Logger LOG = Logger.getLogger(SportCircleTest.class);
     private static HomePage homePage;
     private static SessionId sessionId;
-    private  int crashCout = 1;
+    private  int crashCout = 0;
 
     private static SportcirclePage sportcirclePage;
 
     @BeforeMethod(alwaysRun = true)
     public void setUp() {
         sessionId = driver.getSessionId();
-
         homePage = HomePage.getInstance(driver);
         LOG.info("进入运动圈tab首页");
         homePage.sportcircleTab.click(); // 点击运动圈tab,进入运动圈首页
@@ -44,19 +45,32 @@ public class SportCircleTest extends BaseTest {
 
     @AfterMethod(alwaysRun = true)
     public void tearDown() throws Exception {
-        if(driver.getSessionId() != sessionId){
-            System.out.printf("crash: 发生了%d次！",crashCout++);
-            homePage = HomePage.getInstance(driver);
-        }else if(driver == null){
+        FileOutputStream out = null;
+        if(mHelper.isExistBySelector(driver,homePage.startSportsBy)){
+            String path = System.getProperty("user.dir");
+            crashCout++;
+            try{
+                out = new FileOutputStream(new File(path+"/CrashCout.log"));
+                out.write(Integer.toString(crashCout).getBytes());
+            }catch (Exception e){
+                e.printStackTrace();
+            }finally {
+                out.close();
+            }
+            return;
+        }else if (driver == null){
             driver = new SikuppiumDriver(
                     new URL("http://127.0.0.1:4723/wd/hub"),
                     CapabilitiesFactory.getCapabilities()
             );
             Thread.sleep(10000);
+            LOG.info("driver启动完毕，开始初始化testsuit...");
             driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
             driver.setDriver(driver);
             driver.setSimilarityScore(0.95);
             driver.setWaitSecondsAfterClick(2);
+            driver.setWaitSecondsForImage(10);
+
             PageFactory.initElements(new AppiumFieldDecorator(driver, 1, TimeUnit.SECONDS), this);
         }
         LOG.info("当前case执行完成，返回到App一级界面");
@@ -215,9 +229,10 @@ public class SportCircleTest extends BaseTest {
         sportcirclePage.infoInputEdit.sendKeys("Nice");
         sportcirclePage.infoSendBtn.click();
         Thread.sleep(1000L);
-        while(!mHelper.isExistBySelector(driver, sportcirclePage.textContainsBy("Nice"), 2)){
-            mHelper.swipeUp();
-        }
+        mHelper.searchBy(sportcirclePage.textContainsBy("Nice"), 10);
+//        while(!mHelper.isExistBySelector(driver, sportcirclePage.textContainsBy("Nice"), 2)){
+//            mHelper.swipeUp();
+//        }
         boolean a = mHelper.waitText("Nice", 2);
         Assert.assertTrue(a,"回复帖子失败");
     }
