@@ -4,17 +4,25 @@ import com.codoon.common.model.DrycargoPage;
 import com.codoon.common.model.HomePage;
 import com.codoon.common.util.WebH5Helper;
 import io.appium.java_client.MobileBy;
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.driver.CapabilitiesFactory;
+import io.driver.SikuppiumDriver;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.net.URL;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import static com.codoon.common.model.drycargo.Running.*;
 import static com.codoon.common.model.drycargo.Ride.*;
@@ -24,6 +32,7 @@ import static com.codoon.common.model.drycargo.Fitness.*;
 public class DrycargoTest extends BaseTest {
     private final static Logger LOG = Logger.getLogger(SportCircleTest.class);
     private static HomePage homePage;
+    private  int crashCout = 0;
     private static WebH5Helper webH5Helper;
     private static DrycargoPage drycargoPage;
 
@@ -37,7 +46,36 @@ public class DrycargoTest extends BaseTest {
     }
 
     @AfterMethod(alwaysRun = true)
-    public void tearDown() throws InterruptedException {
+    public void tearDown() throws Exception {
+        FileOutputStream out = null;
+        if(mHelper.isExistBySelector(driver,homePage.startSportsBy)){
+            String path = System.getProperty("user.dir");
+            crashCout++;
+            try{
+                out = new FileOutputStream(new File(path+"/CrashCout.log"));
+                out.write(crashCout);
+                out.close();
+            }catch (Exception e){
+                e.printStackTrace();
+            }finally {
+                out.close();
+            }
+            return;
+        }else if (driver == null){
+            driver = new SikuppiumDriver(
+                    new URL("http://127.0.0.1:4723/wd/hub"),
+                    CapabilitiesFactory.getCapabilities()
+            );
+            Thread.sleep(10000);
+            LOG.info("driver启动完毕，开始初始化testsuit...");
+            driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+            driver.setDriver(driver);
+            driver.setSimilarityScore(0.95);
+            driver.setWaitSecondsAfterClick(2);
+            driver.setWaitSecondsForImage(10);
+
+            PageFactory.initElements(new AppiumFieldDecorator(driver, 1, TimeUnit.SECONDS), this);
+        }
         LOG.info("当前case执行完成，返回到App一级界面");
         mHelper.pressBackToHomePage(5);
     }
