@@ -8,6 +8,7 @@ import io.driver.SikuppiumDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.SessionId;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import java.util.concurrent.TimeUnit;
 import static com.codoon.common.model.home.Common.*;
@@ -25,6 +26,7 @@ public class HomePage {
     public static By drycargoBy = MobileBy.AndroidUIAutomator(HOMEPAGE_DRYCARGO_TEXT);
     public static By mineBy = MobileBy.AndroidUIAutomator(HOMEPAGE_MINE_TEXT);
 
+    public static By startSportsBy = By.id(HOMEPAGE_GOSPORTS_ID);
     public static By advPopupBy = MobileBy.id(HOMEPAGE_ADVER_ID);
     public static By advPopupCloseBy = MobileBy.id(HOMEPAGE_ADVERCLOSE_ID);
     public static By descripBy = MobileBy.id(HOMEPAGE_DESCRIPTION_ID);
@@ -44,6 +46,8 @@ public class HomePage {
     public static WebElement drycargoTab;
     @AndroidFindBy(uiAutomator = HOMEPAGE_MINE_TEXT)
     public static WebElement mineTab;
+    @FindBy(id = HOMEPAGE_GOSPORTS_ID)
+    public static WebElement startSportsBtn;
 
 
     private HomePage(SikuppiumDriver driver) {
