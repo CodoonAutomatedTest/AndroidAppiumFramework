@@ -1,8 +1,13 @@
 package com.codoon.test;
 
 import io.appium.java_client.MobileBy;
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.driver.CapabilitiesFactory;
+import io.driver.SikuppiumDriver;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.SessionId;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -11,7 +16,10 @@ import com.codoon.common.model.HomePage;
 import com.codoon.common.model.SportcirclePage;
 
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author xiaoq 2017年9月4日
@@ -19,20 +27,38 @@ import java.util.List;
 public class SportCircleTest extends BaseTest {
     private final static Logger LOG = Logger.getLogger(SportCircleTest.class);
     private static HomePage homePage;
+    private static SessionId sessionId;
+    private  int crashCout = 1;
 
     private static SportcirclePage sportcirclePage;
 
     @BeforeMethod(alwaysRun = true)
     public void setUp() {
-        homePage = HomePage.getInstance(driver);
+        sessionId = driver.getSessionId();
 
+        homePage = HomePage.getInstance(driver);
         LOG.info("进入运动圈tab首页");
         homePage.sportcircleTab.click(); // 点击运动圈tab,进入运动圈首页
         sportcirclePage = SportcirclePage.getInstance(driver);
     }
 
     @AfterMethod(alwaysRun = true)
-    public void tearDown() throws InterruptedException {
+    public void tearDown() throws Exception {
+        if(driver.getSessionId() != sessionId){
+            System.out.printf("crash: 发生了%d次！",crashCout++);
+            homePage = HomePage.getInstance(driver);
+        }else if(driver == null){
+            driver = new SikuppiumDriver(
+                    new URL("http://127.0.0.1:4723/wd/hub"),
+                    CapabilitiesFactory.getCapabilities()
+            );
+            Thread.sleep(10000);
+            driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+            driver.setDriver(driver);
+            driver.setSimilarityScore(0.95);
+            driver.setWaitSecondsAfterClick(2);
+            PageFactory.initElements(new AppiumFieldDecorator(driver, 1, TimeUnit.SECONDS), this);
+        }
         LOG.info("当前case执行完成，返回到App一级界面");
         mHelper.pressBackToHomePage(5);
     }
