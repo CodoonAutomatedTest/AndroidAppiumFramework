@@ -46,5 +46,6 @@ public class Common {
     public static final String HOMEPAGE_ADVER_ID = "resourceId(\""+advPopupId+"\")";
     public static final String HOMEPAGE_ADVERCLOSE_ID = "resourceId(\""+advPopupCloseId+"\")";
     public static final String HOMEPAGE_DESCRIPTION_ID = "resourceId(\""+descriptionBeta+"\")";
+    public static final String HOMEPAGE_GOSPORTS_ID = "com.codoon.gps:id/start_btn";
 
 }
