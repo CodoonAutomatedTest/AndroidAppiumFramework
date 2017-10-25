@@ -1,35 +1,54 @@
-<project basedir="." default="regression" name="automation test">
-	<property name="base.dir" value="." />
-	<property name="testng.output.dir" value="${base.dir}/test-output" />
-	<property name="3rd.lib.dir" value="${base.dir}/libs" />
-	<property name="testng.file" value="testng.xml" />
+<?xml version="1.0" encoding="UTF-8"?>
 
-	<taskdef resource="testngtasks" classpath="${3rd.lib.dir}/testng-6.9.4.jar" />
+<project basedir="." default="regression" name="automation test"> <!--默认使用testoutput任务-->
+	<property name="base.dir" value="/Users/xiaoq/appium/AndroidAppiumFramework"/><!--项目根目录-->
+	<property name="testng.output.dir" value="${base.dir}/test-output"/><!--配置结果输出地址-->
+	<property name="lib.dir" value="${base.dir}/libs"/><!--设置其他jar包目录-->
+	<property name="testng.file" value="${base.dir}/testng.xml"/> <!--调用的testng用例执行xml文件，这里是文件名-->
+	<!-- <property name="testdir" location="test" /> <!--设置编译的2进制文件目录--> -->
+	<taskdef resource="testngtasks" classpath="${lib.dir}/testng-6.9.4.jar"/><!--导入testng的jar包-->
 
-	<target name="clean">
-		<delete dir="${base.dir}/bin" />
+	<target name="clean"> <!--清除之前的2进制文件-->
+		<delete dir="${base.dir}/bin"/>
 	</target>
+
 	<target name="compile" depends="clean">
-		<mkdir dir="${base.dir}/bin" />
-		<javac srcdir="${base.dir}/src" destdir="${base.dir}/bin" classpathref="classes" includeantruntime="off" debug="on" debuglevel="lines,vars,source" />
-	</target>
+		<mkdir dir="${base.dir}/bin"/><!--新建2进制文件存放目录-->
+		<mkdir dir="result"/> <!--新建结果导出目录-->
+		<javac srcdir="${base.dir}/src" encoding="UTF-8" destdir="${testdir}" classpathref="classes" includeantruntime="off" debug="on" debuglevel="lines,vars,source"/>
+	</target> <!--编译java程序-->
 
-	<path id="classes">
-		<fileset dir="${3rd.lib.dir}" includes="*jar" />
-		<fileset dir="${3rd.lib.dir}" includes="*zip" />
-		<pathelement location="${base.dir}/bin" />
+	<path id="classes"> <!--设置jar包相关-->
+		<fileset dir="${lib.dir}" includes="*.jar"/>
+		<pathelement location="${base.dir}/bin"/>
+		<pathelement location="${base.dir}/src" />
 	</path>
 
-	<target name="regression" depends="compile" description="执行TestNg测试用例">
-<!-- 		<tstamp prefix="buildtime" >    
-    		<format property="TimeSign" pattern="yyyyMMddHHmmss" />    
-  		</tstamp>   -->  
-		<!-- <testng outputdir="${testng.output.dir}-${buildtime.TimeSign}"  -->
+	<target name="runtest" depends="compile">
+	<!--运行testng文件-->
+	<!-- 在target里面新建一个testng标签，里面需要设置的属性有：outputdir – 测试结果输出目录；classpathref – 那些自动化测试代码的目标路径，通常就是编译完成以后的那个目标路径，例如xxx/bin；delegateCommandSystemProperties – 接受传递命令行参数作为系统变量，这个设置为true可以在调用Ant的时候通过 -Dfoo=value 把参数传递给TestNG；里面还有一个xmlfileset节点，这个节点就是指定testng.xml文件的目录以及具体文件。 -->
 		<testng outputdir="${testng.output.dir}" 
-			classpathref="classes" 
-			delegateCommandSystemProperties="true" 
-			haltOnfailure="true">
-			<xmlfileset dir="${base.dir}" includes="${testng.file}" />
-		</testng>
+	    	classpathref="classes"
+	     	delegateCommandSystemProperties="true">
+			<xmlfileset dir="${base.dir}" includes="testng.xml"/> <!--在指定路径下，找文件名由testng.file--> 
+		</testng> <!--定义的testng.xml文件-->
+	</target>
+
+    <tstamp>   
+        <format property="CURTIME" pattern="yyyyMMdd_HHmmss" locale="CN"/>   <!--设置当前时间-->
+    </tstamp>   
+	<path id= "test.classpath" >
+		<fileset dir= "${lib.dir}" includes= "*.jar" />
+	</path>
+
+	<target name= "testoutput" depends="runtest" >
+		<xslt in= "test-output/testng-results.xml" style= "test-output/testng-results.xsl"
+			out= "result/${CURTIME}/index.html " >
+			<param name= "testNgXslt.outputDir" expression="${base.dir}/result/${CURTIME}/" />
+		 	<param name="testNgXslt.showRuntimeTotals" expression="true"/>
+		  	<param name="testNgXslt.sortTestCaseLinks" expression="true" />
+		 	<param name="testNgXslt.testDetailsFilter" expression="FAIL,SKIP,PASS,CONF,BY_CLASS" />
+			<classpath refid= "test.classpath" />
+		</xslt>
 	</target>
 </project>
