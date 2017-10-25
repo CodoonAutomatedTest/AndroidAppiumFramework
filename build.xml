@@ -14,7 +14,7 @@
 	<target name="compile" depends="clean">
 		<mkdir dir="${base.dir}/bin"/><!--新建2进制文件存放目录-->
 		<mkdir dir="result"/> <!--新建结果导出目录-->
-		<javac srcdir="${base.dir}/src" encoding="UTF-8" destdir="${testdir}" classpathref="classes" includeantruntime="off" debug="on" debuglevel="lines,vars,source"/>
+		<javac srcdir="${base.dir}/src" encoding="UTF-8" destdir="${base.dir}/bin" classpathref="classes" includeantruntime="off" debug="on" debuglevel="lines,vars,source"/>
 	</target> <!--编译java程序-->
 
 	<path id="classes"> <!--设置jar包相关-->
