@@ -5,7 +5,6 @@
 	<property name="testng.output.dir" value="${base.dir}/test-output"/><!--配置结果输出地址-->
 	<property name="lib.dir" value="${base.dir}/libs"/><!--设置其他jar包目录-->
 	<property name="testng.file" value="${base.dir}/testng.xml"/> <!--调用的testng用例执行xml文件，这里是文件名-->
-	<!-- <property name="testdir" location="test" /> <!--设置编译的2进制文件目录--> -->
 	<taskdef resource="testngtasks" classpath="${lib.dir}/testng-6.9.4.jar"/><!--导入testng的jar包-->
 
 	<target name="clean"> <!--清除之前的2进制文件-->
