@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project basedir="." default="regression" name="automation test"> <!--默认使用testoutput任务-->
-	<property name="base.dir" value="/Users/xiaoq/appium/AndroidAppiumFramework"/><!--项目根目录-->
+<project basedir="." default="runtest" name="automation test"> <!--默认使用testoutput任务-->
+	<property name="base.dir" value="/Users/codoon1/.jenkins/workspace/Automation"/><!--项目根目录-->
 	<property name="testng.output.dir" value="${base.dir}/test-output"/><!--配置结果输出地址-->
 	<property name="lib.dir" value="${base.dir}/libs"/><!--设置其他jar包目录-->
 	<property name="testng.file" value="${base.dir}/testng.xml"/> <!--调用的testng用例执行xml文件，这里是文件名-->
