@@ -48,6 +48,8 @@ public class HomePage {
     public static WebElement mineTab;
     @FindBy(id = HOMEPAGE_GOSPORTS_ID)
     public static WebElement startSportsBtn;
+    @AndroidFindBy(id = HOMEPAGE_ADVERCLOSE_ID)
+    public static WebElement advrCloseBtn;
 
 
     private HomePage(SikuppiumDriver driver) {
