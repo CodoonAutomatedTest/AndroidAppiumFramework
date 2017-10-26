@@ -39,6 +39,9 @@ public class SportCircleTest extends BaseTest {
         sessionId = driver.getSessionId();
         homePage = HomePage.getInstance(driver);
         LOG.info("进入运动圈tab首页");
+        if(mHelper.isExistBySelector(driver,homePage.advPopupBy)){
+            homePage.advrCloseBtn.click();
+        }
         homePage.sportcircleTab.click(); // 点击运动圈tab,进入运动圈首页
         sportcirclePage = SportcirclePage.getInstance(driver);
     }
@@ -285,7 +288,7 @@ public class SportCircleTest extends BaseTest {
     public void test011() throws InterruptedException {
 //        sportcirclePage.gotoHot(); // 点击“热门”tab
         sportcirclePage.hotTabIcon.click(); // 点击“热门”tab
-        mHelper.searchBy(sportcirclePage.talentBy, 30000);
+        mHelper.searchBy(sportcirclePage.talentBy, 10);
         mHelper.moveToHalfScreen(sportcirclePage.talentTag);
         List<WebElement> careSet = mHelper.findElementsToDown(sportcirclePage.talentBy, 0, sportcirclePage.followBtnBy);
         List<WebElement> caredSet = mHelper.findElementsToDown(sportcirclePage.talentBy, 0, sportcirclePage.followedBtnBy);
@@ -444,7 +447,7 @@ public class SportCircleTest extends BaseTest {
     public void test020() throws InterruptedException {
 //        sportcirclePage.gotoCare();
         sportcirclePage.caredTabIcon.click();
-        mHelper.searchBy(sportcirclePage.suggestUserBy, 20 * 1000);
+        mHelper.searchBy(sportcirclePage.suggestUserBy, 20);
         mHelper.moveToHalfScreen(sportcirclePage.suggestUserTag);
         String change = mHelper.getElementsText(sportcirclePage.userNickLabel);
         LOG.info(change);
