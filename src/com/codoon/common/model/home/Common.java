@@ -25,6 +25,7 @@ public class Common {
     final static String advPopupId = "com.codoon.gps:id/ads_content";
     final static String advPopupCloseId = "com.codoon.gps:id/btn_cancel";
     final static String descriptionBeta = "com.codoon.gps:id/ll_description";
+    final static String sportsAcitonId = "com.codoon.gps:id/start_btn";
     final static String descriptionCloseText = "我知道了";
     final static String accpetText = "确定";
 
@@ -46,6 +47,6 @@ public class Common {
     public static final String HOMEPAGE_ADVER_ID = "resourceId(\""+advPopupId+"\")";
     public static final String HOMEPAGE_ADVERCLOSE_ID = "resourceId(\""+advPopupCloseId+"\")";
     public static final String HOMEPAGE_DESCRIPTION_ID = "resourceId(\""+descriptionBeta+"\")";
-    public static final String HOMEPAGE_GOSPORTS_ID = "com.codoon.gps:id/start_btn";
+    public static final String HOMEPAGE_GOSPORTS_ID = "resourceId(\""+sportsAcitonId+"\")";
 
 }

@@ -26,11 +26,12 @@ public class HomePage {
     public static By drycargoBy = MobileBy.AndroidUIAutomator(HOMEPAGE_DRYCARGO_TEXT);
     public static By mineBy = MobileBy.AndroidUIAutomator(HOMEPAGE_MINE_TEXT);
 
-    public static By startSportsBy = By.id(HOMEPAGE_GOSPORTS_ID);
-    public static By advPopupBy = MobileBy.id(HOMEPAGE_ADVER_ID);
-    public static By advPopupCloseBy = MobileBy.id(HOMEPAGE_ADVERCLOSE_ID);
-    public static By descripBy = MobileBy.id(HOMEPAGE_DESCRIPTION_ID);
+    public static By startSportsBy = MobileBy.AndroidUIAutomator(HOMEPAGE_GOSPORTS_ID);
+    public static By advPopupBy = MobileBy.AndroidUIAutomator(HOMEPAGE_ADVER_ID);
+    public static By advPopupCloseBy = MobileBy.AndroidUIAutomator(HOMEPAGE_ADVERCLOSE_ID);
+    public static By descripBy = MobileBy.AndroidUIAutomator(HOMEPAGE_DESCRIPTION_ID);
     public static By descripCloseBy = MobileBy.AndroidUIAutomator(HOMEPAGE_DESCRIPTIONCLOSE_TEXT);
+//    public static By acceptOkBy = MobileBy.AndroidUIAutomator(LOGINPAGE_ACCPET_TEXT);
     public static By acceptOkBy = MobileBy.AndroidUIAutomator(LOGINPAGE_ACCPET_TEXT);
 
 
@@ -46,9 +47,9 @@ public class HomePage {
     public static WebElement drycargoTab;
     @AndroidFindBy(uiAutomator = HOMEPAGE_MINE_TEXT)
     public static WebElement mineTab;
-    @FindBy(id = HOMEPAGE_GOSPORTS_ID)
+    @AndroidFindBy(uiAutomator = HOMEPAGE_GOSPORTS_ID)
     public static WebElement startSportsBtn;
-    @AndroidFindBy(id = HOMEPAGE_ADVERCLOSE_ID)
+    @AndroidFindBy(uiAutomator = HOMEPAGE_ADVERCLOSE_ID)
     public static WebElement advrCloseBtn;
 
 
