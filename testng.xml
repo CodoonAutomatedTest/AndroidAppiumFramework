@@ -27,6 +27,7 @@
         <classes>
             <class name="com.codoon.test.SportCircleTest"/>
             <class name="com.codoon.test.DrycargoTest"/>
+            <class name="com.codoon.test.MineTest"/>
         </classes>
 
     </test>
