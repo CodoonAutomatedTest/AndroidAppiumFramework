@@ -19,15 +19,23 @@ public class Profile {
 
     private static final String caredTitleText = "关注";
     private static final String fansTitleText = "粉丝";
+    private static final String honorWallText = "荣誉奖章墙";
+    private static final String macthMedalText = "赛事奖章";
+    private static final String groupText = "运动团";
+    private static final String groupTitleText = "团主页";
 
     public static final String PROFILE_CARED_LABEL_ID = "com.codoon.gps:id/user_center_guanzhu_container";
     public static final String PROFILE_FANS_LABEL_ID = "com.codoon.gps:id/user_center_fensi_container";
     public static final String PROFILE_DYNAMIC_LABEL_ID = "com.codoon.gps:id/my_feed_dongtai_layout";
+    public static final String PROFILE_SPORTS_TOTAL_ID = "com.codoon.gps:id/user_center_sport1";
+    public static final String PROFILE_SPORTS_MONTH_ID = "com.codoon.gps:id/user_center_sport2";
 
 
     public static final String PROFILE_RUN_LEVEL_ID = "com.codoon.gps:id/run_level";
     public static final String PROFILE_WALK_LEVEL_ID = "com.codoon.gps:id/walk_level";
     public static final String PROFILE_RIDE_LEVEL_ID = "com.codoon.gps:id/riding_level";
+    public static final String PROFILE_SPORT_METAL_ID = "com.codoon.gps:id/user_center_sport_container";
+    public static final String PROFILE_GROUP_ID = "ccom.codoon.gps:id/user_center_group_viewpager";
 
      /*------------------------------------ Using --------------------------------------*/
      public static final String PROFILE_CANCEL_TEXT = "text(\""+cancelText+"\")";
@@ -41,7 +49,10 @@ public class Profile {
      public static final String PROFILE_EDIT_AGE_TEXT = "text(\""+changAgeText+"\")";
      public static final String PROFILE_EDIT_HEIGH_TEXT = "text(\""+changHeightText+"\")";
      public static final String PROFILE_EDIT_WEIGHT_TEXT = "text(\""+changWeightText+"\")";
-
+     public static final String PROFILE_HONNOR_WALL_TEXT = "text(\""+honorWallText+"\")";
     public static final String PROFILE_CAREDTITLE_TEXT = "text(\""+caredTitleText+"\")";
     public static final String PROFILE_FANSTITLE_TEXT = "text(\""+fansTitleText+"\")";
+    public static final String PROFILE_MACTH_MEDAL_TEXT = "text(\""+macthMedalText+"\")";
+    public static final String PROFILE_GROUP_TEXT = "text(\""+groupText+"\")";
+    public static final String PROFILE_GROUP_HOMEPAGE_TEXT = "text(\""+groupTitleText+"\")";
 }

@@ -10,10 +10,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.SessionId;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import java.net.MalformedURLException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import static com.codoon.common.model.mine.Common.*;
 import static com.codoon.common.model.mine.Profile.*;
+import static com.codoon.common.model.mine.History.*;
 
 public class MinePage {
     private static MinePage instance;
@@ -25,6 +30,11 @@ public class MinePage {
     public static By editTitleBy = MobileBy.AndroidUIAutomator(PROFILE_EDITTITLE_TEXT);
     public static By caredTitleBy = MobileBy.AndroidUIAutomator(PROFILE_CAREDTITLE_TEXT);
     public static By fansTitleBy = MobileBy.AndroidUIAutomator(PROFILE_FANSTITLE_TEXT);
+    public static By groupBy = MobileBy.AndroidUIAutomator(PROFILE_GROUP_TEXT);
+    public static By groupTitleBy = MobileBy.AndroidUIAutomator(PROFILE_GROUP_HOMEPAGE_TEXT);
+    public static By honnorWallTitleBy = MobileBy.AndroidUIAutomator(PROFILE_HONNOR_WALL_TEXT);
+    public static By honnorWallBy = By.id(PROFILE_SPORT_METAL_ID);
+    public static By runLevelBy = By.id(PROFILE_RUN_LEVEL_ID);
 
     /*---------------------------------- find -----------------------------------------*/
     @FindBy(id = MY_HEAD_IMG_ID)
@@ -59,6 +69,73 @@ public class MinePage {
     public WebElement walkLevelLabel;
     @FindBy(id = PROFILE_RIDE_LEVEL_ID)
     public WebElement rideLevelLabel;
+    @FindBy(id = PROFILE_SPORTS_TOTAL_ID)
+    public WebElement sportsTotalLabel;
+    @FindBy(id = PROFILE_SPORTS_MONTH_ID)
+    public WebElement sportsMonthLabel;
+    @AndroidFindBy(uiAutomator = MY_HISTORY_VIEW_TEXT)
+    public WebElement historyViewBtn;
+    @AndroidFindBy(uiAutomator = MY_SPORTSDATA_STAT_TEXT)
+    public WebElement statChartBtn;
+    @AndroidFindBy(uiAutomator = MY_SPORTSDATA_WEEK_TEXT)
+    public WebElement weekBtn;
+    @AndroidFindBy(uiAutomator = MY_SPORTSDATA_MONTH_TEXT)
+    public WebElement monthBtn;
+    @AndroidFindBy(uiAutomator = MY_SPORTSDATA_ALL_TEXT)
+    public WebElement allBtn;
+    @FindBy(id = MY_SPORTSSTAT_TITLE_ID)
+    public WebElement sportsTypeLabel;
+    @FindBy(id = MY_SPORTS_VALUE_ID)
+    public WebElement dataValueLabel;
+    @FindBy(id = PROFILE_GROUP_ID)
+    public WebElement groupCard;
+
+
+    /*---------------------------------- logic -----------------------------------------*/
+    public List<Float> getSportsData(String imageElement) throws InterruptedException, MalformedURLException {
+        List<Float> dataList = new ArrayList<Float>();
+        float monthData;
+        float totalData;
+        sportsTypeLabel.click();
+        if (mHelper.isExistImageElement(imageElement,1)){
+            driver.findImageElement(imageElement+".png").tap();
+        }else{
+            mHelper.pressBack(1);
+        }
+        monthBtn.click();
+        if (dataValueLabel.getText().equals("--")){
+            monthData = 0;
+        }else{
+            monthData = Float.parseFloat(dataValueLabel.getText());
+        }
+        dataList.add(monthData);
+        allBtn.click();
+        if (dataValueLabel.getText().equals("--")){
+            totalData = 0;
+        } else {
+            totalData = Float.parseFloat(dataValueLabel.getText());
+        }
+        dataList.add(totalData);
+        return dataList;
+    }
+
+    public boolean shareChecker() throws MalformedURLException, InterruptedException {
+        driver.findImageElement("share.png").tap();
+        boolean b1 = mHelper.isExistImageElement("sportcircle_share",1);
+        boolean b2 = mHelper.isExistImageElement("qq_share",1);
+        boolean b3 = mHelper.isExistImageElement("wechat_share",1);
+        boolean b4 = mHelper.isExistImageElement("friendcircle_share",1);
+        boolean b5 = mHelper.isExistImageElement("codoon_share",1);
+        boolean b6 = mHelper.isExistImageElement("qqzone_share",1);
+        return b1 && b2 && b3 && b4 && b5 && b6;
+    }
+
+    public boolean shareMedalChecker() throws MalformedURLException, InterruptedException {
+        Thread.sleep(2000L);
+        driver.findImageElement("7days_keeping.png").tap();
+        boolean b1 = mHelper.isExistImageElement("7days_keeping_detail",1);
+        return b1;
+    }
 
     private MinePage(SikuppiumDriver driver) {
         PageFactory.initElements(new AppiumFieldDecorator(driver, 5, TimeUnit.SECONDS), this);

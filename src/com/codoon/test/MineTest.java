@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
+import java.util.List;
 
 public class MineTest extends BaseTest {
     private final static Logger LOG = Logger.getLogger(MineTest.class);
@@ -112,5 +113,57 @@ public class MineTest extends BaseTest {
         }
     }
 
+    @Test(groups = { "profile" })
+    public void test006() throws IOException, InterruptedException {
+        minePage.headIcon.click();
+        float totalSport = Float.parseFloat(minePage.sportsTotalLabel.getText());
+        totalSport =  (float)(Math.ceil(totalSport*100))/100;
+        float currentSport = Float.parseFloat(minePage.sportsMonthLabel.getText());
+        currentSport =  (float)(Math.ceil(currentSport*100))/100;
+        mHelper.pressBackToHomePage(3);
+        minePage.historyViewBtn.click();
+        minePage.statChartBtn.click();
+//        minePage.sportsTypeLabel.click();
+        List<Float> walkList = minePage.getSportsData("walk");
+        List<Float> runList = minePage.getSportsData("run");
+        List<Float> rideList = minePage.getSportsData("ride");
+        float currentSum =  walkList.get(0) + runList.get(0) + rideList.get(0);
+        currentSum =  (float)(Math.ceil(currentSum*100))/100;
+        float totalSum =  walkList.get(1) + runList.get(1) + rideList.get(1);
+        totalSum =  (float)(Math.ceil(totalSum*100))/100;
+        LOG.info(totalSport);
+        LOG.info(totalSum);
+        Assert.assertTrue(totalSport==totalSum,"运动档案数据与统计不一致");
+    }
 
+    @Test(groups = { "profile" })
+    public void test007() throws MalformedURLException, InterruptedException {
+        minePage.headIcon.click();
+        mHelper.findElementToDown(minePage.runLevelBy,0,minePage.honnorWallBy).click();
+        boolean a = mHelper.isExistBySelector(driver,minePage.honnorWallTitleBy);
+        Assert.assertTrue(a,"进入奖章墙失败");
+        boolean share = minePage.shareChecker();
+        Assert.assertTrue(share,"分享途径错误");
+    }
+
+    @Test(groups = { "profile" })
+    public void test008() throws MalformedURLException, InterruptedException {
+        minePage.headIcon.click();
+        mHelper.findElementToDown(minePage.runLevelBy,0,minePage.honnorWallBy).click();
+        boolean detail = minePage.shareMedalChecker();
+        Assert.assertTrue(detail,"奖章详情页显示错误");
+    }
+
+    @Test(groups = { "profile" })
+    public void test009() throws MalformedURLException, InterruptedException {
+        minePage.headIcon.click();
+        boolean found = mHelper.searchBy(minePage.groupBy,5);
+        if (found){
+            minePage.groupCard.click();
+            boolean group = mHelper.isExistBySelector(driver,minePage.groupTitleBy);
+            Assert.assertTrue(group,"进入运动团主页失败");
+        }else {
+            LOG.info("没有找到运动团tag标签");
+        }
+    }
 }

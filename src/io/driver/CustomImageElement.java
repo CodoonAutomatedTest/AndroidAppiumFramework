@@ -27,7 +27,8 @@ public class CustomImageElement implements ImageElement {
 
     @Override
     public ImageElement tap() {
-        driver.tap(1, x + width / 2, y + height / 2, 100);
+        System.out.printf("点击坐标: %d,%d",x + width / 2,y + height / 2);
+        driver.tap(1, x + width / 2, y + height / 2, 1000);
         try {
             waitAfterClick();
         } catch (InterruptedException e) {
