@@ -466,15 +466,18 @@ public class SportCircleTest extends BaseTest {
     public void test021() throws InterruptedException {
 //        sportcirclePage.gotoCare();
         sportcirclePage.caredTabIcon.click();
-        while (!mHelper.isExistBySelector(driver, sportcirclePage.feedNearbyTagBy, 2)) {
-            mHelper.swipeUp();
+        boolean nearby = mHelper.searchBy(sportcirclePage.feedNearbyTagBy,15);
+        if (nearby){
+            mHelper.moveToHalfScreen(sportcirclePage.nearbyFeed);
+            sportcirclePage.clickHotpageMore(sportcirclePage.feedNearbyLabelBy);
+            boolean more = mHelper.isExistBySelector(driver, sportcirclePage.feedNearbyMoreBy, 5); // 判断是否跳转话题列表页
+            LOG.info("result passed is: " + more);
+            boolean load = mHelper.swipeUpLoadMore(sportcirclePage.feedNickLabel, 10);
+            Assert.assertTrue(load, "附近动态加载更多 失败");
+        } else {
+            LOG.info("未找到附近动态tag标签");
         }
-        mHelper.moveToHalfScreen(sportcirclePage.nearbyFeed);
-        sportcirclePage.clickHotpageMore(sportcirclePage.feedNearbyLabelBy);
-        boolean more = mHelper.isExistBySelector(driver, sportcirclePage.feedNearbyMoreBy, 5); // 判断是否跳转话题列表页
-        LOG.info("result passed is: " + more);
-        boolean load = mHelper.swipeUpLoadMore(sportcirclePage.feedNickLabel, 10);
-        Assert.assertTrue(load, "附近动态加载更多 失败");
+
     }
 //
     /**

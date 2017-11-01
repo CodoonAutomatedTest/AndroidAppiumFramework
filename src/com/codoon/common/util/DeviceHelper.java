@@ -1330,11 +1330,11 @@ public class DeviceHelper {
 	public boolean isExistImageElement(String resourceName, int secondsToWait)
 			throws InterruptedException, MalformedURLException {
 		sleep(2000);
-		String prefix = String.valueOf(driver.getSize().getWidth()) + "x_";
-		resourceName = prefix.replace(".0", "") + resourceName + ".png";
-		URL resource = this.getClass().getClassLoader().getResource(resourceName);
-		System.out.println(resource);
-		ImageElement image = driver.findImageElement(resourceName);
+//		String prefix = String.valueOf(driver.getSize().getWidth()) + "x_";
+//		resourceName = prefix.replace(".0", "") + resourceName + ".png";
+//		URL resource = this.getClass().getClassLoader().getResource(resourceName);
+//		System.out.println(resourceName);
+		ImageElement image = driver.findImageElement(resourceName+".png");
 
 		int attempts = 0;
 		while (image == null && attempts < secondsToWait / 10) {
