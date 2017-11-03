@@ -166,4 +166,175 @@ public class MineTest extends BaseTest {
             LOG.info("没有找到运动团tag标签");
         }
     }
+
+    @Test(groups = { "profile" })
+    public void test010() throws MalformedURLException, InterruptedException {
+        minePage.headIcon.click();
+        boolean found = mHelper.searchBy(minePage.myfeedBy, 10);
+        if (found) {
+            boolean feed = mHelper.swipeUpLoadMore(minePage.feedTimeLabel, 1);
+            Assert.assertTrue(feed, "我的动态加载更多失败");
+        } else {
+            LOG.info("没有找到我的动态tag标签");
+        }
+    }
+
+    @Test(groups = { "profile" })
+    public void test011(){
+        minePage.headIcon.click();
+        minePage.fansLabel.click();
+        String name = minePage.fansListNickItem.getText();
+        minePage.fansListViewItem.click();
+        String nick = minePage.nickLabel.getText();
+        Assert.assertEquals(name,nick,"个人资料客人态信息不符");
+    }
+
+    @Test(groups = { "profile" })
+    public void test012(){
+        minePage.headIcon.click();
+        minePage.fansLabel.click();
+        minePage.fansListViewItem.click();
+        minePage.hisFansLabel.click();
+        boolean b = mHelper.isExistBySelector(driver,minePage.fansTitleBy);
+        Assert.assertTrue(b,"个人资料客人态进入粉丝列表失败");
+
+    }
+
+    @Test(groups = { "profile" })
+    public void test013(){
+        minePage.headIcon.click();
+        minePage.fansLabel.click();
+        minePage.fansListViewItem.click();
+        minePage.hisCaredLabel.click();
+        boolean b = mHelper.isExistBySelector(driver,minePage.caredTitleBy);
+        Assert.assertTrue(b,"个人资料客人态进入关注列表失败");
+
+    }
+
+    @Test(groups = { "profile" })
+    public void test014(){
+        boolean care = false;
+        minePage.headIcon.click();
+        minePage.fansLabel.click();
+        minePage.fansListViewItem.click();
+        if (minePage.profileFollowBtn.getText().equals("关注")){
+            minePage.profileFollowBtn.click();
+            care = minePage.profileFollowBtn.getText().equals("已关注");
+        }else{
+            minePage.profileFollowBtn.click();
+            minePage.cancelFollowedBtn.click();
+            care = minePage.profileFollowBtn.getText().equals("关注");
+        }
+        Assert.assertTrue(care,"个人资料关注按钮无效");
+    }
+
+    @Test(groups = { "profile" })
+    public void test015(){
+        boolean care = false;
+        minePage.headIcon.click();
+        minePage.fansLabel.click();
+        minePage.fansListViewItem.click();
+        if (minePage.profileFollowBtn.getText().equals("关注")){
+            minePage.profileFollowBtn.click();
+            care = minePage.profileFollowBtn.getText().equals("已关注");
+        }else{
+            minePage.profileFollowBtn.click();
+            minePage.cancelFollowedBtn.click();
+            care = minePage.profileFollowBtn.getText().equals("关注");
+        }
+        Assert.assertTrue(care,"个人资料关注按钮无效");
+    }
+
+    @Test(groups = { "profile" })
+    public void test016() throws IOException, InterruptedException {
+        minePage.headIcon.click();
+        minePage.fansLabel.click();
+        minePage.fansListViewItem.click();
+        minePage.profileSendBtn.click();
+        boolean a = isImageExist("send_message.png",2);
+        Assert.assertTrue(a,"个人资料发送消息按钮无效");
+    }
+
+    @Test(groups = { "profile" })
+    public void test017() throws IOException, InterruptedException {
+        minePage.headIcon.click();
+        minePage.fansLabel.click();
+        minePage.fansListViewItem.click();
+        if (minePage.profileFollowBtn.getText().equals("已关注")){
+            minePage.profileFollowBtn.click();
+            minePage.cancelFollowedBtn.click();
+        }
+        mHelper.swipeUpQuickly(10);
+        boolean a = isImageExist("discared_feed.png",2);
+        Assert.assertTrue(a,"Feed底部关注按钮未显示");
+    }
+
+    @Test(groups = { "profile" })
+    public void test018() throws InterruptedException, MalformedURLException {
+        minePage.headIcon.click();
+        minePage.fansLabel.click();
+        minePage.fansListViewItem.click();
+        mHelper.searchBy(minePage.hisfeedBy,10);
+        mHelper.moveToHalfScreen(minePage.hisfeedTag);
+        if (mHelper.isExistImageElement("feed_liked",2)){
+            driver.findImageElement("feed_liked.png").tap();
+            boolean a = mHelper.isExistImageElement("feed_unlike",2);
+            boolean b = !mHelper.isExistImageElement("feed_liked",2);
+            Assert.assertTrue(a&&b,"个人资料feed取消点赞失败");
+        } else{
+            driver.findImageElement("feed_unlike.png").tap();
+            boolean a = !mHelper.isExistImageElement("feed_unlike",2);
+            boolean b = mHelper.isExistImageElement("feed_liked",2);
+            Assert.assertTrue(a&&b,"个人资料feed点赞失败");
+        }
+    }
+
+    @Test(groups = { "profile" })
+    public void test019() throws InterruptedException {
+        minePage.headIcon.click();
+        minePage.fansLabel.click();
+        minePage.fansListViewItem.click();
+        mHelper.searchBy(minePage.hisfeedBy,10);
+        mHelper.moveToHalfScreen(minePage.hisfeedTag);
+        minePage.profileFeedMoreBtn.click();
+        minePage.profileReportBtn.click();
+        boolean report = mHelper.waitForVisible(driver, minePage.reportReason, 10);
+        Assert.assertTrue(report, "feed举报 失败");
+    }
+
+    @Test(groups = { "profile" })
+    public void test020() throws InterruptedException {
+        minePage.headIcon.click();
+        minePage.fansLabel.click();
+        minePage.fansListViewItem.click();
+        if (minePage.profileFollowBtn.getText().equals("关注")){
+            minePage.profileFollowBtn.click();
+        }
+        mHelper.searchBy(minePage.hisfeedBy,10);
+        mHelper.moveToHalfScreen(minePage.hisfeedTag);
+        boolean a = mHelper.swipeUpLoadMore(minePage.feedContentLabel,5);
+        Assert.assertTrue(a,"个人资料feed更多加载失败");
+    }
+
+    @Test(groups = { "profile" })
+    public void test021() throws InterruptedException {
+        minePage.headIcon.click();
+        minePage.fansLabel.click();
+        minePage.fansListViewItem.click();
+        mHelper.searchBy(minePage.hisfeedBy,10);
+        mHelper.moveToHalfScreen(minePage.hisfeedTag);
+        minePage.profileMoreBtn.click();
+        minePage.profileReportBtn.click();
+        boolean report = mHelper.waitForVisible(driver, minePage.reportReason, 10);
+        Assert.assertTrue(report, "举报用户 失败");
+    }
+
+    @Test(groups = { "mine" })
+    public void test022() throws MalformedURLException, InterruptedException {
+        boolean a = !minePage.sportsCountLabel.getText().equals("");
+        boolean b = !minePage.sportsLastLabel.getText().equals("");
+        minePage.historyViewBtn.click();
+        boolean c = mHelper.isExistImageElement("history_detail",2);
+        Assert.assertTrue(a&&b&&c, "我的历史记录图例显示有误");
+    }
 }

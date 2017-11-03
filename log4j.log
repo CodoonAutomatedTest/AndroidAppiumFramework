@@ -1,76 +1,945 @@
-[2017-10-17 14:20:27,608]tearDown(DrycargoTest.java:41) - 当前case执行完成，返回到App一级界面
-[2017-10-17 14:20:28,119]pressBackToHomePage(DeviceHelper.java:411) - .ui.bbs.BBSArticleDetailActivity
-[2017-10-17 14:20:32,128]tearDownClass(BaseTest.java:63) - testsuit执行完毕，关闭driver
-[2017-10-17 14:24:59,640]getDefaultIME(BaseTest.java:85) - io.appium.android.ime/.UnicodeIME
-[2017-10-17 14:25:17,748]setUpClass(BaseTest.java:46) - driver启动完毕，开始初始化testsuit...
-[2017-10-17 14:25:17,936]setUp(DrycargoTest.java:34) - 进入运动圈tab首页
-[2017-10-17 14:25:37,621]followedAuthorInH5(DrycargoPage.java:286) - 关注
-[2017-10-17 14:25:37,928]followedAuthorInH5(DrycargoPage.java:291) - 关注
-[2017-10-17 14:25:37,939]tearDown(DrycargoTest.java:41) - 当前case执行完成，返回到App一级界面
-[2017-10-17 14:25:38,406]pressBackToHomePage(DeviceHelper.java:411) - .ui.bbs.BBSArticleDetailActivity
-[2017-10-17 14:25:42,431]tearDownClass(BaseTest.java:63) - testsuit执行完毕，关闭driver
-[2017-10-17 14:26:28,810]getDefaultIME(BaseTest.java:85) - io.appium.android.ime/.UnicodeIME
-[2017-10-17 14:26:46,856]setUpClass(BaseTest.java:46) - driver启动完毕，开始初始化testsuit...
-[2017-10-17 14:26:47,036]setUp(DrycargoTest.java:34) - 进入运动圈tab首页
-[2017-10-17 14:27:07,434]followedAuthorInH5(DrycargoPage.java:286) - 已关注
-[2017-10-17 14:27:07,724]followedAuthorInH5(DrycargoPage.java:291) - 已关注
-[2017-10-17 14:27:08,214]tearDown(DrycargoTest.java:41) - 当前case执行完成，返回到App一级界面
-[2017-10-17 14:27:08,510]pressBackToHomePage(DeviceHelper.java:411) - .ui.bbs.BBSArticleDetailActivity
-[2017-10-17 14:27:13,010]tearDownClass(BaseTest.java:63) - testsuit执行完毕，关闭driver
-[2017-10-17 14:27:28,556]getDefaultIME(BaseTest.java:85) - io.appium.android.ime/.UnicodeIME
-[2017-10-17 14:27:46,717]setUpClass(BaseTest.java:46) - driver启动完毕，开始初始化testsuit...
-[2017-10-17 14:27:46,889]setUp(DrycargoTest.java:34) - 进入运动圈tab首页
-[2017-10-17 14:28:06,557]followedAuthorInH5(DrycargoPage.java:286) - 关注
-[2017-10-17 14:28:06,885]followedAuthorInH5(DrycargoPage.java:291) - 关注
-[2017-10-17 14:28:07,371]tearDown(DrycargoTest.java:41) - 当前case执行完成，返回到App一级界面
-[2017-10-17 14:28:07,665]pressBackToHomePage(DeviceHelper.java:411) - .ui.bbs.BBSArticleDetailActivity
-[2017-10-17 14:28:11,379]tearDownClass(BaseTest.java:63) - testsuit执行完毕，关闭driver
-[2017-10-17 14:28:19,932]getDefaultIME(BaseTest.java:85) - io.appium.android.ime/.UnicodeIME
-[2017-10-17 14:28:38,061]setUpClass(BaseTest.java:46) - driver启动完毕，开始初始化testsuit...
-[2017-10-17 14:28:38,240]setUp(DrycargoTest.java:34) - 进入运动圈tab首页
-[2017-10-17 14:28:57,327]followedAuthorInH5(DrycargoPage.java:286) - 已关注
-[2017-10-17 14:29:00,823]followedAuthorInH5(DrycargoPage.java:292) - 关注
-[2017-10-17 14:29:01,307]tearDown(DrycargoTest.java:41) - 当前case执行完成，返回到App一级界面
-[2017-10-17 14:29:01,541]pressBackToHomePage(DeviceHelper.java:411) - .ui.bbs.BBSArticleDetailActivity
-[2017-10-17 14:29:05,766]tearDownClass(BaseTest.java:63) - testsuit执行完毕，关闭driver
-[2017-10-17 14:29:33,825]getDefaultIME(BaseTest.java:85) - com.sohu.inputmethod.sogou/.SogouIME
-[2017-10-17 14:29:52,178]setUpClass(BaseTest.java:46) - driver启动完毕，开始初始化testsuit...
-[2017-10-17 14:29:52,390]setUp(DrycargoTest.java:34) - 进入运动圈tab首页
-[2017-10-17 14:30:00,405]changePhoneIME(DeviceHelper.java:445) - 输入法: com.sohu.inputmethod.sogou/.SogouIME
-[2017-10-17 14:31:02,843]test010(DrycargoTest.java:204) - false
-[2017-10-17 14:31:02,850]tearDown(DrycargoTest.java:41) - 当前case执行完成，返回到App一级界面
-[2017-10-17 14:31:03,128]pressBackToHomePage(DeviceHelper.java:411) - .ui.bbs.BBSArticleDetailActivity
-[2017-10-17 14:31:06,683]tearDownClass(BaseTest.java:63) - testsuit执行完毕，关闭driver
-[2017-10-17 14:31:15,499]getDefaultIME(BaseTest.java:85) - com.sohu.inputmethod.sogou/.SogouIME
-[2017-10-17 14:31:33,463]setUpClass(BaseTest.java:46) - driver启动完毕，开始初始化testsuit...
-[2017-10-17 14:31:33,630]setUp(DrycargoTest.java:34) - 进入运动圈tab首页
-[2017-10-17 14:31:40,890]changePhoneIME(DeviceHelper.java:445) - 输入法: com.sohu.inputmethod.sogou/.SogouIME
-[2017-10-17 14:32:03,359]test010(DrycargoTest.java:204) - false
-[2017-10-17 14:32:03,371]tearDown(DrycargoTest.java:41) - 当前case执行完成，返回到App一级界面
-[2017-10-17 14:32:03,981]pressBackToHomePage(DeviceHelper.java:411) - .ui.bbs.BBSArticleDetailActivity
-[2017-10-17 14:32:07,704]tearDownClass(BaseTest.java:63) - testsuit执行完毕，关闭driver
-[2017-10-17 14:33:34,711]getDefaultIME(BaseTest.java:85) - com.sohu.inputmethod.sogou/.SogouIME
-[2017-10-17 14:33:53,438]setUpClass(BaseTest.java:46) - driver启动完毕，开始初始化testsuit...
-[2017-10-17 14:33:53,606]setUp(DrycargoTest.java:34) - 进入运动圈tab首页
-[2017-10-17 14:33:59,606]changePhoneIME(DeviceHelper.java:445) - 输入法: com.sohu.inputmethod.sogou/.SogouIME
-[2017-10-17 14:34:22,513]test010(DrycargoTest.java:204) - false
-[2017-10-17 14:34:22,523]tearDown(DrycargoTest.java:41) - 当前case执行完成，返回到App一级界面
-[2017-10-17 14:34:23,141]pressBackToHomePage(DeviceHelper.java:411) - .ui.bbs.BBSArticleDetailActivity
-[2017-10-17 14:34:27,985]tearDownClass(BaseTest.java:63) - testsuit执行完毕，关闭driver
-[2017-10-17 14:35:30,575]getDefaultIME(BaseTest.java:85) - com.samsung.inputmethod/.SamsungIME
-[2017-10-17 14:35:49,766]setUpClass(BaseTest.java:46) - driver启动完毕，开始初始化testsuit...
-[2017-10-17 14:35:49,955]setUp(DrycargoTest.java:34) - 进入运动圈tab首页
-[2017-10-17 14:35:56,183]changePhoneIME(DeviceHelper.java:445) - 输入法: com.samsung.inputmethod/.SamsungIME
-[2017-10-17 14:36:21,077]test010(DrycargoTest.java:204) - false
-[2017-10-17 14:36:21,085]tearDown(DrycargoTest.java:41) - 当前case执行完成，返回到App一级界面
-[2017-10-17 14:36:21,566]pressBackToHomePage(DeviceHelper.java:411) - .ui.bbs.BBSArticleDetailActivity
-[2017-10-17 14:36:28,253]pressBackToHomePage(DeviceHelper.java:411) - .ui.bbs.BBSArticleDetailActivity
-[2017-10-17 14:36:32,171]tearDownClass(BaseTest.java:63) - testsuit执行完毕，关闭driver
-[2017-10-17 14:36:40,095]getDefaultIME(BaseTest.java:85) - com.samsung.inputmethod/.SamsungIME
-[2017-10-17 14:36:58,929]setUpClass(BaseTest.java:46) - driver启动完毕，开始初始化testsuit...
-[2017-10-17 14:36:59,115]setUp(DrycargoTest.java:34) - 进入运动圈tab首页
-[2017-10-17 14:37:04,960]changePhoneIME(DeviceHelper.java:445) - 输入法: com.samsung.inputmethod/.SamsungIME
-[2017-10-17 14:37:15,555]test010(DrycargoTest.java:204) - true
-[2017-10-17 14:37:15,558]tearDown(DrycargoTest.java:41) - 当前case执行完成，返回到App一级界面
-[2017-10-17 14:37:16,002]pressBackToHomePage(DeviceHelper.java:411) - .ui.bbs.BBSArticleDetailActivity
-[2017-10-17 14:37:20,114]tearDownClass(BaseTest.java:63) - testsuit执行完毕，关闭driver
+[2017-11-01 17:45:47,588]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-01 17:45:47,773]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-01 17:45:50,427]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-01 17:45:58,779]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-01 17:46:10,776]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-01 17:46:11,920]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-01 17:46:21,010]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-01 17:46:22,069]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-01 17:46:31,719]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-01 17:46:32,777]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-01 17:46:38,161]test006(MineTest.java:131) - 261.46 and 261.44998
+[2017-11-01 17:46:38,161]test006(MineTest.java:132) - 0.0 and 0.0
+[2017-11-01 17:46:38,161]test006(MineTest.java:133) - false
+[2017-11-01 17:46:38,161]test006(MineTest.java:134) - true
+[2017-11-01 17:46:38,162]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-01 17:46:39,834]pressBackToHomePage(DeviceHelper.java:412) - .ui.history.HistoryStatisticActivity
+[2017-11-01 17:46:45,089]pressBackToHomePage(DeviceHelper.java:412) - .ui.history.SportsHistoryListActivity
+[2017-11-01 17:46:48,578]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-01 17:50:41,439]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-01 17:51:00,220]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-01 17:51:00,539]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-01 17:51:03,296]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-01 17:51:10,901]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-01 17:51:24,393]findImageElement(SikuppiumDriver.java:62) - Image is not found
+[2017-11-01 17:51:31,295]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-01 17:51:32,524]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-01 17:51:41,555]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-01 17:51:42,618]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-01 17:51:47,997]test006(MineTest.java:131) - 261.46 and 261.44998
+[2017-11-01 17:51:47,999]test006(MineTest.java:132) - 0.0 and 0.0
+[2017-11-01 17:51:47,999]test006(MineTest.java:133) - false
+[2017-11-01 17:51:47,999]test006(MineTest.java:134) - true
+[2017-11-01 17:51:48,000]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-01 17:51:49,473]pressBackToHomePage(DeviceHelper.java:412) - .ui.history.HistoryStatisticActivity
+[2017-11-01 17:51:54,667]pressBackToHomePage(DeviceHelper.java:412) - .ui.history.SportsHistoryListActivity
+[2017-11-01 17:51:58,345]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-01 17:55:52,377]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-01 17:56:10,944]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-01 17:56:11,132]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-01 17:56:13,710]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-01 17:56:21,782]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-01 17:56:35,480]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-01 17:56:36,746]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-01 17:56:45,635]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-01 17:56:46,689]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-01 17:56:55,849]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-01 17:56:56,996]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-01 17:57:02,298]test006(MineTest.java:134) - 261.46 and 261.45
+[2017-11-01 17:57:02,298]test006(MineTest.java:135) - 0.0 and 0.0
+[2017-11-01 17:57:02,299]test006(MineTest.java:136) - false
+[2017-11-01 17:57:02,299]test006(MineTest.java:137) - true
+[2017-11-01 17:57:02,299]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-01 17:57:03,972]pressBackToHomePage(DeviceHelper.java:412) - .ui.history.HistoryStatisticActivity
+[2017-11-01 17:57:09,098]pressBackToHomePage(DeviceHelper.java:412) - .ui.history.SportsHistoryListActivity
+[2017-11-01 17:57:12,544]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-01 17:58:09,954]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-01 17:58:28,706]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-01 17:58:28,892]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-01 17:58:31,578]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-01 17:58:39,586]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-01 17:58:53,040]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-01 17:58:54,158]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-01 17:59:03,093]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-01 17:59:04,294]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-01 17:59:13,253]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-01 17:59:14,492]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-01 17:59:19,770]test006(MineTest.java:134) - false
+[2017-11-01 17:59:19,771]test006(MineTest.java:135) - true
+[2017-11-01 17:59:19,772]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-01 17:59:21,186]pressBackToHomePage(DeviceHelper.java:412) - .ui.history.HistoryStatisticActivity
+[2017-11-01 17:59:26,602]pressBackToHomePage(DeviceHelper.java:412) - .ui.history.SportsHistoryListActivity
+[2017-11-01 17:59:30,394]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-01 18:00:03,516]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-01 18:00:21,653]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-01 18:00:21,817]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-01 18:00:24,451]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-01 18:00:32,827]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-01 18:00:46,544]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-01 18:00:47,968]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-01 18:00:57,216]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-01 18:00:58,396]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-01 18:01:07,777]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-01 18:01:08,953]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-01 18:01:14,468]test006(MineTest.java:134) - 261.5
+[2017-11-01 18:01:14,469]test006(MineTest.java:135) - 261.4
+[2017-11-01 18:01:14,470]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-01 18:01:16,271]pressBackToHomePage(DeviceHelper.java:412) - .ui.history.HistoryStatisticActivity
+[2017-11-01 18:01:21,624]pressBackToHomePage(DeviceHelper.java:412) - .ui.history.SportsHistoryListActivity
+[2017-11-01 18:01:24,935]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-01 18:02:42,355]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-01 18:03:02,183]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-01 18:03:02,373]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-01 18:03:05,233]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-01 18:03:13,611]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-01 18:03:27,413]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-01 18:03:28,649]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-01 18:03:37,624]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-01 18:03:38,691]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-01 18:03:47,985]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-01 18:03:48,988]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-01 18:03:54,541]test006(MineTest.java:134) - 261.46
+[2017-11-01 18:03:54,542]test006(MineTest.java:135) - 261.45
+[2017-11-01 18:03:54,542]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-01 18:03:56,267]pressBackToHomePage(DeviceHelper.java:412) - .ui.history.HistoryStatisticActivity
+[2017-11-01 18:04:01,578]pressBackToHomePage(DeviceHelper.java:412) - .ui.history.SportsHistoryListActivity
+[2017-11-01 18:04:05,081]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-01 18:13:06,690]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-01 18:13:25,997]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-01 18:13:26,182]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-01 18:13:28,828]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-01 18:13:36,953]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-01 18:13:50,720]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-01 18:13:51,970]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-01 18:14:01,278]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-01 18:14:02,462]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-01 18:14:11,656]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-01 18:14:12,892]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-01 18:14:18,045]test006(MineTest.java:134) - 261.5
+[2017-11-01 18:14:18,045]test006(MineTest.java:135) - 261.5
+[2017-11-01 18:14:18,046]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-01 18:14:19,432]pressBackToHomePage(DeviceHelper.java:412) - .ui.history.HistoryStatisticActivity
+[2017-11-01 18:14:24,655]pressBackToHomePage(DeviceHelper.java:412) - .ui.history.SportsHistoryListActivity
+[2017-11-01 18:14:28,211]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-01 18:15:35,876]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-01 18:15:54,362]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-01 18:15:54,553]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-01 18:15:57,270]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-01 18:16:05,355]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-01 18:16:19,345]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-01 18:16:20,716]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-01 18:16:29,807]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-01 18:16:30,871]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-01 18:16:39,782]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-01 18:16:40,883]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-01 18:16:46,145]test006(MineTest.java:134) - 261.46
+[2017-11-01 18:16:46,146]test006(MineTest.java:135) - 261.45
+[2017-11-01 18:16:46,147]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-01 18:16:47,784]pressBackToHomePage(DeviceHelper.java:412) - .ui.history.HistoryStatisticActivity
+[2017-11-01 18:16:52,611]pressBackToHomePage(DeviceHelper.java:412) - .ui.history.SportsHistoryListActivity
+[2017-11-01 18:16:55,809]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-01 18:30:50,596]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-01 18:31:09,043]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-01 18:31:09,222]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-01 18:31:12,064]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-01 18:31:20,513]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-01 18:31:22,238]pressBackToHomePage(DeviceHelper.java:412) - .ui.others.UserCenterSportsRecordActivity
+[2017-11-01 18:31:27,524]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-01 18:31:31,245]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-01 18:31:38,008]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-01 18:31:57,120]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-01 18:31:57,283]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-01 18:32:00,058]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-01 18:32:09,159]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-01 18:32:10,917]pressBackToHomePage(DeviceHelper.java:412) - .ui.others.UserCenterSportsRecordActivity
+[2017-11-01 18:32:16,003]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-01 18:32:19,595]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-01 18:38:12,267]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-01 18:38:30,488]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-01 18:38:30,665]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-01 18:38:33,383]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-01 18:38:42,455]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-01 18:38:43,806]pressBackToHomePage(DeviceHelper.java:412) - .ui.achievement.MedalsWallActivity
+[2017-11-01 18:38:48,963]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-01 18:38:52,678]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-01 19:02:10,562]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-01 19:02:28,857]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-01 19:02:29,037]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-01 19:02:31,754]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-01 19:02:42,858]findImageElement(SikuppiumDriver.java:60) - Image is found at 957 104 80 81
+[2017-11-01 19:02:49,468]findImageElement(SikuppiumDriver.java:60) - Image is found at 51 1385 172 229
+[2017-11-01 19:02:52,786]findImageElement(SikuppiumDriver.java:60) - Image is found at 321 1384 171 234
+[2017-11-01 19:02:56,076]findImageElement(SikuppiumDriver.java:60) - Image is found at 589 1385 174 232
+[2017-11-01 19:02:59,613]findImageElement(SikuppiumDriver.java:60) - Image is found at 856 1381 175 237
+[2017-11-01 19:03:03,152]findImageElement(SikuppiumDriver.java:60) - Image is found at 50 1662 170 224
+[2017-11-01 19:03:06,604]findImageElement(SikuppiumDriver.java:60) - Image is found at 323 1665 166 223
+[2017-11-01 19:03:06,606]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-01 19:03:06,651]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-01 19:17:14,921]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-01 19:17:33,153]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-01 19:17:33,333]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-01 19:17:36,010]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-01 19:17:44,332]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-01 19:17:45,664]pressBackToHomePage(DeviceHelper.java:412) - .ui.achievement.MedalsWallActivity
+[2017-11-01 19:17:50,920]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-01 19:17:54,462]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-01 19:18:38,729]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-01 19:18:57,819]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-01 19:18:57,983]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-01 19:19:00,865]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-01 19:19:10,899]findImageElement(SikuppiumDriver.java:62) - Image is not found
+[2017-11-01 19:19:10,907]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-01 19:19:12,331]pressBackToHomePage(DeviceHelper.java:412) - .ui.achievement.MedalsWallActivity
+[2017-11-01 19:19:16,921]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-01 19:19:20,704]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-01 19:20:41,935]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-01 19:21:00,284]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-01 19:21:00,470]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-01 19:21:03,097]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-01 19:21:15,361]findImageElement(SikuppiumDriver.java:60) - Image is found at 423 1076 238 316
+[2017-11-01 19:21:21,859]findImageElement(SikuppiumDriver.java:60) - Image is found at 26 89 1030 1061
+[2017-11-01 19:21:21,865]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-01 19:21:23,139]pressBackToHomePage(DeviceHelper.java:412) - .ui.achievement.MedalDetailTwoActivity
+[2017-11-01 19:21:28,269]pressBackToHomePage(DeviceHelper.java:412) - .ui.achievement.MedalsWallActivity
+[2017-11-01 19:21:33,052]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-01 19:21:36,638]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-02 10:31:37,575]<clinit>(OverrideIReTry.java:17) - maxRunCount=1
+[2017-11-02 10:31:42,223]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-02 10:32:00,797]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-02 10:32:01,023]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-02 10:32:03,792]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:32:44,854]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:32:46,574]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInforModifyActivity
+[2017-11-02 10:32:51,734]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 10:32:55,134]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:33:04,736]findImageElement(SikuppiumDriver.java:105) - x:815, y:353, width:195, height:195
+[2017-11-02 10:33:05,951]findImageElement(SikuppiumDriver.java:60) - Image is found at 815 353 195 195
+[2017-11-02 10:33:13,600]findImageElement(SikuppiumDriver.java:105) - x:0, y:453, width:1080, height:1078
+[2017-11-02 10:33:13,601]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:33:14,891]pressBackToHomePage(DeviceHelper.java:412) - com.codoon.sportscircle.activity.AvatarBrowseActivity
+[2017-11-02 10:33:19,799]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 10:33:23,169]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:33:28,475]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:33:30,618]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 10:33:34,462]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:33:46,003]findImageElement(SikuppiumDriver.java:60) - Image is found at 36 112 68 68
+[2017-11-02 10:33:52,800]findImageElement(SikuppiumDriver.java:60) - Image is found at 36 112 68 68
+[2017-11-02 10:33:55,844]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:33:57,502]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 10:34:01,288]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:34:09,808]findImageElement(SikuppiumDriver.java:105) - x:102, y:1455, width:158, height:211
+[2017-11-02 10:34:13,494]findImageElement(SikuppiumDriver.java:105) - x:353, y:244, width:375, height:381
+[2017-11-02 10:34:17,819]findImageElement(SikuppiumDriver.java:105) - x:461, y:1454, width:159, height:213
+[2017-11-02 10:34:21,349]findImageElement(SikuppiumDriver.java:105) - x:376, y:233, width:326, height:394
+[2017-11-02 10:34:25,686]findImageElement(SikuppiumDriver.java:105) - x:817, y:1456, width:164, height:216
+[2017-11-02 10:34:29,110]findImageElement(SikuppiumDriver.java:105) - x:373, y:241, width:330, height:386
+[2017-11-02 10:34:30,170]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:34:31,726]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 10:34:35,344]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:34:44,106]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 10:34:56,845]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-02 10:34:57,922]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-02 10:35:06,630]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-02 10:35:07,750]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-02 10:35:16,763]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-02 10:35:17,716]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-02 10:35:22,856]test006(MineTest.java:134) - 261.46
+[2017-11-02 10:35:22,856]test006(MineTest.java:135) - 261.45
+[2017-11-02 10:35:22,858]retry(OverrideIReTry.java:25) - running retry for 'test006' on class com.codoon.common.util.OverrideIReTry Retrying 0 times
+[2017-11-02 10:35:22,865]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:35:24,399]pressBackToHomePage(DeviceHelper.java:412) - .ui.history.HistoryStatisticActivity
+[2017-11-02 10:35:29,144]pressBackToHomePage(DeviceHelper.java:412) - .ui.history.SportsHistoryListActivity
+[2017-11-02 10:35:32,379]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:35:41,201]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 10:35:53,618]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-02 10:35:54,578]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-02 10:36:03,447]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-02 10:36:04,425]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-02 10:36:13,332]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-02 10:36:14,355]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-02 10:36:19,651]test006(MineTest.java:134) - 261.46
+[2017-11-02 10:36:19,652]test006(MineTest.java:135) - 261.45
+[2017-11-02 10:36:19,652]retry(OverrideIReTry.java:25) - running retry for 'test006' on class com.codoon.common.util.OverrideIReTry Retrying 1 times
+[2017-11-02 10:36:19,653]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:36:21,326]pressBackToHomePage(DeviceHelper.java:412) - .ui.history.HistoryStatisticActivity
+[2017-11-02 10:36:26,130]pressBackToHomePage(DeviceHelper.java:412) - .ui.history.SportsHistoryListActivity
+[2017-11-02 10:36:29,859]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:36:38,915]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 10:36:50,832]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-02 10:36:51,844]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-02 10:37:00,847]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-02 10:37:01,874]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-02 10:37:10,739]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-02 10:37:11,722]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-02 10:37:17,146]test006(MineTest.java:134) - 261.46
+[2017-11-02 10:37:17,146]test006(MineTest.java:135) - 261.45
+[2017-11-02 10:37:17,148]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:37:18,577]pressBackToHomePage(DeviceHelper.java:412) - .ui.history.HistoryStatisticActivity
+[2017-11-02 10:37:23,708]pressBackToHomePage(DeviceHelper.java:412) - .ui.history.SportsHistoryListActivity
+[2017-11-02 10:37:27,287]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:37:38,812]findImageElement(SikuppiumDriver.java:60) - Image is found at 957 104 80 81
+[2017-11-02 10:37:45,285]findImageElement(SikuppiumDriver.java:60) - Image is found at 51 1385 172 229
+[2017-11-02 10:37:49,522]findImageElement(SikuppiumDriver.java:60) - Image is found at 321 1384 171 234
+[2017-11-02 10:37:53,066]findImageElement(SikuppiumDriver.java:60) - Image is found at 589 1385 174 232
+[2017-11-02 10:37:56,401]findImageElement(SikuppiumDriver.java:60) - Image is found at 856 1381 175 237
+[2017-11-02 10:37:59,640]findImageElement(SikuppiumDriver.java:60) - Image is found at 50 1662 170 224
+[2017-11-02 10:38:02,868]findImageElement(SikuppiumDriver.java:60) - Image is found at 323 1665 166 223
+[2017-11-02 10:38:02,869]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:38:02,988]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:38:09,918]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:38:09,971]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:38:10,011]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-02 10:40:51,819]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-02 10:41:10,517]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-02 10:41:10,695]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-02 10:41:13,297]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:41:53,239]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:41:54,916]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInforModifyActivity
+[2017-11-02 10:42:00,552]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 10:42:04,113]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:42:13,349]findImageElement(SikuppiumDriver.java:105) - x:815, y:353, width:195, height:195
+[2017-11-02 10:42:14,654]findImageElement(SikuppiumDriver.java:60) - Image is found at 815 353 195 195
+[2017-11-02 10:42:22,158]findImageElement(SikuppiumDriver.java:105) - x:0, y:453, width:1080, height:1078
+[2017-11-02 10:42:22,159]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:42:23,723]pressBackToHomePage(DeviceHelper.java:412) - com.codoon.sportscircle.activity.AvatarBrowseActivity
+[2017-11-02 10:42:28,925]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 10:42:32,522]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:42:37,868]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:42:39,890]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 10:42:43,599]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:42:54,957]findImageElement(SikuppiumDriver.java:60) - Image is found at 36 112 68 68
+[2017-11-02 10:43:02,336]findImageElement(SikuppiumDriver.java:60) - Image is found at 36 112 68 68
+[2017-11-02 10:43:05,403]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:43:07,374]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 10:43:11,074]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:43:19,804]findImageElement(SikuppiumDriver.java:105) - x:102, y:1455, width:158, height:211
+[2017-11-02 10:43:23,450]findImageElement(SikuppiumDriver.java:105) - x:353, y:244, width:375, height:381
+[2017-11-02 10:43:27,821]findImageElement(SikuppiumDriver.java:105) - x:461, y:1454, width:159, height:213
+[2017-11-02 10:43:31,247]findImageElement(SikuppiumDriver.java:105) - x:376, y:233, width:326, height:394
+[2017-11-02 10:43:35,595]findImageElement(SikuppiumDriver.java:105) - x:817, y:1456, width:164, height:216
+[2017-11-02 10:43:39,122]findImageElement(SikuppiumDriver.java:105) - x:373, y:241, width:330, height:386
+[2017-11-02 10:43:40,184]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:43:41,549]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 10:43:45,262]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:43:54,239]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 10:44:06,679]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-02 10:44:07,741]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-02 10:44:16,532]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-02 10:44:17,619]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-02 10:44:26,699]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-02 10:44:27,767]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-02 10:44:32,966]test006(MineTest.java:134) - 261.46
+[2017-11-02 10:44:32,966]test006(MineTest.java:135) - 261.45
+[2017-11-02 10:44:32,971]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:44:34,625]pressBackToHomePage(DeviceHelper.java:412) - .ui.history.HistoryStatisticActivity
+[2017-11-02 10:44:39,337]pressBackToHomePage(DeviceHelper.java:412) - .ui.history.SportsHistoryListActivity
+[2017-11-02 10:44:42,894]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:44:53,866]findImageElement(SikuppiumDriver.java:60) - Image is found at 957 104 80 81
+[2017-11-02 10:45:00,231]findImageElement(SikuppiumDriver.java:60) - Image is found at 51 1385 172 229
+[2017-11-02 10:45:03,452]findImageElement(SikuppiumDriver.java:60) - Image is found at 321 1384 171 234
+[2017-11-02 10:45:06,760]findImageElement(SikuppiumDriver.java:60) - Image is found at 589 1385 174 232
+[2017-11-02 10:45:10,152]findImageElement(SikuppiumDriver.java:60) - Image is found at 856 1381 175 237
+[2017-11-02 10:45:13,524]findImageElement(SikuppiumDriver.java:60) - Image is found at 50 1662 170 224
+[2017-11-02 10:45:16,948]findImageElement(SikuppiumDriver.java:60) - Image is found at 323 1665 166 223
+[2017-11-02 10:45:16,948]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:45:17,001]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:45:23,681]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:45:23,734]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:45:23,813]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-02 10:48:27,093]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-02 10:48:45,786]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-02 10:48:45,976]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-02 10:48:49,104]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:48:59,905]findImageElement(SikuppiumDriver.java:60) - Image is found at 957 104 80 81
+[2017-11-02 10:49:06,573]findImageElement(SikuppiumDriver.java:60) - Image is found at 51 1385 172 229
+[2017-11-02 10:49:09,993]findImageElement(SikuppiumDriver.java:60) - Image is found at 321 1384 171 234
+[2017-11-02 10:49:13,402]findImageElement(SikuppiumDriver.java:60) - Image is found at 589 1385 174 232
+[2017-11-02 10:49:16,693]findImageElement(SikuppiumDriver.java:60) - Image is found at 856 1381 175 237
+[2017-11-02 10:49:20,150]findImageElement(SikuppiumDriver.java:60) - Image is found at 50 1662 170 224
+[2017-11-02 10:49:23,428]findImageElement(SikuppiumDriver.java:60) - Image is found at 323 1665 166 223
+[2017-11-02 10:49:23,429]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:49:23,470]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-02 10:52:14,275]<clinit>(OverrideIReTry.java:17) - maxRunCount=1
+[2017-11-02 10:52:15,267]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-02 10:52:34,054]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-02 10:52:34,224]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-02 10:52:37,026]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:52:47,936]findImageElement(SikuppiumDriver.java:60) - Image is found at 957 104 80 81
+[2017-11-02 10:52:54,724]findImageElement(SikuppiumDriver.java:60) - Image is found at 51 1385 172 229
+[2017-11-02 10:52:58,101]findImageElement(SikuppiumDriver.java:60) - Image is found at 321 1384 171 234
+[2017-11-02 10:53:01,587]findImageElement(SikuppiumDriver.java:60) - Image is found at 589 1385 174 232
+[2017-11-02 10:53:04,969]findImageElement(SikuppiumDriver.java:60) - Image is found at 856 1381 175 237
+[2017-11-02 10:53:08,245]findImageElement(SikuppiumDriver.java:60) - Image is found at 50 1662 170 224
+[2017-11-02 10:53:11,530]findImageElement(SikuppiumDriver.java:60) - Image is found at 323 1665 166 223
+[2017-11-02 10:53:11,531]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:53:11,570]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:53:18,121]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:53:18,206]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:53:18,297]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-02 10:54:17,011]<clinit>(OverrideIReTry.java:17) - maxRunCount=1
+[2017-11-02 10:54:17,939]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-02 10:54:36,343]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-02 10:54:36,550]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-02 10:54:39,399]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:54:50,289]findImageElement(SikuppiumDriver.java:60) - Image is found at 957 104 80 81
+[2017-11-02 10:54:56,939]findImageElement(SikuppiumDriver.java:60) - Image is found at 51 1385 172 229
+[2017-11-02 10:55:00,414]findImageElement(SikuppiumDriver.java:60) - Image is found at 321 1384 171 234
+[2017-11-02 10:55:03,648]findImageElement(SikuppiumDriver.java:60) - Image is found at 589 1385 174 232
+[2017-11-02 10:55:07,052]findImageElement(SikuppiumDriver.java:60) - Image is found at 856 1381 175 237
+[2017-11-02 10:55:10,464]findImageElement(SikuppiumDriver.java:60) - Image is found at 50 1662 170 224
+[2017-11-02 10:55:13,774]findImageElement(SikuppiumDriver.java:60) - Image is found at 323 1665 166 223
+[2017-11-02 10:55:13,774]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:55:13,894]pressBackToHomePage(DeviceHelper.java:407) - teardown: .ui.achievement.MedalsWallActivity
+[2017-11-02 10:55:13,925]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:55:21,012]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:55:21,149]pressBackToHomePage(DeviceHelper.java:407) - teardown: .ui.achievement.MedalsWallActivity
+[2017-11-02 10:55:21,184]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:55:21,334]pressBackToHomePage(DeviceHelper.java:407) - teardown: .ui.achievement.MedalsWallActivity
+[2017-11-02 10:55:21,374]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-02 10:55:57,055]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-02 10:56:15,572]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-02 10:56:15,857]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-02 10:56:18,474]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:57:41,619]<clinit>(OverrideIReTry.java:17) - maxRunCount=1
+[2017-11-02 10:57:42,585]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-02 10:58:01,034]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-02 10:58:01,309]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-02 10:58:04,442]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 10:58:15,392]findImageElement(SikuppiumDriver.java:60) - Image is found at 957 104 80 81
+[2017-11-02 10:58:21,824]findImageElement(SikuppiumDriver.java:60) - Image is found at 51 1385 172 229
+[2017-11-02 10:58:25,078]findImageElement(SikuppiumDriver.java:60) - Image is found at 321 1384 171 234
+[2017-11-02 10:58:28,411]findImageElement(SikuppiumDriver.java:60) - Image is found at 589 1385 174 232
+[2017-11-02 10:58:31,722]findImageElement(SikuppiumDriver.java:60) - Image is found at 856 1381 175 237
+[2017-11-02 10:58:34,992]findImageElement(SikuppiumDriver.java:60) - Image is found at 50 1662 170 224
+[2017-11-02 10:58:38,285]findImageElement(SikuppiumDriver.java:60) - Image is found at 323 1665 166 223
+[2017-11-02 10:58:38,286]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 10:58:43,289]pressBackToHomePage(DeviceHelper.java:407) - teardown: .ui.achievement.MedalsWallActivity
+[2017-11-02 11:02:12,990]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 11:02:13,236]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 11:02:15,427]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 11:02:15,440]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-02 11:02:23,063]<clinit>(OverrideIReTry.java:17) - maxRunCount=1
+[2017-11-02 11:02:24,110]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-02 11:02:42,804]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-02 11:02:43,025]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-02 11:02:45,778]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 11:02:56,610]findImageElement(SikuppiumDriver.java:60) - Image is found at 957 104 80 81
+[2017-11-02 11:03:03,087]findImageElement(SikuppiumDriver.java:60) - Image is found at 51 1385 172 229
+[2017-11-02 11:03:06,403]findImageElement(SikuppiumDriver.java:60) - Image is found at 321 1384 171 234
+[2017-11-02 11:03:09,650]findImageElement(SikuppiumDriver.java:60) - Image is found at 589 1385 174 232
+[2017-11-02 11:03:13,051]findImageElement(SikuppiumDriver.java:60) - Image is found at 856 1381 175 237
+[2017-11-02 11:03:16,468]findImageElement(SikuppiumDriver.java:60) - Image is found at 50 1662 170 224
+[2017-11-02 11:03:19,823]findImageElement(SikuppiumDriver.java:60) - Image is found at 323 1665 166 223
+[2017-11-02 11:03:19,824]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 11:03:27,383]pressBackToHomePage(DeviceHelper.java:407) - teardown: .ui.achievement.MedalsWallActivity
+[2017-11-02 11:03:30,867]pressBackToHomePage(DeviceHelper.java:411) - false
+[2017-11-02 11:03:33,695]pressBackToHomePage(DeviceHelper.java:412) - true
+[2017-11-02 11:03:35,346]pressBackToHomePage(DeviceHelper.java:413) - false
+[2017-11-02 11:05:59,781]<clinit>(OverrideIReTry.java:17) - maxRunCount=1
+[2017-11-02 11:06:00,816]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-02 11:06:19,349]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-02 11:06:19,500]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-02 11:06:22,322]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 11:06:33,015]findImageElement(SikuppiumDriver.java:60) - Image is found at 957 104 80 81
+[2017-11-02 11:06:39,714]findImageElement(SikuppiumDriver.java:60) - Image is found at 51 1385 172 229
+[2017-11-02 11:06:43,108]findImageElement(SikuppiumDriver.java:60) - Image is found at 321 1384 171 234
+[2017-11-02 11:06:46,706]findImageElement(SikuppiumDriver.java:60) - Image is found at 589 1385 174 232
+[2017-11-02 11:06:50,202]findImageElement(SikuppiumDriver.java:60) - Image is found at 856 1381 175 237
+[2017-11-02 11:06:53,648]findImageElement(SikuppiumDriver.java:60) - Image is found at 50 1662 170 224
+[2017-11-02 11:06:56,949]findImageElement(SikuppiumDriver.java:60) - Image is found at 323 1665 166 223
+[2017-11-02 11:06:56,951]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 11:06:57,080]pressBackToHomePage(DeviceHelper.java:407) - teardown: .ui.achievement.MedalsWallActivity
+[2017-11-02 11:06:57,307]pressBackToHomePage(DeviceHelper.java:411) - false
+[2017-11-02 11:06:57,398]pressBackToHomePage(DeviceHelper.java:412) - true
+[2017-11-02 11:06:57,425]pressBackToHomePage(DeviceHelper.java:413) - false
+[2017-11-02 11:06:57,638]pressBackToHomePage(DeviceHelper.java:416) - .ui.achievement.MedalsWallActivity
+[2017-11-02 11:07:02,592]pressBackToHomePage(DeviceHelper.java:416) - .ui.achievement.MedalsWallActivity
+[2017-11-02 11:07:07,341]pressBackToHomePage(DeviceHelper.java:416) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 11:07:10,775]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 11:07:22,745]findImageElement(SikuppiumDriver.java:60) - Image is found at 423 1076 238 316
+[2017-11-02 11:07:29,331]findImageElement(SikuppiumDriver.java:60) - Image is found at 26 89 1030 1061
+[2017-11-02 11:07:29,332]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 11:07:29,456]pressBackToHomePage(DeviceHelper.java:407) - teardown: .ui.achievement.MedalDetailTwoActivity
+[2017-11-02 11:07:30,614]pressBackToHomePage(DeviceHelper.java:411) - true
+[2017-11-02 11:07:30,735]pressBackToHomePage(DeviceHelper.java:412) - true
+[2017-11-02 11:07:31,905]pressBackToHomePage(DeviceHelper.java:413) - true
+[2017-11-02 11:07:33,336]pressBackToHomePage(DeviceHelper.java:416) - .ui.achievement.MedalDetailTwoActivity
+[2017-11-02 11:07:38,243]pressBackToHomePage(DeviceHelper.java:416) - .ui.achievement.MedalsWallActivity
+[2017-11-02 11:07:43,533]pressBackToHomePage(DeviceHelper.java:416) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 11:07:47,404]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 11:07:58,541]test009(MineTest.java:166) - 没有找到运动团tag标签
+[2017-11-02 11:07:58,541]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 11:07:58,696]pressBackToHomePage(DeviceHelper.java:407) - teardown: .ui.setting.UserInfoCompatActivity
+[2017-11-02 11:07:59,842]pressBackToHomePage(DeviceHelper.java:411) - true
+[2017-11-02 11:07:59,958]pressBackToHomePage(DeviceHelper.java:412) - true
+[2017-11-02 11:08:01,576]pressBackToHomePage(DeviceHelper.java:413) - true
+[2017-11-02 11:08:03,197]pressBackToHomePage(DeviceHelper.java:416) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 11:08:06,599]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-02 11:09:18,014]<clinit>(OverrideIReTry.java:17) - maxRunCount=1
+[2017-11-02 11:09:18,878]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-02 11:09:37,175]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-02 11:09:37,347]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-02 11:09:39,902]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 11:10:20,004]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 11:10:20,123]pressBackToHomePage(DeviceHelper.java:407) - teardown: .ui.setting.UserInforModifyActivity
+[2017-11-02 11:10:21,707]pressBackToHomePage(DeviceHelper.java:411) - true
+[2017-11-02 11:10:21,834]pressBackToHomePage(DeviceHelper.java:412) - true
+[2017-11-02 11:10:23,428]pressBackToHomePage(DeviceHelper.java:413) - true
+[2017-11-02 11:10:24,991]pressBackToHomePage(DeviceHelper.java:416) - .ui.setting.UserInforModifyActivity
+[2017-11-02 11:10:30,251]pressBackToHomePage(DeviceHelper.java:416) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 11:10:33,658]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 11:10:44,092]findImageElement(SikuppiumDriver.java:105) - x:815, y:353, width:195, height:195
+[2017-11-02 11:10:45,706]findImageElement(SikuppiumDriver.java:60) - Image is found at 815 353 195 195
+[2017-11-02 11:10:54,151]findImageElement(SikuppiumDriver.java:105) - x:0, y:453, width:1080, height:1078
+[2017-11-02 11:10:54,158]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 11:10:54,295]pressBackToHomePage(DeviceHelper.java:407) - teardown: com.codoon.sportscircle.activity.AvatarBrowseActivity
+[2017-11-02 11:10:55,541]pressBackToHomePage(DeviceHelper.java:411) - true
+[2017-11-02 11:10:55,719]pressBackToHomePage(DeviceHelper.java:412) - true
+[2017-11-02 11:10:57,034]pressBackToHomePage(DeviceHelper.java:413) - true
+[2017-11-02 11:10:58,359]pressBackToHomePage(DeviceHelper.java:416) - com.codoon.sportscircle.activity.AvatarBrowseActivity
+[2017-11-02 11:11:03,192]pressBackToHomePage(DeviceHelper.java:416) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 11:11:06,512]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 11:11:11,484]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 11:11:11,614]pressBackToHomePage(DeviceHelper.java:407) - teardown: .ui.setting.UserInfoCompatActivity
+[2017-11-02 11:11:13,365]pressBackToHomePage(DeviceHelper.java:411) - true
+[2017-11-02 11:11:13,560]pressBackToHomePage(DeviceHelper.java:412) - true
+[2017-11-02 11:11:15,285]pressBackToHomePage(DeviceHelper.java:413) - true
+[2017-11-02 11:11:17,010]pressBackToHomePage(DeviceHelper.java:416) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 11:11:20,741]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 11:11:32,285]findImageElement(SikuppiumDriver.java:60) - Image is found at 36 112 68 68
+[2017-11-02 11:11:39,195]findImageElement(SikuppiumDriver.java:60) - Image is found at 36 112 68 68
+[2017-11-02 11:11:42,263]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 11:11:42,427]pressBackToHomePage(DeviceHelper.java:407) - teardown: .ui.setting.UserInfoCompatActivity
+[2017-11-02 11:11:43,475]pressBackToHomePage(DeviceHelper.java:411) - true
+[2017-11-02 11:11:43,574]pressBackToHomePage(DeviceHelper.java:412) - true
+[2017-11-02 11:11:45,092]pressBackToHomePage(DeviceHelper.java:413) - true
+[2017-11-02 11:11:46,368]pressBackToHomePage(DeviceHelper.java:416) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 11:11:49,752]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 11:11:58,580]findImageElement(SikuppiumDriver.java:105) - x:102, y:1455, width:158, height:211
+[2017-11-02 11:12:02,188]findImageElement(SikuppiumDriver.java:105) - x:353, y:244, width:375, height:381
+[2017-11-02 11:12:06,464]findImageElement(SikuppiumDriver.java:105) - x:461, y:1454, width:159, height:213
+[2017-11-02 11:12:10,038]findImageElement(SikuppiumDriver.java:105) - x:376, y:233, width:326, height:394
+[2017-11-02 11:12:14,509]findImageElement(SikuppiumDriver.java:105) - x:817, y:1456, width:164, height:216
+[2017-11-02 11:12:18,935]findImageElement(SikuppiumDriver.java:105) - x:373, y:241, width:330, height:386
+[2017-11-02 11:12:19,987]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 11:12:20,175]pressBackToHomePage(DeviceHelper.java:407) - teardown: .ui.setting.UserInfoCompatActivity
+[2017-11-02 11:12:21,608]pressBackToHomePage(DeviceHelper.java:411) - true
+[2017-11-02 11:12:21,695]pressBackToHomePage(DeviceHelper.java:412) - true
+[2017-11-02 11:12:23,382]pressBackToHomePage(DeviceHelper.java:413) - true
+[2017-11-02 11:12:24,866]pressBackToHomePage(DeviceHelper.java:416) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 11:12:28,604]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 11:12:36,041]pressBackToHomePage(DeviceHelper.java:407) - teardown: .ui.setting.UserInfoCompatActivity
+[2017-11-02 11:12:37,347]pressBackToHomePage(DeviceHelper.java:411) - true
+[2017-11-02 11:12:37,437]pressBackToHomePage(DeviceHelper.java:412) - true
+[2017-11-02 11:12:38,825]pressBackToHomePage(DeviceHelper.java:413) - true
+[2017-11-02 11:12:40,360]pressBackToHomePage(DeviceHelper.java:416) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 11:12:53,113]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-02 11:12:54,249]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-02 11:13:02,826]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-02 11:13:03,776]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-02 11:13:12,425]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-02 11:13:13,420]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-02 11:13:18,519]test006(MineTest.java:134) - 261.46
+[2017-11-02 11:13:18,519]test006(MineTest.java:135) - 261.45
+[2017-11-02 11:13:18,520]retry(OverrideIReTry.java:25) - running retry for 'test006' on class com.codoon.common.util.OverrideIReTry Retrying 0 times
+[2017-11-02 11:13:18,524]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 11:13:18,661]pressBackToHomePage(DeviceHelper.java:407) - teardown: .ui.history.HistoryStatisticActivity
+[2017-11-02 11:13:20,055]pressBackToHomePage(DeviceHelper.java:411) - true
+[2017-11-02 11:13:20,236]pressBackToHomePage(DeviceHelper.java:412) - true
+[2017-11-02 11:13:21,939]pressBackToHomePage(DeviceHelper.java:413) - true
+[2017-11-02 11:13:23,296]pressBackToHomePage(DeviceHelper.java:416) - .ui.history.HistoryStatisticActivity
+[2017-11-02 11:13:27,886]pressBackToHomePage(DeviceHelper.java:416) - .ui.history.SportsHistoryListActivity
+[2017-11-02 11:13:31,214]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 11:13:39,056]pressBackToHomePage(DeviceHelper.java:407) - teardown: .ui.setting.UserInfoCompatActivity
+[2017-11-02 11:13:40,831]pressBackToHomePage(DeviceHelper.java:411) - true
+[2017-11-02 11:13:40,957]pressBackToHomePage(DeviceHelper.java:412) - true
+[2017-11-02 11:13:42,126]pressBackToHomePage(DeviceHelper.java:413) - true
+[2017-11-02 11:13:43,381]pressBackToHomePage(DeviceHelper.java:416) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 11:13:55,797]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-02 11:13:56,830]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-02 11:14:05,473]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-02 11:14:06,561]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-02 11:14:15,939]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-02 11:14:17,069]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-02 11:14:22,598]test006(MineTest.java:134) - 261.46
+[2017-11-02 11:14:22,598]test006(MineTest.java:135) - 261.45
+[2017-11-02 11:14:22,598]retry(OverrideIReTry.java:25) - running retry for 'test006' on class com.codoon.common.util.OverrideIReTry Retrying 1 times
+[2017-11-02 11:14:22,599]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 11:14:22,761]pressBackToHomePage(DeviceHelper.java:407) - teardown: .ui.history.HistoryStatisticActivity
+[2017-11-02 11:14:24,396]pressBackToHomePage(DeviceHelper.java:411) - true
+[2017-11-02 11:14:24,546]pressBackToHomePage(DeviceHelper.java:412) - true
+[2017-11-02 11:14:25,940]pressBackToHomePage(DeviceHelper.java:413) - true
+[2017-11-02 11:14:27,427]pressBackToHomePage(DeviceHelper.java:416) - .ui.history.HistoryStatisticActivity
+[2017-11-02 11:14:32,648]pressBackToHomePage(DeviceHelper.java:416) - .ui.history.SportsHistoryListActivity
+[2017-11-02 11:14:36,235]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 11:14:43,970]pressBackToHomePage(DeviceHelper.java:407) - teardown: .ui.setting.UserInfoCompatActivity
+[2017-11-02 11:14:45,749]pressBackToHomePage(DeviceHelper.java:411) - true
+[2017-11-02 11:14:45,871]pressBackToHomePage(DeviceHelper.java:412) - true
+[2017-11-02 11:14:47,406]pressBackToHomePage(DeviceHelper.java:413) - true
+[2017-11-02 11:14:48,644]pressBackToHomePage(DeviceHelper.java:416) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 11:15:01,509]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-02 11:15:02,492]findImageElement(SikuppiumDriver.java:60) - Image is found at 104 243 119 209
+[2017-11-02 11:15:11,351]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-02 11:15:12,329]findImageElement(SikuppiumDriver.java:60) - Image is found at 480 241 125 207
+[2017-11-02 11:15:20,948]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-02 11:15:22,035]findImageElement(SikuppiumDriver.java:60) - Image is found at 852 239 130 211
+[2017-11-02 11:15:27,451]test006(MineTest.java:134) - 261.46
+[2017-11-02 11:15:27,451]test006(MineTest.java:135) - 261.45
+[2017-11-02 11:15:27,452]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 11:15:27,611]pressBackToHomePage(DeviceHelper.java:407) - teardown: .ui.history.HistoryStatisticActivity
+[2017-11-02 11:15:29,051]pressBackToHomePage(DeviceHelper.java:411) - true
+[2017-11-02 11:15:29,160]pressBackToHomePage(DeviceHelper.java:412) - true
+[2017-11-02 11:15:30,778]pressBackToHomePage(DeviceHelper.java:413) - true
+[2017-11-02 11:15:32,218]pressBackToHomePage(DeviceHelper.java:416) - .ui.history.HistoryStatisticActivity
+[2017-11-02 11:15:37,013]pressBackToHomePage(DeviceHelper.java:416) - .ui.history.SportsHistoryListActivity
+[2017-11-02 11:15:40,706]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 11:15:52,282]findImageElement(SikuppiumDriver.java:60) - Image is found at 957 104 80 81
+[2017-11-02 11:15:58,718]findImageElement(SikuppiumDriver.java:60) - Image is found at 51 1385 172 229
+[2017-11-02 11:16:01,987]findImageElement(SikuppiumDriver.java:60) - Image is found at 321 1384 171 234
+[2017-11-02 11:16:05,284]findImageElement(SikuppiumDriver.java:60) - Image is found at 589 1385 174 232
+[2017-11-02 11:16:08,555]findImageElement(SikuppiumDriver.java:60) - Image is found at 856 1381 175 237
+[2017-11-02 11:16:11,803]findImageElement(SikuppiumDriver.java:60) - Image is found at 50 1662 170 224
+[2017-11-02 11:16:15,238]findImageElement(SikuppiumDriver.java:60) - Image is found at 323 1665 166 223
+[2017-11-02 11:16:15,239]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 11:16:15,337]pressBackToHomePage(DeviceHelper.java:407) - teardown: .ui.achievement.MedalsWallActivity
+[2017-11-02 11:16:15,368]pressBackToHomePage(DeviceHelper.java:411) - false
+[2017-11-02 11:16:15,467]pressBackToHomePage(DeviceHelper.java:412) - true
+[2017-11-02 11:16:15,498]pressBackToHomePage(DeviceHelper.java:413) - false
+[2017-11-02 11:16:15,706]pressBackToHomePage(DeviceHelper.java:416) - .ui.achievement.MedalsWallActivity
+[2017-11-02 11:16:20,698]pressBackToHomePage(DeviceHelper.java:416) - .ui.achievement.MedalsWallActivity
+[2017-11-02 11:16:25,613]pressBackToHomePage(DeviceHelper.java:416) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 11:16:29,625]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 11:16:42,047]findImageElement(SikuppiumDriver.java:60) - Image is found at 423 1076 238 316
+[2017-11-02 11:16:48,225]findImageElement(SikuppiumDriver.java:60) - Image is found at 26 89 1030 1061
+[2017-11-02 11:16:48,226]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 11:16:48,359]pressBackToHomePage(DeviceHelper.java:407) - teardown: .ui.achievement.MedalDetailTwoActivity
+[2017-11-02 11:16:49,552]pressBackToHomePage(DeviceHelper.java:411) - true
+[2017-11-02 11:16:49,688]pressBackToHomePage(DeviceHelper.java:412) - true
+[2017-11-02 11:16:50,968]pressBackToHomePage(DeviceHelper.java:413) - true
+[2017-11-02 11:16:52,344]pressBackToHomePage(DeviceHelper.java:416) - .ui.achievement.MedalDetailTwoActivity
+[2017-11-02 11:16:57,155]pressBackToHomePage(DeviceHelper.java:416) - .ui.achievement.MedalsWallActivity
+[2017-11-02 11:17:02,541]pressBackToHomePage(DeviceHelper.java:416) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 11:17:06,427]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 11:17:17,187]test009(MineTest.java:166) - 没有找到运动团tag标签
+[2017-11-02 11:17:17,187]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 11:17:17,326]pressBackToHomePage(DeviceHelper.java:407) - teardown: .ui.setting.UserInfoCompatActivity
+[2017-11-02 11:17:18,508]pressBackToHomePage(DeviceHelper.java:411) - true
+[2017-11-02 11:17:18,661]pressBackToHomePage(DeviceHelper.java:412) - true
+[2017-11-02 11:17:20,345]pressBackToHomePage(DeviceHelper.java:413) - true
+[2017-11-02 11:17:21,592]pressBackToHomePage(DeviceHelper.java:416) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 11:17:25,186]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-02 16:06:21,305]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-02 16:06:39,608]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-02 16:06:39,799]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-02 16:06:42,800]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 16:06:52,630]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 16:06:52,808]pressBackToHomePage(DeviceHelper.java:407) - teardown: .ui.setting.UserInfoCompatActivity
+[2017-11-02 16:06:53,962]pressBackToHomePage(DeviceHelper.java:411) - true
+[2017-11-02 16:06:54,117]pressBackToHomePage(DeviceHelper.java:412) - true
+[2017-11-02 16:06:55,302]pressBackToHomePage(DeviceHelper.java:413) - true
+[2017-11-02 16:06:56,985]pressBackToHomePage(DeviceHelper.java:416) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 16:07:00,680]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-02 16:08:26,091]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-02 16:08:44,769]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-02 16:08:44,952]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-02 16:08:47,732]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-02 16:08:58,241]swipeUpLoadMore(DeviceHelper.java:521) - 2017年3月27日 16:42
+[2017-11-02 16:09:07,653]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-02 16:09:07,837]pressBackToHomePage(DeviceHelper.java:407) - teardown: .ui.setting.UserInfoCompatActivity
+[2017-11-02 16:09:09,468]pressBackToHomePage(DeviceHelper.java:411) - true
+[2017-11-02 16:09:09,603]pressBackToHomePage(DeviceHelper.java:412) - true
+[2017-11-02 16:09:11,476]pressBackToHomePage(DeviceHelper.java:413) - true
+[2017-11-02 16:09:13,083]pressBackToHomePage(DeviceHelper.java:416) - .ui.setting.UserInfoCompatActivity
+[2017-11-02 16:09:16,437]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 18:13:37,783]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 18:13:38,729]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 18:13:38,732]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 18:13:53,777]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 18:14:12,413]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 18:14:12,639]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 18:14:15,490]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 18:14:26,291]test012(MineTest.java:196) - 
+[2017-11-03 18:14:29,935]test012(MineTest.java:198) - legend-007
+[2017-11-03 18:14:29,936]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 18:14:30,269]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 18:14:34,135]pressBackToHomePage(DeviceHelper.java:412) - .ui.im.ContactFansActivity
+[2017-11-03 18:14:38,066]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 18:14:41,388]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 18:30:03,988]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 18:30:22,319]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 18:30:22,513]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 18:30:25,080]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 18:30:35,368]swipeUpLoadMore(DeviceHelper.java:517) - 2017年3月27日 16:42
+[2017-11-03 18:30:44,823]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 18:30:45,137]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 18:30:48,492]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 18:41:08,457]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 18:41:26,683]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 18:41:26,883]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 18:41:29,684]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 18:41:42,085]test011(MineTest.java:186) - legend-007
+[2017-11-03 18:41:44,880]test011(MineTest.java:188) - legend-007
+[2017-11-03 18:41:44,882]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 18:41:45,159]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 18:41:48,962]pressBackToHomePage(DeviceHelper.java:412) - .ui.im.ContactFansActivity
+[2017-11-03 18:41:52,790]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 18:41:56,588]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 18:43:55,074]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 18:44:13,353]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 18:44:13,535]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 18:44:16,684]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 18:44:35,261]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 18:44:35,556]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 18:44:39,027]pressBackToHomePage(DeviceHelper.java:412) - .ui.im.ContactFansActivity
+[2017-11-03 18:44:42,963]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 18:44:46,356]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 18:55:44,305]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 18:56:02,555]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 18:56:02,763]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 18:56:05,415]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 18:56:20,342]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 18:56:20,571]pressBackToHomePage(DeviceHelper.java:412) - .ui.sportscircle.OtherRelationshipActivity
+[2017-11-03 18:56:24,993]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 18:56:28,481]pressBackToHomePage(DeviceHelper.java:412) - .ui.im.ContactFansActivity
+[2017-11-03 18:56:32,140]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 18:56:35,554]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 18:56:43,631]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 18:57:02,310]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 18:57:02,490]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 18:57:05,231]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 18:57:19,555]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 18:57:19,816]pressBackToHomePage(DeviceHelper.java:412) - .ui.sportscircle.OtherRelationshipActivity
+[2017-11-03 18:57:24,586]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 18:57:28,577]pressBackToHomePage(DeviceHelper.java:412) - .ui.im.ContactFansActivity
+[2017-11-03 18:57:32,346]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 18:57:35,692]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 19:07:19,768]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 19:07:38,118]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 19:07:38,285]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 19:07:41,075]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 19:07:56,068]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 19:07:56,365]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 19:08:00,408]pressBackToHomePage(DeviceHelper.java:412) - .ui.im.ContactFansActivity
+[2017-11-03 19:08:04,321]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 19:08:08,219]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 19:14:48,580]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 19:15:07,375]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 19:15:07,871]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 19:15:10,664]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 19:15:26,461]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 19:15:26,801]pressBackToHomePage(DeviceHelper.java:412) - .ui.im.PrivateConversationActivity
+[2017-11-03 19:15:30,948]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 19:15:34,835]pressBackToHomePage(DeviceHelper.java:412) - .ui.im.ContactFansActivity
+[2017-11-03 19:15:38,732]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 19:15:42,467]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 19:15:51,972]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 19:16:10,590]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 19:16:10,769]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 19:16:13,475]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 19:16:30,776]findImageElement(SikuppiumDriver.java:60) - Image is found at 0 1770 1055 150
+[2017-11-03 19:16:30,779]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 19:16:31,052]pressBackToHomePage(DeviceHelper.java:412) - .ui.im.PrivateConversationActivity
+[2017-11-03 19:16:34,958]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 19:16:38,771]pressBackToHomePage(DeviceHelper.java:412) - .ui.im.ContactFansActivity
+[2017-11-03 19:16:42,622]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 19:16:46,519]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 19:26:51,887]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 19:27:10,535]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 19:27:10,722]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 19:27:13,395]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 19:27:38,131]findImageElement(SikuppiumDriver.java:62) - Image is not found
+[2017-11-03 19:27:38,139]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 19:27:38,426]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 19:27:42,321]pressBackToHomePage(DeviceHelper.java:412) - .ui.im.ContactFansActivity
+[2017-11-03 19:27:46,247]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 19:27:50,133]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 19:27:58,985]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 19:28:17,480]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 19:28:17,656]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 19:28:20,466]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 19:28:52,982]findImageElement(SikuppiumDriver.java:60) - Image is found at 264 1582 542 270
+[2017-11-03 19:28:52,985]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 19:28:53,225]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 19:28:57,266]pressBackToHomePage(DeviceHelper.java:412) - .ui.im.ContactFansActivity
+[2017-11-03 19:29:01,032]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 19:29:04,619]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 19:36:18,941]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 19:36:37,507]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 19:36:37,692]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 19:36:40,361]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 19:36:59,280]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 19:36:59,607]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 19:37:03,257]pressBackToHomePage(DeviceHelper.java:412) - .ui.im.ContactFansActivity
+[2017-11-03 19:37:06,682]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 19:37:09,986]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 19:37:19,093]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 19:37:37,948]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 19:37:38,143]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 19:37:41,055]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 19:38:09,265]swipeUpLoadMore(DeviceHelper.java:517) - 刷个圈圈
+[2017-11-03 19:38:19,510]swipeUpLoadMore(DeviceHelper.java:517) - 探线，差点手机没电了
+[2017-11-03 19:38:29,138]swipeUpLoadMore(DeviceHelper.java:517) - 一路玩泥巴
+[2017-11-03 19:38:38,731]swipeUpLoadMore(DeviceHelper.java:517) - 新跑道
+[2017-11-03 19:38:48,491]swipeUpLoadMore(DeviceHelper.java:517) - 最后一次以住家身份在曾经的跑道上奔一次！伴随着耳边的风声，回忆起从前的点点滴滴！再会！
+[2017-11-03 19:38:57,764]swipeUpLoadMore(DeviceHelper.java:517) - 咕咚偏移了1.5公里。😄
+[2017-11-03 19:39:07,590]swipeUpLoadMore(DeviceHelper.java:517) - 青龙湖3圈
+[2017-11-03 19:39:17,374]swipeUpLoadMore(DeviceHelper.java:517) - 为这两天的腐败赎罪
+[2017-11-03 19:39:27,323]swipeUpLoadMore(DeviceHelper.java:517) - 
+[2017-11-03 19:39:31,344]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 19:39:31,610]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 19:39:35,212]pressBackToHomePage(DeviceHelper.java:412) - .ui.im.ContactFansActivity
+[2017-11-03 19:39:39,149]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 19:39:43,104]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 19:51:49,457]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 19:52:07,831]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 19:52:08,031]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 19:52:10,693]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 19:52:38,206]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 19:52:38,509]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 19:52:42,520]pressBackToHomePage(DeviceHelper.java:412) - .ui.im.ContactFansActivity
+[2017-11-03 19:52:46,432]pressBackToHomePage(DeviceHelper.java:412) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 19:52:49,877]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 19:55:56,012]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 19:56:14,433]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 19:56:14,608]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 19:56:17,170]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 19:56:45,412]findImageElement(SikuppiumDriver.java:60) - Image is found at 65 827 70 80
+[2017-11-03 19:56:45,414]test019(MineTest.java:292) - true
+[2017-11-03 19:56:48,919]findImageElement(SikuppiumDriver.java:60) - Image is found at 63 1824 77 76
+[2017-11-03 19:56:48,919]test019(MineTest.java:293) - true
+[2017-11-03 19:56:48,922]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 19:56:49,175]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 19:56:52,640]pressBackToHomePage(DeviceHelper.java:423) - .ui.im.ContactFansActivity
+[2017-11-03 19:56:56,340]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 19:57:00,184]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 19:57:52,657]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 19:58:10,680]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 19:58:10,859]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 19:58:13,467]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 19:58:45,268]findImageElement(SikuppiumDriver.java:60) - Image is found at 66 1840 70 80
+[2017-11-03 19:58:45,271]test019(MineTest.java:292) - true
+[2017-11-03 19:58:48,728]findImageElement(SikuppiumDriver.java:62) - Image is not found
+[2017-11-03 19:58:48,728]test019(MineTest.java:293) - false
+[2017-11-03 19:58:48,734]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 19:58:49,018]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 19:58:52,685]pressBackToHomePage(DeviceHelper.java:423) - .ui.im.ContactFansActivity
+[2017-11-03 19:58:56,521]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 19:59:00,706]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 20:02:18,186]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 20:02:36,798]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 20:02:37,017]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 20:02:39,933]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 20:03:08,919]findImageElement(SikuppiumDriver.java:60) - Image is found at 66 1840 70 80
+[2017-11-03 20:03:10,936]findImageElement(SikuppiumDriver.java:60) - Image is found at 66 1840 70 80
+[2017-11-03 20:03:17,395]findImageElement(SikuppiumDriver.java:62) - Image is not found
+[2017-11-03 20:03:20,973]findImageElement(SikuppiumDriver.java:62) - Image is not found
+[2017-11-03 20:03:20,984]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 20:03:21,285]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 20:03:24,891]pressBackToHomePage(DeviceHelper.java:423) - .ui.im.ContactFansActivity
+[2017-11-03 20:03:28,879]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 20:03:32,534]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 20:03:49,830]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 20:04:08,654]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 20:04:08,830]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 20:04:11,488]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 20:04:36,410]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 20:04:36,803]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 20:04:40,738]pressBackToHomePage(DeviceHelper.java:423) - .ui.im.ContactFansActivity
+[2017-11-03 20:04:44,489]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 20:04:48,202]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 20:05:10,268]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 20:05:28,448]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 20:05:28,624]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 20:05:31,233]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 20:05:59,633]findImageElement(SikuppiumDriver.java:62) - Image is not found
+[2017-11-03 20:06:01,093]findImageElement(SikuppiumDriver.java:62) - Image is not found
+[2017-11-03 20:06:01,100]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 20:06:01,412]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 20:06:05,394]pressBackToHomePage(DeviceHelper.java:423) - .ui.im.ContactFansActivity
+[2017-11-03 20:06:09,310]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 20:06:13,340]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 20:07:07,942]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 20:07:26,050]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 20:07:26,219]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 20:07:29,016]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 20:07:41,998]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 20:07:42,272]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 20:07:46,823]pressBackToHomePage(DeviceHelper.java:423) - .ui.im.ContactFansActivity
+[2017-11-03 20:07:50,763]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 20:07:54,056]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 20:08:15,990]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 20:08:34,467]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 20:08:34,633]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 20:08:37,387]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 20:09:05,927]findImageElement(SikuppiumDriver.java:62) - Image is not found
+[2017-11-03 20:09:07,282]findImageElement(SikuppiumDriver.java:62) - Image is not found
+[2017-11-03 20:09:07,289]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 20:09:07,543]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 20:09:11,247]pressBackToHomePage(DeviceHelper.java:423) - .ui.im.ContactFansActivity
+[2017-11-03 20:09:14,661]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 20:09:18,390]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 20:09:27,019]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 20:09:45,418]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 20:09:45,626]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 20:09:48,187]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 20:10:00,978]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 20:10:01,287]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 20:10:06,052]pressBackToHomePage(DeviceHelper.java:423) - .ui.im.ContactFansActivity
+[2017-11-03 20:10:09,806]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 20:10:13,522]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 20:10:25,603]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 20:10:43,695]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 20:10:43,848]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 20:10:46,700]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 20:11:00,388]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 20:11:00,648]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 20:11:05,043]pressBackToHomePage(DeviceHelper.java:423) - .ui.im.ContactFansActivity
+[2017-11-03 20:11:09,128]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 20:11:13,198]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 20:11:20,200]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 20:11:38,506]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 20:11:38,677]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 20:11:41,424]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 20:12:11,619]findImageElement(SikuppiumDriver.java:62) - Image is not found
+[2017-11-03 20:12:13,259]findImageElement(SikuppiumDriver.java:60) - Image is found at 63 1832 77 76
+[2017-11-03 20:12:19,755]findImageElement(SikuppiumDriver.java:62) - Image is not found
+[2017-11-03 20:12:23,129]findImageElement(SikuppiumDriver.java:60) - Image is found at 65 1829 70 80
+[2017-11-03 20:12:23,132]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 20:12:23,391]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 20:12:27,166]pressBackToHomePage(DeviceHelper.java:423) - .ui.im.ContactFansActivity
+[2017-11-03 20:12:30,939]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 20:12:34,613]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 20:26:32,993]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 20:26:51,239]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 20:26:51,416]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 20:26:54,192]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 20:27:24,503]waitForVisible(DeviceHelper.java:781) - (48, 1357)
+[2017-11-03 20:27:24,537]waitForVisible(DeviceHelper.java:781) - (48, 1501)
+[2017-11-03 20:27:24,581]waitForVisible(DeviceHelper.java:781) - (48, 1645)
+[2017-11-03 20:27:24,608]waitForVisible(DeviceHelper.java:781) - (48, 1789)
+[2017-11-03 20:27:24,610]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 20:27:24,943]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 20:27:28,796]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 20:27:32,723]pressBackToHomePage(DeviceHelper.java:423) - .ui.im.ContactFansActivity
+[2017-11-03 20:27:36,512]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 20:27:39,960]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 20:31:26,414]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 20:31:44,596]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 20:31:44,787]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 20:31:47,399]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 20:32:15,579]waitForVisible(DeviceHelper.java:781) - (48, 1645)
+[2017-11-03 20:32:15,597]waitForVisible(DeviceHelper.java:781) - (48, 1789)
+[2017-11-03 20:32:15,599]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 20:32:15,928]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 20:32:19,652]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 20:32:23,231]pressBackToHomePage(DeviceHelper.java:423) - .ui.im.ContactFansActivity
+[2017-11-03 20:32:26,872]pressBackToHomePage(DeviceHelper.java:423) - .ui.setting.UserInfoCompatActivity
+[2017-11-03 20:32:30,215]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver
+[2017-11-03 20:45:10,430]getDefaultIME(BaseTest.java:91) - com.samsung.inputmethod/.SamsungIME
+[2017-11-03 20:45:28,811]setUpClass(BaseTest.java:49) - driver启动完毕，开始初始化testsuit...
+[2017-11-03 20:45:28,996]runTestBefore(BaseTest.java:172) - 开始执行用例的前置操作...
+[2017-11-03 20:45:31,697]setUp(MineTest.java:27) - 进入我的tab页
+[2017-11-03 20:45:40,776]findImageElement(SikuppiumDriver.java:60) - Image is found at 0 88 1080 122
+[2017-11-03 20:45:40,780]tearDown(MineTest.java:37) - 当前case执行完成，返回到App一级界面
+[2017-11-03 20:45:41,010]pressBackToHomePage(DeviceHelper.java:423) - .ui.history.SportsHistoryListActivity
+[2017-11-03 20:45:44,623]tearDownClass(BaseTest.java:69) - testsuit执行完毕，关闭driver

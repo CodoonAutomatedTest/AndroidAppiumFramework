@@ -2,6 +2,7 @@ package com.codoon.common.model;
 
 import com.codoon.common.util.DeviceHelper;
 import io.appium.java_client.MobileBy;
+import io.appium.java_client.pagefactory.AndroidFindAll;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.driver.SikuppiumDriver;
@@ -9,6 +10,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.SessionId;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
 import java.net.MalformedURLException;
@@ -31,6 +33,8 @@ public class MinePage {
     public static By caredTitleBy = MobileBy.AndroidUIAutomator(PROFILE_CAREDTITLE_TEXT);
     public static By fansTitleBy = MobileBy.AndroidUIAutomator(PROFILE_FANSTITLE_TEXT);
     public static By groupBy = MobileBy.AndroidUIAutomator(PROFILE_GROUP_TEXT);
+    public static By myfeedBy = MobileBy.AndroidUIAutomator(PROFILE_MYFEED_TEXT);
+    public static By hisfeedBy = MobileBy.AndroidUIAutomator(PROFILE_HISFEED_TEXT);
     public static By groupTitleBy = MobileBy.AndroidUIAutomator(PROFILE_GROUP_HOMEPAGE_TEXT);
     public static By honnorWallTitleBy = MobileBy.AndroidUIAutomator(PROFILE_HONNOR_WALL_TEXT);
     public static By honnorWallBy = By.id(PROFILE_SPORT_METAL_ID);
@@ -59,10 +63,16 @@ public class MinePage {
     public WebElement editWeightBtn;
     @AndroidFindBy(uiAutomator = PROFILE_CANCEL_TEXT)
     public WebElement cancelEditBtn;
+    @AndroidFindBy(uiAutomator = PROFILE_FOLLOWED_CANCEL_TEXT)
+    public WebElement cancelFollowedBtn;
     @FindBy(id = PROFILE_CARED_LABEL_ID)
     public WebElement caredLabel;
     @FindBy(id = PROFILE_FANS_LABEL_ID)
     public WebElement fansLabel;
+    @FindBy(id = PROFILE_HISFANS_LABEL_ID)
+    public WebElement hisFansLabel;
+    @FindBy(id = PROFILE_HISCARED_LABEL_ID)
+    public WebElement hisCaredLabel;
     @FindBy(id = PROFILE_RUN_LEVEL_ID)
     public WebElement runLevelLabel;
     @FindBy(id = PROFILE_WALK_LEVEL_ID)
@@ -89,6 +99,43 @@ public class MinePage {
     public WebElement dataValueLabel;
     @FindBy(id = PROFILE_GROUP_ID)
     public WebElement groupCard;
+    @FindBy(id = PROFILE_FEEDTIME_ID)
+    public WebElement feedTimeLabel;
+    @FindBy(id = PROFILE_FEEDCONTENT_ID)
+    public WebElement feedContentLabel;
+    @FindBys({
+            @FindBy(className = CLASSNAME_LISTVIEW),
+            @FindBy(className = CLASSNAME_REZLATIVELAYOUT)
+    })
+    public WebElement fansListViewItem;
+    @FindBys({
+            @FindBy(className = CLASSNAME_LISTVIEW),
+            @FindBy(className = CLASSNAME_REZLATIVELAYOUT),
+            @FindBy(id = MY_FANSLIST_NICK_ID)
+    })
+    public WebElement fansListNickItem;
+    @FindBy(id = PROFILE_NICK_LABEL_ID)
+    public WebElement nickLabel;
+    @FindBy(id = PROFILE_FOLLOW_BTN_ID)
+    public WebElement profileFollowBtn;
+    @FindBy(id = PROFILE_SEND_BTN_ID)
+    public WebElement profileSendBtn;
+    @AndroidFindBy(uiAutomator = PROFILE_HISFEED_TEXT)
+    public WebElement hisfeedTag;
+    @AndroidFindAll({ @AndroidFindBy(uiAutomator = FEED_DETAILS_REPORT_REASON1), @AndroidFindBy(uiAutomator = FEED_DETAILS_REPORT_REASON2),
+            @AndroidFindBy(uiAutomator = FEED_DETAILS_REPORT_REASON3), @AndroidFindBy(uiAutomator = FEED_DETAILS_REPORT_REASON4) })
+    public List<WebElement> reportReason;
+    @FindBy(id = MY_FEEDMORE_ID)
+    public WebElement profileFeedMoreBtn;
+    @FindBy(id = MY_USERMORE_ID)
+    public WebElement profileMoreBtn;
+    @AndroidFindBy(uiAutomator = MY_FEED_REPORT_TEXT)
+    public WebElement profileReportBtn;
+    @FindBy(id = MY_SPORTCOUNT_ID)
+    public WebElement sportsCountLabel;
+    @FindBy(id = MY_LASTSPORT_ID)
+    public WebElement sportsLastLabel;
+
 
 
     /*---------------------------------- logic -----------------------------------------*/

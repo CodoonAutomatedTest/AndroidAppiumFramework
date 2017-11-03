@@ -16,6 +16,9 @@
             <define name="关注">
                 <include name="关注"/>
             </define>
+            <define name="medal">
+                <include name="medal"/>
+            </define>
             <define name="All">
                 <include name=".*"/>
             </define>
