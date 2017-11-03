@@ -312,12 +312,23 @@ public class DeviceHelper {
 	}
 
 	/**
+	 * 元素移动到顶部可显示位置
+	 *
+	 * @param el
+	 */
+	public void moveScreenTop(WebElement el) {
+		// driver.findElementById("com.codoon.gps:id/tv_content")
+		this.moveTo(el, el.getLocation().x + el.getSize().width / 2,
+				30);
+	}
+
+	/**
 	 * 元素移动到半屏位置
 	 *
 	 * @param el
 	 */
 	public void moveToHalfScreen(WebElement el) {
-		driver.swipe(el.getLocation().x, el.getLocation().y, el.getLocation().x, driver.getSize().height / 2, 4000);
+		driver.swipe(el.getLocation().x, el.getLocation().y, el.getLocation().x, driver.getSize().height / 2-30, 4000);
 	}
 
 	/**
@@ -408,7 +419,7 @@ public class DeviceHelper {
 	        driver.context("NATIVE_APP");
         }
 //		while (!driver.currentActivity().equals(".ui.SlideActivity")) {
-        while (!isExistBySelector(driver,MobileBy.AndroidUIAutomator("text(\"运动圈\")"))) {
+        while (!driver.currentActivity().equals(".ui.SlideActivity") || !isExistBySelector(driver,MobileBy.AndroidUIAutomator("text(\"运动圈\")"))) {
 			LOG.info(driver.currentActivity());
 			this.pressBack(1);
 			times--;
@@ -518,7 +529,7 @@ public class DeviceHelper {
 			this.swipeUpQuickly(2);
 			times--;
 			Thread.sleep(1000L);
-			if (!waitText(context, 5)) {
+			if (!waitText(context, 3)) {
 				continue;
 			} else {
 				flag = false;

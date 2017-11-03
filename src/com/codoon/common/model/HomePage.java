@@ -51,6 +51,8 @@ public class HomePage {
     public static WebElement startSportsBtn;
     @AndroidFindBy(uiAutomator = HOMEPAGE_ADVERCLOSE_ID)
     public static WebElement advrCloseBtn;
+    @AndroidFindBy(uiAutomator = HOMEPAGE_DESCRIPTIONCLOSE_TEXT)
+    public static WebElement descripCloseBtn;
 
 
     private HomePage(SikuppiumDriver driver) {
