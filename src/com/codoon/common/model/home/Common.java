@@ -26,7 +26,7 @@ public class Common {
     final static String advPopupCloseId = "com.codoon.gps:id/btn_cancel";
     final static String descriptionBeta = "com.codoon.gps:id/ll_description";
     final static String sportsAcitonId = "com.codoon.gps:id/start_btn";
-    final static String descriptionCloseText = "我知道了";
+    final static String descriptionCloseText = "知道了";
     final static String accpetText = "确定";
 
     /*------------------------------------ Using --------------------------------------*/

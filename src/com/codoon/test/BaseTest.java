@@ -176,10 +176,12 @@ public class BaseTest {
         if (mHelper.isExistBySelector(driver, homePage.advPopupCloseBy,1)){
             LOG.info("发现广告浮层框...");
             driver.findElement(homePage.advPopupCloseBy).click();
+            Thread.sleep(2000L);
         }
         if (mHelper.isExistBySelector(driver, homePage.descripCloseBy,1)){
             LOG.info("发现灰测介绍框...");
             driver.findElement(homePage.descripCloseBy).click();
+            Thread.sleep(2000L);
         }
     }
 

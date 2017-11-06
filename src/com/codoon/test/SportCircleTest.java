@@ -39,12 +39,7 @@ public class SportCircleTest extends BaseTest {
         sessionId = driver.getSessionId();
         homePage = HomePage.getInstance(driver);
         LOG.info("进入运动圈tab首页");
-        if(mHelper.isExistBySelector(driver,homePage.advPopupBy)){
-            homePage.advrCloseBtn.click();
-            if (mHelper.isExistBySelector(driver,homePage.descripBy)){
-                homePage.descripCloseBtn.click();
-            }
-        }
+        
         homePage.sportcircleTab.click(); // 点击运动圈tab,进入运动圈首页
         sportcirclePage = SportcirclePage.getInstance(driver);
     }
