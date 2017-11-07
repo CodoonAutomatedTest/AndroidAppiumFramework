@@ -8,6 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import sun.rmi.runtime.Log;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -336,5 +337,105 @@ public class MineTest extends BaseTest {
         minePage.historyViewBtn.click();
         boolean c = mHelper.isExistImageElement("history_detail",2);
         Assert.assertTrue(a&&b&&c, "我的历史记录图例显示有误");
+    }
+
+    @Test(groups = { "mine" })
+    public void test023() throws MalformedURLException, InterruptedException {
+        minePage.recordItem.click();
+        boolean a = isImageExist("personal_record.png",2);
+        Assert.assertTrue(a,"个人纪录页跳转失败");
+    }
+
+    @Test(groups = { "mine" })
+    public void test024() throws MalformedURLException, InterruptedException {
+        minePage.medalItem.click();
+        boolean a = isImageExist("personal_medal.png",2);
+        Assert.assertTrue(a,"我的奖章页跳转失败");
+    }
+
+    @Test(groups = { "mine" })
+    public void test025() throws IOException, InterruptedException {
+        minePage.ranklItem.click();
+        minePage.rankTypeLink.click();
+        double run = imageMatch("run",null,1);
+        if(run>=0.99){
+            driver.findImageElement("run.png").tap();
+        }
+        boolean a = mHelper.isExistBySelector(driver,minePage.runRankBy);
+        Assert.assertTrue(a,"跑步排行榜失败");
+
+        minePage.rankTypeLink.click();
+        double walk = imageMatch("walk",null,1);
+        if(walk>=0.99){
+            driver.findImageElement("walk.png").tap();
+        }
+        boolean w = mHelper.isExistBySelector(driver,minePage.walkRankBy);
+        Assert.assertTrue(w,"健走排行榜失败");
+
+        minePage.rankTypeLink.click();
+        double ride = imageMatch("ride",null,1);
+        if (ride>=0.99){
+            driver.findImageElement("ride.png").tap();
+        }
+        boolean r = mHelper.isExistBySelector(driver,minePage.rideRankBy);
+        Assert.assertTrue(r,"骑行排行榜失败");
+    }
+
+    @Test(groups = { "mine" })
+    public void test026() throws InterruptedException, MalformedURLException {
+        if (mHelper.searchBy(minePage.trainBy,10)){
+            minePage.trainItem.click();
+            boolean r = isImageExist("personal_train.png",1);
+            Assert.assertTrue(r,"跳转训练计划失败");
+        } else {
+            LOG.info("没找到训练计划tag");
+        }
+    }
+
+    @Test(groups = { "mine" })
+    public void test027() throws InterruptedException, IOException {
+        if (mHelper.searchBy(minePage.collectBy,10)){
+            minePage.collectItem.click();
+            minePage.articleCollectTab.click();
+            minePage.topicCollectTab.click();
+            minePage.dynamicCollectTab.click();
+            boolean r = isImageExist("personal_collect.png",1);
+            Assert.assertTrue(r,"跳转我的收藏失败");
+        } else {
+            LOG.info("没找到收藏tag");
+        }
+    }
+
+    @Test(groups = { "mine" })
+    public void test028() throws InterruptedException, MalformedURLException {
+        mHelper.searchBy(minePage.groupBy,10);
+        minePage.medalItem.click();
+        boolean a = isImageExist("personal_group.png",2);
+        Assert.assertTrue(a,"我的运动团跳转失败");
+    }
+
+    @Test(groups = { "mine" })
+    public void test029() throws InterruptedException, MalformedURLException {
+        mHelper.searchBy(minePage.matchBy,10);
+        minePage.matchItem.click();
+        boolean a = isImageExist("personal_match.png",2);
+        Assert.assertTrue(a,"我的赛事跳转失败");
+    }
+
+    @Test(groups = { "mine" })
+    public void test030() throws InterruptedException, MalformedURLException {
+        mHelper.searchBy(minePage.equipBy,10);
+        minePage.equipItem.click();
+        boolean a1 = isImageExist("personal_equip1.png",2);
+        boolean a2 = isImageExist("personal_equip2.png",2);
+        Assert.assertTrue(a1||a2,"我的装备跳转失败");
+    }
+
+    @Test(groups = { "mine" })
+    public void test031() throws InterruptedException, MalformedURLException {
+        mHelper.searchBy(minePage.clubBy,10);
+        minePage.clubItem.click();
+        boolean a1 = isImageExist("personal_club.png",2);
+        Assert.assertTrue(a1,"我的俱乐部跳转失败");
     }
 }

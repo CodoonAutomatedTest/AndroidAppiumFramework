@@ -40,6 +40,15 @@ public class MinePage {
     public static By honnorWallBy = By.id(PROFILE_SPORT_METAL_ID);
     public static By runLevelBy = By.id(PROFILE_RUN_LEVEL_ID);
 
+    public static By runRankBy = MobileBy.AndroidUIAutomator(MY_RANKING_RUN_TEXT);
+    public static By walkRankBy = MobileBy.AndroidUIAutomator(MY_RANKING_WALK_TEXT);
+    public static By rideRankBy = MobileBy.AndroidUIAutomator(MY_RANKING_RIDE_TEXT);
+    public static By trainBy = MobileBy.AndroidUIAutomator(MY_TRAIN_TEXT);
+    public static By collectBy = MobileBy.AndroidUIAutomator(MY_COLLECT_TEXT);
+    public static By matchBy = MobileBy.AndroidUIAutomator(MY_MATCH_TEXT);
+    public static By equipBy = MobileBy.AndroidUIAutomator(MY_EQUIP_TEXT);
+    public static By clubBy = MobileBy.AndroidUIAutomator(MY_CLUB_TEXT);
+
     /*---------------------------------- find -----------------------------------------*/
     @FindBy(id = MY_HEAD_IMG_ID)
     public WebElement headIcon;
@@ -83,6 +92,30 @@ public class MinePage {
     public WebElement sportsTotalLabel;
     @FindBy(id = PROFILE_SPORTS_MONTH_ID)
     public WebElement sportsMonthLabel;
+    @AndroidFindBy(uiAutomator = MY_RESULT_TEXT)
+    public WebElement recordItem;
+    @AndroidFindBy(uiAutomator = MY_MEDAL_TEXT)
+    public WebElement medalItem;
+    @AndroidFindBy(uiAutomator = MY_RANK_TEXT)
+    public WebElement ranklItem;
+    @AndroidFindBy(uiAutomator = MY_TRAIN_TEXT)
+    public WebElement trainItem;
+    @AndroidFindBy(uiAutomator = MY_COLLECT_TEXT)
+    public WebElement collectItem;
+    @AndroidFindBy(uiAutomator = MY_MATCH_TEXT)
+    public WebElement matchItem;
+    @AndroidFindBy(uiAutomator = MY_EQUIP_TEXT)
+    public WebElement equipItem;
+    @AndroidFindBy(uiAutomator = MY_CLUB_TEXT)
+    public WebElement clubItem;
+    @AndroidFindBy(uiAutomator = MY_COLLECT_ARTICLE_TEXT)
+    public WebElement articleCollectTab;
+    @AndroidFindBy(uiAutomator = MY_COLLECT_TOPIC_TEXT)
+    public WebElement topicCollectTab;
+    @AndroidFindBy(uiAutomator = MY_COLLECT_DYNAMIC_TEXT)
+    public WebElement dynamicCollectTab;
+    @FindBy(id = MY_RANK_TYPE_ID)
+    public WebElement rankTypeLink;
     @AndroidFindBy(uiAutomator = MY_HISTORY_VIEW_TEXT)
     public WebElement historyViewBtn;
     @AndroidFindBy(uiAutomator = MY_SPORTSDATA_STAT_TEXT)

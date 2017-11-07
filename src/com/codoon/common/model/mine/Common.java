@@ -26,6 +26,14 @@ public class Common {
     private static final String feedReportReason3Text = "骚扰谩骂";
     private static final String feedReportReason4Text = "其他";
 
+    private static final String runRankText = "跑步排行榜";
+    private static final String walkRankText = "健走排行榜";
+    private static final String rideRankText = "骑行排行榜";
+
+    private static final String articleText = "文章";
+    private static final String topicText = "帖子";
+    private static final String dynamicText = "动态";
+
     //各类Android class
     public static final String CLASSNAME_VIEW = "android.view.View";                     //Class of View
     public static final String CLASSNAME_LISTVIEW = "android.widget.ListView";                     //Class of ListView
@@ -55,6 +63,7 @@ public class Common {
     public static final String MY_FEEDBACK_ID = "com.codoon.gps:id/feedback_gray_beta";        //意见反馈button
     public static final String MY_FEEDMORE_ID = "com.codoon.gps:id/btn_more";        //意见反馈button
     public static final String MY_USERMORE_ID = "com.codoon.gps:id/user_more_action";        //意见反馈button
+    public static final String MY_RANK_TYPE_ID = "com.codoon.gps:id/ranking_type";        //意见反馈button
 
     public static final String MY_FOLLOWED_TEXT = "text(\""+followedText+"\")";                 //关注好友列表 文案
     public static final String MY_FANS_TEXT = "text(\""+fansText+"\")";                         //粉丝列表 文案
@@ -72,6 +81,14 @@ public class Common {
     public static final String MY_WALLET_TEXT = "text(\""+walletText+"\")";                     //"钱包"item 文案
     public static final String MY_CLUB_TEXT = "text(\""+clubText+"\")";                         //"俱乐部"item 文案
     public static final String MY_SETTING_TEXT = "text(\""+settingText+"\")";                   //"设置"item 文案
+    public static final String MY_RANKING_RUN_TEXT = "text(\""+runRankText+"\")";                   //跑步排行榜
+    public static final String MY_RANKING_WALK_TEXT = "text(\""+walkRankText+"\")";                   //健走排行榜
+    public static final String MY_RANKING_RIDE_TEXT = "text(\""+rideRankText+"\")";                   //骑行排行榜
+
+    public static final String MY_COLLECT_ARTICLE_TEXT = "text(\""+articleText+"\")";                   //收藏文章tab
+    public static final String MY_COLLECT_TOPIC_TEXT = "text(\""+topicText+"\")";                   //收藏帖子tab
+    public static final String MY_COLLECT_DYNAMIC_TEXT = "text(\""+dynamicText+"\")";                   //收藏动态tab
+
 
     public static final String MY_FEED_REPORT_TEXT = "text(\""+feedReportText+"\")"; // 举报原因
     public static final String FEED_DETAILS_REPORT_REASON1 = "text(\""+feedReportReason1Text+"\")"; // 举报原因

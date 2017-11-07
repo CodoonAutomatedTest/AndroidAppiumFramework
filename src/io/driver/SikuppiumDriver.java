@@ -23,7 +23,7 @@ public class SikuppiumDriver extends AndroidDriver {
     private final static Logger LOG = LoggerFactory.getLogger(SikuppiumDriver.class);
 
     private int waitSecondsAfterClick = 2;
-    private  double similarityScore = 0.1;
+    private  double similarityScore = 0.99;
     private int waitSecondsForImage = 30;
     private AppiumDriver driver;
     private PhoneScreen driverScreen;
