@@ -139,6 +139,15 @@ public class BaseTest {
         return result;
     }
 
+    protected boolean isImageExist(String resourceName, double similar) throws IOException, InterruptedException {
+        double a = imageMatch(resourceName,null,3);
+        if (a>similar){
+            return true;
+        } else{
+            return false;
+        }
+    }
+
     protected double imageMatch(String resourceName, int[] value, int secondsToWait) throws InterruptedException, IOException {
         sleep(2000);
         boolean result=false;
