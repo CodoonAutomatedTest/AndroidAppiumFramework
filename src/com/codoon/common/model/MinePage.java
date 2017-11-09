@@ -21,6 +21,10 @@ import java.util.concurrent.TimeUnit;
 import static com.codoon.common.model.mine.Common.*;
 import static com.codoon.common.model.mine.Profile.*;
 import static com.codoon.common.model.mine.History.*;
+import static com.codoon.common.model.setting.Common.*;
+import static com.codoon.common.model.setting.Sport.*;
+import static com.codoon.common.model.setting.Daily.*;
+import static com.codoon.common.model.setting.Other.*;
 
 public class MinePage {
     private static MinePage instance;
@@ -48,6 +52,13 @@ public class MinePage {
     public static By matchBy = MobileBy.AndroidUIAutomator(MY_MATCH_TEXT);
     public static By equipBy = MobileBy.AndroidUIAutomator(MY_EQUIP_TEXT);
     public static By clubBy = MobileBy.AndroidUIAutomator(MY_CLUB_TEXT);
+    public static By settingBy = MobileBy.AndroidUIAutomator(MY_SETTING_TEXT);
+
+    /* ------------------------- 设置 ------------------------------ */
+    public static By distanceBy = MobileBy.AndroidUIAutomator(SETTING_VOICE_DISTANCE_TEXT);
+    public static By timeBy = MobileBy.AndroidUIAutomator(SETTING_VOICE_TIME_TEXT);
+    public static By speedBy = MobileBy.AndroidUIAutomator(SETTING_VOICE_SPEED_TEXT);
+    public static By averageBy = MobileBy.AndroidUIAutomator(SETTING_VOICE_AVERAGE_TEXT);
 
     /*---------------------------------- find -----------------------------------------*/
     @FindBy(id = MY_HEAD_IMG_ID)
@@ -108,6 +119,8 @@ public class MinePage {
     public WebElement equipItem;
     @AndroidFindBy(uiAutomator = MY_CLUB_TEXT)
     public WebElement clubItem;
+    @AndroidFindBy(uiAutomator = MY_SETTING_TEXT)
+    public WebElement settingItem;
     @AndroidFindBy(uiAutomator = MY_COLLECT_ARTICLE_TEXT)
     public WebElement articleCollectTab;
     @AndroidFindBy(uiAutomator = MY_COLLECT_TOPIC_TEXT)
@@ -168,6 +181,24 @@ public class MinePage {
     public WebElement sportsCountLabel;
     @FindBy(id = MY_LASTSPORT_ID)
     public WebElement sportsLastLabel;
+
+    /*------------------------------------- 设置 ---------------------------------------*/
+    @AndroidFindBy(uiAutomator = SETTING_SPORT_ENTER_TEXT)
+    public WebElement sportsSettingItem;
+    @FindBy(id = SETTING_VOICE_SELECT_ID)
+    public WebElement voiceSelectedLabel;
+    @FindBy(id = SETTING_VOICE_TURN_ID)
+    public WebElement voiceTurnBtn;
+    @AndroidFindBy(uiAutomator = SETTING_VOICE_PLAY_TEXT)
+    public WebElement voicePlayItem;
+    @FindBy(id = SETTING_VOICE_DIS_ID)
+    public WebElement voiceDisBtn;
+    @FindBy(id = SETTING_VOICE_TIME_ID)
+    public WebElement voiceTimeBtn;
+    @FindBy(id = SETTING_VOICE_SPEED_ID)
+    public WebElement voiceSpeedBtn;
+    @FindBy(id = SETTING_VOICE_AVG_ID)
+    public WebElement voiceAvgBtn;
 
 
 

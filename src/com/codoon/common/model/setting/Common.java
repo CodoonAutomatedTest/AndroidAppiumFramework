@@ -1,6 +1,6 @@
-package com.codoon.common.model.mine;
+package com.codoon.common.model.setting;
 
-public class Setting {
+public class Common {
 
     /*------------------------------------ Page Text --------------------------------------*/
     /*一级页面*/
@@ -8,13 +8,13 @@ public class Setting {
     private static final String sportsSettingText = "运动设置";
     private static final String mobileSetpText = "手机计步";
     private static final String wechatSetpText = "微信步数排行";
-    private static final String runFieldText = "参与跑场与热区的排名与显示";
+
     private static final String messageNoticeText = "消息通知";
     private static final String imageLowText = "图片浏览省流量";
     private static final String cacheCleanText = "清除缓存";
     private static final String authorityText = "设置运动权限";
     private static final String sensorCheckText = "测试传感器";
-    private static final String balckListText = "黑名单";
+    private static final String blackListText = "黑名单";
     private static final String codoonIDText = "咕咚ID";
     private static final String bindingText = "账号绑定";
     private static final String gradeText = "求鼓励";
@@ -40,23 +40,6 @@ public class Setting {
     public static final String SETTING_STEP_SLIP_BUTTON_ID = "com.codoon.gps:id/setting_slip_keep_step";
     public static final String SETTING_DAILY_SETP_VALUE_ID = "com.codoon.gps:id/accessory_target_step";
     public static final String SETTING_DAILY_SETP_WHEEL_ID = "com.codoon.gps:id/sport_target_wheel";
-    //消息通知
-    public static final String SETTING_MESSAGE_NOTIFY_TURN_ID = "com.codoon.gps:id/setting_message_notify";
-    public static final String SETTING_FRIEND_NOTIFY_TURN_ID = "com.codoon.gps:id/setting_message_notify_friend";
-    public static final String SETTING_SOUND_NOTIFY_TURN_ID = "com.codoon.gps:id/setting_message_notify_sound";
-    public static final String SETTING_VIBRATE_NOTIFY_TURN_ID = "com.codoon.gps:id/setting_message_notify_vibrate";
-    public static final String SETTING_NODISTURB_NOTIFY_ZONE_ID = "com.codoon.gps:id/rl_no_disturb";
-    public static final String SETTING_NODISTURB_NOTIFY_TURN_ID = "com.codoon.gps:id/setting_message_notify_no_disturb";
-    public static final String SETTING_NODISTURB_START_TIME_ID = "com.codoon.gps:id/tv_start_time";
-    public static final String SETTING_NODISTURB_END_TIME_ID = "com.codoon.gps:id/tv_end_time";
-    public static final String SETTING_NODISTURB_START_WHEEL_ID = "com.codoon.gps:id/tv_start_time";
-    public static final String SETTING_NODISTURB_END_WHEEL_ID = "com.codoon.gps:id/wheel_end_hour";
-    //账号绑定
-    public static final String SETTING_BINDING_PHONE_ID = "com.codoon.gps:id/binding_phone_button";
-    public static final String SETTING_BINDING_WECHAT_ID = "com.codoon.gps:id/binding_weixin_button";
-    public static final String SETTING_BINDING_BLOG_ID = "com.codoon.gps:id/binding_weibo_button";
-    public static final String SETTING_BINDING_QQ_ID = "com.codoon.gps:id/binding_qq_button";
-
 
 
     /*------------------------------------ Using --------------------------------------*/
@@ -66,4 +49,20 @@ public class Setting {
      *      driver.findElementByAndroiduiautomator(@value)
      *
      */
+    public static final String SETTING_TITLE_TEXT = "text(\""+settingTitleText+"\")";
+    public static final String SETTING_SPORT_ENTER_TEXT = "text(\""+sportsSettingText+"\")";
+    public static final String SETTING_MOBILE_SETP_TEXT = "text(\""+mobileSetpText+"\")";
+    public static final String SETTING_WECHAT_SETP_TEXT = "text(\""+wechatSetpText+"\")";
+    public static final String SETTING_MESSAGE_NOTICE_TEXT = "text(\""+messageNoticeText+"\")";
+    public static final String SETTING_IMAGE_LOW_TEXT = "text(\""+imageLowText+"\")";
+    public static final String SETTING_CACHE_CLEAN_TEXT = "text(\""+cacheCleanText+"\")";
+    public static final String SETTING_SPORT_AUTHOR_TEXT = "text(\""+authorityText+"\")";
+    public static final String SETTING_CHECK_SENSOR_TEXT = "text(\""+sensorCheckText+"\")";
+    public static final String SETTING_BLACK_LIST_TEXT = "text(\""+blackListText+"\")";
+    public static final String SETTING_CODOONID_TEXT = "text(\""+codoonIDText+"\")";
+    public static final String SETTING_ACCOUT_BIND_TEXT = "text(\""+bindingText+"\")";
+    public static final String SETTING_GRADE_TEXT = "text(\""+gradeText+"\")";
+    public static final String SETTING_FAQ_TEXT = "text(\""+faqText+"\")";
+    public static final String SETTING_ABOUT_TEXT = "text(\""+aboutText+"\")";
+    public static final String SETTING_LOGOUT_TEXT = "text(\""+logoutText+"\")";
 }

@@ -438,4 +438,69 @@ public class MineTest extends BaseTest {
         boolean a1 = isImageExist("personal_club.png",2);
         Assert.assertTrue(a1,"我的俱乐部跳转失败");
     }
+
+    @Test(groups = { "SportSetting" })
+    public void test032() throws InterruptedException, IOException {
+        mHelper.searchBy(minePage.settingBy,10);
+        minePage.settingItem.click();
+        minePage.sportsSettingItem.click();
+//        LOG.info(minePage.voiceSelectedLabel.getText());
+        minePage.voicePlayItem.click();
+        if(minePage.voiceTurnBtn.getAttribute("checked").equals("true")){
+
+            boolean all = isImageExist("voice_setting",0.999);
+            boolean distance = isImageExist("distance_turnon",0.999);
+            boolean time = isImageExist("timer_turnon",0.999);
+            boolean speed = isImageExist("speed_turnon",0.999);
+            boolean average = isImageExist("average_turnon",0.999);
+            Assert.assertTrue(all&&distance&&time&&speed&&average,"语音设置默认设置不正确");
+        } else{
+            Assert.assertTrue(false,"语音开关默认未打开");
+        }
+    }
+
+    @Test(groups = { "SportSetting" })
+    public void test033() throws InterruptedException, IOException {
+        mHelper.searchBy(minePage.settingBy,10);
+        minePage.settingItem.click();
+        minePage.sportsSettingItem.click();
+//        LOG.info(minePage.voiceSelectedLabel.getText());
+        minePage.voicePlayItem.click();
+        minePage.voiceTurnBtn.click();
+
+        boolean off = isImageExist("voice_turnoff",0.999);
+        Assert.assertTrue(off,"语音设置默认设置不正确");
+    }
+
+    @Test(groups = { "SportSetting" })
+    public void test034() throws InterruptedException {
+        mHelper.searchBy(minePage.settingBy,10);
+        minePage.settingItem.click();
+        if(minePage.voiceTurnBtn.getAttribute("checked").equals("false")){
+            minePage.voiceTurnBtn.click();
+        }
+        minePage.voiceDisBtn.click();
+        minePage.voiceTimeBtn.click();
+        minePage.voiceSpeedBtn.click();
+        minePage.voiceAvgBtn.click();
+    }
+
+    @Test(groups = { "setting" })
+    public void test035() throws InterruptedException {
+        mHelper.searchBy(minePage.settingBy,10);
+        minePage.settingItem.click();
+
+    }
+
+    @Test(groups = { "setting" })
+    public void test036() throws InterruptedException {
+        mHelper.searchBy(minePage.settingBy,10);
+        minePage.settingItem.click();
+    }
+
+    @Test(groups = { "setting" })
+    public void test037() throws InterruptedException {
+        mHelper.searchBy(minePage.settingBy,10);
+        minePage.settingItem.click();
+    }
 }
