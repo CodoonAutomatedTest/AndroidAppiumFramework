@@ -59,6 +59,15 @@ public class MinePage {
     public static By timeBy = MobileBy.AndroidUIAutomator(SETTING_VOICE_TIME_TEXT);
     public static By speedBy = MobileBy.AndroidUIAutomator(SETTING_VOICE_SPEED_TEXT);
     public static By averageBy = MobileBy.AndroidUIAutomator(SETTING_VOICE_AVERAGE_TEXT);
+    public static By actionPreviewBy = MobileBy.AndroidUIAutomator(SETTING_ACTION_PREVIEW_TEXT);
+
+//    public static By autoPauseBy = MobileBy.AndroidUIAutomator(SETTING_AUTO_PAUSE_TEXT);
+    public static By autoPauseBy = By.xpath(SETTING_AUTO_PAUSE_XPATH);
+    public static By keepLightBy = By.xpath(SETTING_KEEP_LIGHT_XPATH);
+    public static By dataLockedBy = By.xpath(SETTING_DATA_LOCKED_XPATH);
+    public static By autoLockBy = By.xpath(SETTING_AUTO_LOCK_XPATH);
+    public static By turnBy = By.id(SETTING_SWITCH_ID);
+
 
     /*---------------------------------- find -----------------------------------------*/
     @FindBy(id = MY_HEAD_IMG_ID)
@@ -187,10 +196,22 @@ public class MinePage {
     public WebElement sportsSettingItem;
     @FindBy(id = SETTING_VOICE_SELECT_ID)
     public WebElement voiceSelectedLabel;
+    @FindBy(id = SETTING_VOICE_PACKET_CHOOSE_ID)
+    public WebElement voicePacketLabel;
     @FindBy(id = SETTING_VOICE_TURN_ID)
     public WebElement voiceTurnBtn;
+    @FindBy(id = SETTING_BEAT_TURN_ID)
+    public WebElement beatTurnBtn;
     @AndroidFindBy(uiAutomator = SETTING_VOICE_PLAY_TEXT)
     public WebElement voicePlayItem;
+    @AndroidFindBy(uiAutomator = SETTING_BEAT_PLAY_TEXT)
+    public WebElement beatItem;
+    @AndroidFindBy(uiAutomator = SETTING_ACTION_PREVIEW_TEXT)
+    public WebElement actionPreviewItem;
+    @AndroidFindBy(uiAutomator = SETTING_GPS_MAP_TEXT)
+    public WebElement mapSettingItem;
+    @AndroidFindBy(uiAutomator = SETTING_OFFLINE_MAP_TEXT)
+    public WebElement mapOfflineItem;
     @FindBy(id = SETTING_VOICE_DIS_ID)
     public WebElement voiceDisBtn;
     @FindBy(id = SETTING_VOICE_TIME_ID)

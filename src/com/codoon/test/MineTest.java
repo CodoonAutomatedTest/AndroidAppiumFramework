@@ -473,9 +473,11 @@ public class MineTest extends BaseTest {
     }
 
     @Test(groups = { "SportSetting" })
-    public void test034() throws InterruptedException {
+    public void test034() throws InterruptedException, IOException {
         mHelper.searchBy(minePage.settingBy,10);
         minePage.settingItem.click();
+        minePage.sportsSettingItem.click();
+        minePage.voicePlayItem.click();
         if(minePage.voiceTurnBtn.getAttribute("checked").equals("false")){
             minePage.voiceTurnBtn.click();
         }
@@ -483,24 +485,168 @@ public class MineTest extends BaseTest {
         minePage.voiceTimeBtn.click();
         minePage.voiceSpeedBtn.click();
         minePage.voiceAvgBtn.click();
+        mHelper.pressBack(1);
+        minePage.voicePlayItem.click();
+        boolean disOff = isImageExist("distance_turnoff",0.999);
+        boolean timeOff = isImageExist("timer_turnoff",0.999);
+        boolean speedOff = isImageExist("speed_turnoff",0.999);
+        boolean averaOff = isImageExist("average_turnoff",0.999);
+        Assert.assertTrue(disOff&&timeOff&&speedOff&&averaOff,"运动语音设置不正确");
     }
 
     @Test(groups = { "setting" })
-    public void test035() throws InterruptedException {
+    public void test035() throws InterruptedException, IOException {
         mHelper.searchBy(minePage.settingBy,10);
         minePage.settingItem.click();
-
+        minePage.sportsSettingItem.click();
+        minePage.sportsSettingItem.click();
+        minePage.voicePlayItem.click();
+        minePage.voicePacketLabel.click();
+        while(isImageExist("download",0.99)){
+            driver.findImageElement("download.png").tap();
+            Thread.sleep(3000L);
+        }
+        boolean downloaded = isImageExist("voice_all_downloaded",0.999);
+        Assert.assertTrue(downloaded,"下载语音包失败");
     }
 
     @Test(groups = { "setting" })
-    public void test036() throws InterruptedException {
+    public void test036() throws InterruptedException, IOException {
         mHelper.searchBy(minePage.settingBy,10);
         minePage.settingItem.click();
+        minePage.sportsSettingItem.click();
+        minePage.beatItem.click();
+        boolean beat = isImageExist("beat_default",0.999);
+        Assert.assertTrue(beat,"节拍器默认设置不正确");
+        minePage.beatTurnBtn.click();
+        boolean on = isImageExist("beat_trunon",0.999);
+        Assert.assertTrue(on,"开启节拍器失败");
     }
 
     @Test(groups = { "setting" })
-    public void test037() throws InterruptedException {
+    public void test037() throws InterruptedException, IOException {
         mHelper.searchBy(minePage.settingBy,10);
         minePage.settingItem.click();
+        minePage.sportsSettingItem.click();
+        boolean beat = isImageExist("video_after_run",0.999);
+        minePage.actionPreviewItem.click();
+        driver.findImageElement("video_preview.png").tap();
+        boolean frist = isImageExist("first_action_preview",0.999);
+        while(isImageExist("next_action_preview",0.999)){
+            driver.findImageElement("next_action_preview.png").tap();
+            Thread.sleep(1000L);
+        }
+        boolean last = isImageExist("last_action_preview",0.999);
+        Assert.assertTrue(frist && last,"视频预览错误");
+        Thread.sleep(35*1000L);
+        boolean dispare = mHelper.isExistBySelector(driver,minePage.actionPreviewBy,3);
+        Assert.assertTrue(dispare,"动作预览失败");
     }
+
+    @Test(groups = { "setting" })
+    public void test038() throws InterruptedException, IOException {
+        mHelper.searchBy(minePage.settingBy,10);
+        minePage.settingItem.click();
+        minePage.sportsSettingItem.click();
+        minePage.mapSettingItem.click();
+        boolean mapView = isImageExist("map_default",0.999);
+        boolean mapFrom = isImageExist("map_from",0.999);
+        Assert.assertTrue(mapView && mapFrom);
+        minePage.mapOfflineItem.click();
+        boolean city =  isImageExist("map_download",0.999);
+        Assert.assertTrue(city,"离线地图下载失败");
+    }
+
+    @Test(groups = { "setting" })
+    public void test039() throws InterruptedException, IOException {
+        mHelper.searchBy(minePage.settingBy,10);
+        minePage.settingItem.click();
+        minePage.sportsSettingItem.click();
+        boolean pause = isImageExist("auto_pause",0.999);
+        boolean light = isImageExist("keep_light",0.999);
+        boolean data = isImageExist("data_lock",0.999);
+        boolean lock = isImageExist("auto_lock",0.999);
+        Assert.assertTrue(pause && light && data && lock,"运动选项预设值有误");
+    }
+
+    @Test(groups = { "setting" })
+    public void test040() throws InterruptedException, IOException {
+        boolean flag = false;
+        mHelper.searchBy(minePage.settingBy,10);
+        minePage.settingItem.click();
+        minePage.sportsSettingItem.click();
+        if (isImageExist("auto_pause_turnoff",0.999)){
+            mHelper.includeElementToRight(minePage.autoPauseBy,0,minePage.turnBy).click();
+            flag = isImageExist("auto_pause_turnon",0.999);
+        }else if (isImageExist("auto_pause_turnon",0.999)){
+            mHelper.includeElementToRight(minePage.autoPauseBy,0,minePage.turnBy).click();
+            flag = isImageExist("auto_pause_turnoff",0.999);
+        } else {
+            Assert.assertTrue(flag,"自动暂停按钮错误");
+        }
+        mHelper.pressBack();
+        minePage.sportsSettingItem.click();
+        Assert.assertTrue(flag,"自动暂停设置无效");
+    }
+
+    @Test(groups = { "setting" })
+    public void test041() throws InterruptedException, IOException {
+        boolean flag = false;
+        mHelper.searchBy(minePage.settingBy,10);
+        minePage.settingItem.click();
+        minePage.sportsSettingItem.click();
+        if (isImageExist("keep_light_turnoff",0.999)){
+            mHelper.includeElementToRight(minePage.keepLightBy,0,minePage.turnBy).click();
+            flag = isImageExist("keep_light_turnon",0.999);
+        }else if (isImageExist("keep_light_turnon",0.999)){
+            mHelper.includeElementToRight(minePage.keepLightBy,0,minePage.turnBy).click();
+            flag = isImageExist("keep_light_turnoff",0.999);
+        } else {
+            Assert.assertTrue(flag,"保持屏幕常亮按钮错误");
+        }
+        mHelper.pressBack();
+        minePage.sportsSettingItem.click();
+        Assert.assertTrue(flag,"保持屏幕常亮设置无效");
+    }
+
+    @Test(groups = { "setting" })
+    public void test042() throws InterruptedException, IOException {
+        boolean flag = false;
+        mHelper.searchBy(minePage.settingBy,10);
+        minePage.settingItem.click();
+        minePage.sportsSettingItem.click();
+        if (isImageExist("data_lock_turnoff",0.999)){
+            mHelper.includeElementToRight(minePage.dataLockedBy,0,minePage.turnBy).click();
+            flag = isImageExist("data_lock_turnon",0.999);
+        }else if (isImageExist("data_lock_turnon",0.999)){
+            mHelper.includeElementToRight(minePage.dataLockedBy,0,minePage.turnBy).click();
+            flag = isImageExist("data_lock_turnoff",0.999);
+        } else {
+            Assert.assertTrue(flag,"锁屏显示数据按钮错误");
+        }
+        mHelper.pressBack();
+        minePage.sportsSettingItem.click();
+        Assert.assertTrue(flag,"锁屏显示数据设置无效");
+    }
+
+    @Test(groups = { "setting" })
+    public void test043() throws InterruptedException, IOException {
+        boolean flag = false;
+        mHelper.searchBy(minePage.settingBy,10);
+        minePage.settingItem.click();
+        minePage.sportsSettingItem.click();
+        if (isImageExist("auto_lock_turnoff",0.999)){
+            mHelper.includeElementToRight(minePage.autoLockBy,0,minePage.turnBy).click();
+            flag = isImageExist("auto_lock_turnon",0.999);
+        }else if (isImageExist("auto_lock_turnon",0.999)){
+            mHelper.includeElementToRight(minePage.autoLockBy,0,minePage.turnBy).click();
+            flag = isImageExist("auto_lock_turnoff",0.999);
+        } else {
+            Assert.assertTrue(flag,"自动锁定按钮错误");
+        }
+        mHelper.pressBack();
+        minePage.sportsSettingItem.click();
+        Assert.assertTrue(flag,"自动锁定设置无效");
+    }
+
 }

@@ -11,6 +11,7 @@ public class Sport {
     private static final String dataLockedText = "锁屏时显示运动数据";
     private static final String autoLockText = "运动时屏幕自动锁定";
     private static final String mapSettingText = "地图设置";
+    private static final String mapOfflineText = "离线地图";
     private static final String heartDeviceText = "心率设备";
     private static final String codoonBraText = "咕咚智能运动BRA";
     private static final String codoonRunshoeText = "咕咚智能跑鞋";
@@ -24,8 +25,10 @@ public class Sport {
     private static final String chooseVoiceText = "选择语音包";
     private static final String playFraqText = "播报频率";
 
+    public static final String SETTING_VOICE_PACKET_CHOOSE_ID = "com.codoon.gps:id/voice_packet_choose";
     public static final String SETTING_VOICE_SELECT_ID = "com.codoon.gps:id/widget_setting_arrow_view_tips";
     public static final String SETTING_VOICE_TURN_ID = "com.codoon.gps:id/voice_onoff_slip";
+    public static final String SETTING_BEAT_TURN_ID = "com.codoon.gps:id/metronome_turn";
     public static final String SETTING_SWITCH_ID = "com.codoon.gps:id/widget_setting_itemview_switch";
     public static final String SETTING_VOICE_DIS_ID = "com.codoon.gps:id/voice_dis_slip";
     public static final String SETTING_VOICE_TIME_ID = "com.codoon.gps:id/voice_time_slip";
@@ -36,10 +39,16 @@ public class Sport {
     public static final String SETTING_BEAT_PLAY_TEXT = "text(\""+beatsText+"\")";
     public static final String SETTING_RUN_AFTER_TEXT = "text(\""+runAfterText+"\")";
     public static final String SETTING_ACTION_PREVIEW_TEXT = "text(\""+actionPreviewText+"\")";
-    public static final String SETTING_KEEP_LIGHT_TEXT = "text(\""+lightKeepText+"\")";
-    public static final String SETTING_DATA_LOCKED_TEXT = "text(\""+dataLockedText+"\")";
-    public static final String SETTING_AUTO_LOCK_TEXT = "text(\""+autoLockText+"\")";
+    public static final String SETTING_AUTO_PAUSE_TEXT = "text(\""+autoPauseText+"\")";
+    public static final String SETTING_AUTO_PAUSE_XPATH = "//*[@text='"+autoPauseText+"']/..";
+//    public static final String SETTING_KEEP_LIGHT_TEXT = "text(\""+lightKeepText+"\")";
+    public static final String SETTING_KEEP_LIGHT_XPATH = "//*[@text='"+lightKeepText+"']/..";
+//    public static final String SETTING_DATA_LOCKED_TEXT = "text(\""+dataLockedText+"\")";
+    public static final String SETTING_DATA_LOCKED_XPATH = "//*[@text='"+dataLockedText+"']/..";
+//    public static final String SETTING_AUTO_LOCK_TEXT = "text(\""+autoLockText+"\")";
+    public static final String SETTING_AUTO_LOCK_XPATH = "//*[@text='"+autoLockText+"']/..";
     public static final String SETTING_GPS_MAP_TEXT = "text(\""+mapSettingText+"\")";
+    public static final String SETTING_OFFLINE_MAP_TEXT = "text(\""+mapOfflineText+"\")";
     public static final String SETTING_HEART_DEVICE_TEXT = "text(\""+heartDeviceText+"\")";
     public static final String SETTING_CODOON_BRA_TEXT = "text(\""+codoonBraText+"\")";
     public static final String SETTING_CODOON_RUNSHOE_TEXT = "text(\""+codoonRunshoeText+"\")";
