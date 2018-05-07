@@ -29,14 +29,14 @@ import java.util.concurrent.TimeUnit;
 public class SportCircleTest extends BaseTest {
     private final static Logger LOG = Logger.getLogger(SportCircleTest.class);
     private static HomePage homePage;
-    private static SessionId sessionId;
+//    private static SessionId sessionId;
     private  int crashCout = 0;
 
     private static SportcirclePage sportcirclePage;
 
     @BeforeMethod(alwaysRun = true)
     public void setUp() {
-        sessionId = driver.getSessionId();
+//        sessionId = driver.getSessionId();
         homePage = HomePage.getInstance(driver);
         LOG.info("进入运动圈tab首页");
         
@@ -138,37 +138,37 @@ public class SportCircleTest extends BaseTest {
         Assert.assertTrue(all && user && group && txt && dynamic, "搜索内容错误");
     }
 
-    @Test(groups = { "搜索" })
-    public void test004() throws InterruptedException {
-        sportcirclePage.searchSubmitButton.click();
-        sportcirclePage.searchInputEdit.sendKeys("猴子");
-        sportcirclePage.searchSubmitButton.click();
-        sportcirclePage.groupTabInSearch.click();
-        String groupName = mHelper.getElementText(sportcirclePage.searchGrouListBy, 5);
-        sportcirclePage.searchGroupListItem.click();
-        LOG.info(mHelper.isExistBySelector(driver, MobileBy.AndroidUIAutomator("text(\""+groupName+"\")"), 3));
-        boolean group = mHelper.isExistBySelector(driver, MobileBy.AndroidUIAutomator("text(\""+groupName+"\")"), 3);
-        LOG.info(group);
-        mHelper.pressBack();
-        //*** 以上为 搜索运动团 跳转是否正确
-        sportcirclePage.atricleTabInSearch.click();
-        String txtName = mHelper.getElementText(sportcirclePage.searchAtriListBy, 3);
-        LOG.info(txtName);
-        sportcirclePage.searchAtriListItem.click();
-        String artiTxt = mHelper.getH5AtricleTitle();
-        LOG.info(artiTxt);
-        boolean txt = txtName.equals(artiTxt);
-        LOG.info(txt);;
-        mHelper.pressBack();
-        //*** 以上为 搜索文章 跳转是否正确
-        sportcirclePage.userTabInSearch.click();
-        String userName = mHelper.getElementText(sportcirclePage.searchUserListBy, 5);
-        sportcirclePage.searchUserListItem.click();
-        boolean user = mHelper.isExistBySelector(driver, MobileBy.AndroidUIAutomator("text(\""+userName+"\")"), 5);
-        //*** 以上为 搜索用户 跳转是否正确
-        LOG.info(user);
-        Assert.assertTrue(group&&txt&&user, "搜索结果 tab栏跳转失败");
-    }
+//    @Test(groups = { "搜索" })
+//    public void test004() throws InterruptedException {
+//        sportcirclePage.searchSubmitButton.click();
+//        sportcirclePage.searchInputEdit.sendKeys("猴子");
+//        sportcirclePage.searchSubmitButton.click();
+//        sportcirclePage.groupTabInSearch.click();
+//        String groupName = mHelper.getElementText(sportcirclePage.searchGrouListBy, 5);
+//        sportcirclePage.searchGroupListItem.click();
+//        LOG.info(mHelper.isExistBySelector(driver, MobileBy.AndroidUIAutomator("text(\""+groupName+"\")"), 3));
+//        boolean group = mHelper.isExistBySelector(driver, MobileBy.AndroidUIAutomator("text(\""+groupName+"\")"), 3);
+//        LOG.info(group);
+//        mHelper.pressBack();
+//        //*** 以上为 搜索运动团 跳转是否正确
+//        sportcirclePage.atricleTabInSearch.click();
+//        String txtName = mHelper.getElementText(sportcirclePage.searchAtriListBy, 3);
+//        LOG.info(txtName);
+//        sportcirclePage.searchAtriListItem.click();
+//        String artiTxt = mHelper.getH5AtricleTitle();
+//        LOG.info(artiTxt);
+//        boolean txt = txtName.equals(artiTxt);
+//        LOG.info(txt);;
+//        mHelper.pressBack();
+//        //*** 以上为 搜索文章 跳转是否正确
+//        sportcirclePage.userTabInSearch.click();
+//        String userName = mHelper.getElementText(sportcirclePage.searchUserListBy, 5);
+//        sportcirclePage.searchUserListItem.click();
+//        boolean user = mHelper.isExistBySelector(driver, MobileBy.AndroidUIAutomator("text(\""+userName+"\")"), 5);
+//        //*** 以上为 搜索用户 跳转是否正确
+//        LOG.info(user);
+//        Assert.assertTrue(group&&txt&&user, "搜索结果 tab栏跳转失败");
+//    }
 
     /**
      * 测试点: 广告banner正确显示且可以跳转
@@ -269,7 +269,7 @@ public class SportCircleTest extends BaseTest {
     public void test010() throws InterruptedException {
 //        sportcirclePage.gotoHot(); // 点击“热门”tab
         sportcirclePage.hotTabIcon.click(); // 点击“热门”tab
-        mHelper.searchBy(sportcirclePage.talentBy, 30000);
+        mHelper.searchBy(sportcirclePage.talentBy, 10);
         mHelper.moveToHalfScreen(sportcirclePage.talentTag);
         List<WebElement> careSet = mHelper.findElementsToDown(sportcirclePage.talentBy, 0, sportcirclePage.followBtnBy);
         List<WebElement> caredSet = mHelper.findElementsToDown(sportcirclePage.talentBy, 0, sportcirclePage.followedBtnBy);
@@ -303,7 +303,7 @@ public class SportCircleTest extends BaseTest {
     public void test012() throws InterruptedException {
 //        sportcirclePage.gotoHot(); // 点击“热门”tab
         sportcirclePage.hotTabIcon.click(); // 点击“热门”tab
-        mHelper.searchBy(sportcirclePage.talentBy, 30000);
+        mHelper.searchBy(sportcirclePage.talentBy, 10);
         mHelper.moveToHalfScreen(sportcirclePage.talentTag);
         sportcirclePage.clickHotpageMore(sportcirclePage.talentBy);
         boolean more = mHelper.isExistBySelector(driver, sportcirclePage.userAtiveBy, 5); // 判断是否跳转话题列表页
@@ -321,7 +321,7 @@ public class SportCircleTest extends BaseTest {
     public void test013() throws InterruptedException {
 //        sportcirclePage.gotoHot(); // 点击“热门”tab
         sportcirclePage.hotTabIcon.click(); // 点击“热门”tab
-        mHelper.searchBy(sportcirclePage.dynamicBy, 30000);
+        mHelper.searchBy(sportcirclePage.dynamicBy, 10);
         mHelper.moveToHalfScreen(sportcirclePage.dynamicTag);
 //        mHelper.findElementToDown(By.name(HOTPAGE_DYNAMIC_TAG_NAME), 0, By.className("android.widget.ImageView")).click();
         mHelper.findElementToDown(sportcirclePage.dynamicBy, 0, sportcirclePage.imageViewClassBy).click();

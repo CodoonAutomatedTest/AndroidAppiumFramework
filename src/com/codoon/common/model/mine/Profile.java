@@ -27,7 +27,6 @@ public class Profile {
     private static final String myfeedText = "我的动态";
     private static final String hisfeedText = "全部动态";
 
-
     public static final String PROFILE_NICK_LABEL_ID = "com.codoon.gps:id/user_center_name";
     public static final String PROFILE_CARED_LABEL_ID = "com.codoon.gps:id/user_center_guanzhu_container";
     public static final String PROFILE_FANS_LABEL_ID = "com.codoon.gps:id/user_center_fensi_container";
@@ -49,19 +48,19 @@ public class Profile {
     public static final String PROFILE_SEND_BTN_ID = "com.codoon.gps:id/user_center_guest_message";
 
      /*------------------------------------ Using --------------------------------------*/
-     public static final String PROFILE_CANCEL_TEXT = "text(\""+cancelText+"\")";
-     public static final String PROFILE_FOLLOWED_CANCEL_TEXT = "text(\""+followedCancelText+"\")";
-     public static final String PROFILE_EDIT_TEXT = "text(\""+editText+"\")";
-     public static final String PROFILE_EDITTITLE_TEXT = "text(\""+editTitleText+"\")";
-     public static final String PROFILE_EDIT_HEAD_TEXT = "text(\""+changHeadText+"\")";
-     public static final String PROFILE_EDIT_NICK_TEXT = "text(\""+changNickText+"\")";
-     public static final String PROFILE_EDIT_SEX_TEXT = "text(\""+changSexText+"\")";
-     public static final String PROFILE_EDIT_INFO_TEXT = "text(\""+changInfoText+"\")";
-     public static final String PROFILE_EDIT_INTER_TEXT = "text(\""+changInterText+"\")";
-     public static final String PROFILE_EDIT_AGE_TEXT = "text(\""+changAgeText+"\")";
-     public static final String PROFILE_EDIT_HEIGH_TEXT = "text(\""+changHeightText+"\")";
-     public static final String PROFILE_EDIT_WEIGHT_TEXT = "text(\""+changWeightText+"\")";
-     public static final String PROFILE_HONNOR_WALL_TEXT = "text(\""+honorWallText+"\")";
+    public static final String PROFILE_CANCEL_TEXT = "text(\""+cancelText+"\")";
+    public static final String PROFILE_FOLLOWED_CANCEL_TEXT = "text(\""+followedCancelText+"\")";
+    public static final String PROFILE_EDIT_TEXT = "text(\""+editText+"\")";
+    public static final String PROFILE_EDITTITLE_TEXT = "text(\""+editTitleText+"\")";
+    public static final String PROFILE_EDIT_HEAD_TEXT = "text(\""+changHeadText+"\")";
+    public static final String PROFILE_EDIT_NICK_TEXT = "text(\""+changNickText+"\")";
+    public static final String PROFILE_EDIT_SEX_TEXT = "text(\""+changSexText+"\")";
+    public static final String PROFILE_EDIT_INFO_TEXT = "text(\""+changInfoText+"\")";
+    public static final String PROFILE_EDIT_INTER_TEXT = "text(\""+changInterText+"\")";
+    public static final String PROFILE_EDIT_AGE_TEXT = "text(\""+changAgeText+"\")";
+    public static final String PROFILE_EDIT_HEIGH_TEXT = "text(\""+changHeightText+"\")";
+    public static final String PROFILE_EDIT_WEIGHT_TEXT = "text(\""+changWeightText+"\")";
+    public static final String PROFILE_HONNOR_WALL_TEXT = "text(\""+honorWallText+"\")";
     public static final String PROFILE_CAREDTITLE_TEXT = "text(\""+caredTitleText+"\")";
     public static final String PROFILE_FANSTITLE_TEXT = "text(\""+fansTitleText+"\")";
     public static final String PROFILE_MACTH_MEDAL_TEXT = "text(\""+macthMedalText+"\")";

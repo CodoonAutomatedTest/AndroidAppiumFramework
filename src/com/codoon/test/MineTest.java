@@ -357,9 +357,12 @@ public class MineTest extends BaseTest {
     public void test025() throws IOException, InterruptedException {
         minePage.ranklItem.click();
         minePage.rankTypeLink.click();
-        double run = imageMatch("run",null,1);
-        if(run>=0.99){
+//        double run = imageMatch("run",null,1);
+        boolean run = isImageExist("run",0.999);
+        if(run){
             driver.findImageElement("run.png").tap();
+        } else {
+            mHelper.pressBack();
         }
         boolean a = mHelper.isExistBySelector(driver,minePage.runRankBy);
         Assert.assertTrue(a,"跑步排行榜失败");
@@ -409,7 +412,7 @@ public class MineTest extends BaseTest {
     @Test(groups = { "mine" })
     public void test028() throws InterruptedException, MalformedURLException {
         mHelper.searchBy(minePage.groupBy,10);
-        minePage.medalItem.click();
+        minePage.groupItem.click();
         boolean a = isImageExist("personal_group.png",2);
         Assert.assertTrue(a,"我的运动团跳转失败");
     }

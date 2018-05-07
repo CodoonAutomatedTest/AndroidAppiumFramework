@@ -34,8 +34,8 @@ import static org.testng.Assert.assertTrue;
  */
 public class DeviceHelper {
 	private final static Logger LOG = Logger.getLogger(DeviceHelper.class);
-//	private final static String ADB_PATH = "/Users/xiaoq/android-sdk-macosx/platform-tools/";
-	private final static String ADB_PATH = "/usr/local/Cellar/android-sdk/24.4.1_1/platform-tools/";
+	private final static String ADB_PATH = "/Users/xiaoq/android-sdk-macosx/platform-tools/";
+//	private final static String ADB_PATH = "/usr/local/Cellar/android-sdk/24.4.1_1/platform-tools/";
 
 	private static DeviceHelper instance;
     private static WebH5Helper webH5Helper;

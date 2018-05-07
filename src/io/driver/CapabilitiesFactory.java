@@ -24,7 +24,6 @@ public class CapabilitiesFactory {
         //以下两项可以通过appium客户端查看
         capabilities.setCapability("appPackage", "com.codoon.gps");
         capabilities.setCapability("appActivity", ".ui.SlideActivity");
-//        capabilities.setCapability("appActivity", ".ui.login.WelcomeActivity");
         //支持中文输入
         capabilities.setCapability("unicodeKeyboard", true);
         //重置输入法为系统默认

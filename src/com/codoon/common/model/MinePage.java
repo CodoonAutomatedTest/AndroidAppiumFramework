@@ -12,19 +12,15 @@ import org.openqa.selenium.remote.SessionId;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
-
 import java.net.MalformedURLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-
 import static com.codoon.common.model.mine.Common.*;
 import static com.codoon.common.model.mine.Profile.*;
 import static com.codoon.common.model.mine.History.*;
 import static com.codoon.common.model.setting.Common.*;
 import static com.codoon.common.model.setting.Sport.*;
-import static com.codoon.common.model.setting.Daily.*;
-import static com.codoon.common.model.setting.Other.*;
 
 public class MinePage {
     private static MinePage instance;
@@ -122,6 +118,9 @@ public class MinePage {
     public WebElement trainItem;
     @AndroidFindBy(uiAutomator = MY_COLLECT_TEXT)
     public WebElement collectItem;
+    @AndroidFindBy(uiAutomator = MY_GROUP_TEXT)
+    public WebElement groupItem;
+
     @AndroidFindBy(uiAutomator = MY_MATCH_TEXT)
     public WebElement matchItem;
     @AndroidFindBy(uiAutomator = MY_EQUIP_TEXT)
